@@ -1,0 +1,125 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "attributes": {
+          "createdAt": "2022-09-17T01:31:13.063Z",
+          "updatedAt": "2022-09-17T01:32:39.156Z",
+          "publishedAt": "2022-09-17T01:31:19.853Z",
+          "name": "\"Los Pinos\" Complejo Recreacional",
+          "description": "Un lindo lugar lleno de áreas verdes y naturaleza donde podemos llevar a nuestros niños y niñas para que disfruten del aire limpio, los paisajes, los animales y los juegos que hay en el parque, además hay sectores donde se pueden hacer parrilladas para compartir entre familia y amigos.",
+          "coordinates": [
+            -19.56397290494756,
+            -65.76384981387916
+          ],
+          "uid": "recreacional",
+          "manana": "09:00 – 17:00",
+          "precio": null,
+          "dias": null,
+          "tarde": null,
+          "precioExtranjeros": null,
+          "mail": null,
+          "telefono": null,
+          "web": null,
+          "calle": null,
+          "image": {
+            "data": [
+              {
+                "id": 16,
+                "attributes": {
+                  "name": "los_pinos.jpeg",
+                  "alternativeText": "los_pinos.jpeg",
+                  "caption": "los_pinos.jpeg",
+                  "width": 1600,
+                  "height": 777,
+                  "formats": {
+                    "large": {
+                      "ext": ".jpeg",
+                      "url": "https://res.cloudinary.com/potosi/image/upload/v1663355577/large_los_pinos_01998dec63.jpg",
+                      "hash": "large_los_pinos_01998dec63",
+                      "mime": "image/jpeg",
+                      "name": "large_los_pinos.jpeg",
+                      "path": null,
+                      "size": 105.47,
+                      "width": 1000,
+                      "height": 486,
+                      "provider_metadata": {
+                        "public_id": "large_los_pinos_01998dec63",
+                        "resource_type": "image"
+                      }
+                    },
+                    "small": {
+                      "ext": ".jpeg",
+                      "url": "https://res.cloudinary.com/potosi/image/upload/v1663355578/small_los_pinos_01998dec63.jpg",
+                      "hash": "small_los_pinos_01998dec63",
+                      "mime": "image/jpeg",
+                      "name": "small_los_pinos.jpeg",
+                      "path": null,
+                      "size": 30.56,
+                      "width": 500,
+                      "height": 243,
+                      "provider_metadata": {
+                        "public_id": "small_los_pinos_01998dec63",
+                        "resource_type": "image"
+                      }
+                    },
+                    "medium": {
+                      "ext": ".jpeg",
+                      "url": "https://res.cloudinary.com/potosi/image/upload/v1663355577/medium_los_pinos_01998dec63.jpg",
+                      "hash": "medium_los_pinos_01998dec63",
+                      "mime": "image/jpeg",
+                      "name": "medium_los_pinos.jpeg",
+                      "path": null,
+                      "size": 63.19,
+                      "width": 750,
+                      "height": 364,
+                      "provider_metadata": {
+                        "public_id": "medium_los_pinos_01998dec63",
+                        "resource_type": "image"
+                      }
+                    },
+                    "thumbnail": {
+                      "ext": ".jpeg",
+                      "url": "https://res.cloudinary.com/potosi/image/upload/v1663355576/thumbnail_los_pinos_01998dec63.jpg",
+                      "hash": "thumbnail_los_pinos_01998dec63",
+                      "mime": "image/jpeg",
+                      "name": "thumbnail_los_pinos.jpeg",
+                      "path": null,
+                      "size": 8.91,
+                      "width": 245,
+                      "height": 119,
+                      "provider_metadata": {
+                        "public_id": "thumbnail_los_pinos_01998dec63",
+                        "resource_type": "image"
+                      }
+                    }
+                  },
+                  "hash": "los_pinos_01998dec63",
+                  "ext": ".jpeg",
+                  "mime": "image/jpeg",
+                  "size": 204.73,
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1663355576/los_pinos_01998dec63.jpg",
+                  "previewUrl": null,
+                  "provider": "cloudinary",
+                  "provider_metadata": {
+                    "public_id": "los_pinos_01998dec63",
+                    "resource_type": "image"
+                  },
+                  "createdAt": "2022-09-16T19:12:58.434Z",
+                  "updatedAt": "2022-09-16T19:12:58.434Z"
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "meta": {
+      "pagination": {
+        "page": 1,
+        "pageSize": 25,
+        "pageCount": 1,
+        "total": 1
+      }
+    }
+  }
