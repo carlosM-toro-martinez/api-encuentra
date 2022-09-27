@@ -6,7 +6,7 @@ const recreacional = new recreacionales();
 
 route.get('/', async (req, resp) => {
   const data = await recreacional.find();
-  resp.send(data);
+  resp.json(data);
 });
 
 module.exports = route;

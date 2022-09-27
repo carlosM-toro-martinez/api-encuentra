@@ -6,7 +6,7 @@ const evento = new eventos();
 
 route.get('/', async (req, resp) => {
   const data = await evento.finde();
-  resp.send(data);
+  resp.json(data);
 });
 
 module.exports = route;
