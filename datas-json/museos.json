@@ -1,1014 +1,1239 @@
 {
-    "data": [
-      {
-        "id": 6,
-        "attributes": {
-          "name": "Museo Catedral Santiago Apóstol",
-          "description": "Es una hermosa catedral consagrada a Santiago Apóstol de estilo ecléctico construida con piedra granítica de las canteras de Potosí, su altar mayor es neogótica y posee dos torres gemelas que dominan las alturas de nuestra ciudad. En su interior se encuentra la Cripta de los ilustres, donde están sepultados los presidentes de Bolivia y los hombres más prominentes de nuestra región.",
-          "coordinates": [
-            -19.588823974409276,
-            -65.7533351921793
-          ],
-          "uid": "museo-5",
-          "createdAt": "2022-08-21T21:20:43.303Z",
-          "updatedAt": "2022-08-31T03:37:12.170Z",
-          "publishedAt": "2022-08-21T21:20:45.095Z",
-          "precio": 20,
-          "dias": "Lun-Sab",
-          "telefono": "+591 (68436185 – 75730660)",
-          "manana": "09:00 – 12:00",
-          "tarde": "14:30 – 18:00",
-          "web": null,
-          "precioExtranjeros": null,
-          "mail": null,
-          "calle": "Matos entre Quijarro y Junín",
-          "image": {
-            "data": {
-              "id": 8,
-              "attributes": {
-                "name": "catedral.jpg",
-                "alternativeText": "catedral.jpg",
-                "caption": "catedral.jpg",
-                "width": 600,
-                "height": 450,
-                "formats": {
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1661116677/small_catedral_2862b40f2b.jpg",
-                    "hash": "small_catedral_2862b40f2b",
-                    "mime": "image/jpeg",
-                    "name": "small_catedral.jpg",
-                    "path": null,
-                    "size": 32.87,
-                    "width": 500,
-                    "height": 375,
-                    "provider_metadata": {
-                      "public_id": "small_catedral_2862b40f2b",
-                      "resource_type": "image"
-                    }
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1661116677/thumbnail_catedral_2862b40f2b.jpg",
-                    "hash": "thumbnail_catedral_2862b40f2b",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_catedral.jpg",
-                    "path": null,
-                    "size": 7.49,
-                    "width": 208,
-                    "height": 156,
-                    "provider_metadata": {
-                      "public_id": "thumbnail_catedral_2862b40f2b",
-                      "resource_type": "image"
-                    }
+  "data": [
+    {
+      "id": 6,
+      "attributes": {
+        "name": "Museo Catedral Santiago Apóstol",
+        "description": "Es una hermosa catedral consagrada a Santiago Apóstol de estilo ecléctico construida con piedra granítica de las canteras de Potosí, su altar mayor es neogótica y posee dos torres gemelas que dominan las alturas de nuestra ciudad. En su interior se encuentra la Cripta de los ilustres, donde están sepultados los presidentes de Bolivia y los hombres más prominentes de nuestra región.",
+        "coordinates": [
+          -19.588823974409276,
+          -65.7533351921793
+        ],
+        "uid": "museo-5",
+        "createdAt": "2022-08-22T01:20:43.303Z",
+        "updatedAt": "2022-08-31T07:37:12.170Z",
+        "publishedAt": "2022-08-22T01:20:45.095Z",
+        "precio": 20,
+        "dias": "Lun-Sab",
+        "telefono": "+591 (68436185 – 75730660)",
+        "manana": "09:00 – 12:00",
+        "tarde": "14:30 – 18:00",
+        "web": null,
+        "precioExtranjeros": null,
+        "mail": null,
+        "calle": "Matos entre Quijarro y Junín",
+        "image": {
+          "data": {
+            "id": 8,
+            "attributes": {
+              "name": "catedral.jpg",
+              "alternativeText": "catedral.jpg",
+              "caption": "catedral.jpg",
+              "width": 600,
+              "height": 450,
+              "formats": {
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1661116677/small_catedral_2862b40f2b.jpg",
+                  "hash": "small_catedral_2862b40f2b",
+                  "mime": "image/jpeg",
+                  "name": "small_catedral.jpg",
+                  "path": null,
+                  "size": 32.87,
+                  "width": 500,
+                  "height": 375,
+                  "provider_metadata": {
+                    "public_id": "small_catedral_2862b40f2b",
+                    "resource_type": "image"
                   }
                 },
-                "hash": "catedral_2862b40f2b",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 46.04,
-                "url": "https://res.cloudinary.com/potosi/image/upload/v1661116676/catedral_2862b40f2b.jpg",
-                "previewUrl": null,
-                "provider": "cloudinary",
-                "provider_metadata": {
-                  "public_id": "catedral_2862b40f2b",
-                  "resource_type": "image"
-                },
-                "createdAt": "2022-08-21T21:17:57.744Z",
-                "updatedAt": "2022-08-21T21:17:57.744Z"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 3,
-        "attributes": {
-          "name": "Museo Santa Teresa",
-          "description": "Museo conventual perteneciente a la Orden de las Carmelitas Descalzas que, en tiempo de colonia, eran hermanas de claustro, actualmente es un convento activo, donde habitan hermanas de la orden ya mencionada, en el interior del museo se puede apreciar arte sacro, como también la historia de la vida cotidiana de las hermanas Carmelitas.",
-          "coordinates": [
-            -19.5886733395874,
-            -65.75689888241716
-          ],
-          "uid": "museo-2",
-          "createdAt": "2022-07-12T19:39:45.107Z",
-          "updatedAt": "2022-08-31T04:32:10.067Z",
-          "publishedAt": "2022-07-12T19:39:46.793Z",
-          "precio": 11,
-          "dias": "Lun-Sab",
-          "telefono": "+591 (26223847 – 63712598)",
-          "manana": "09:00 – 12:30",
-          "tarde": "14:30 – 18:00",
-          "web": null,
-          "precioExtranjeros": 30,
-          "mail": null,
-          "calle": "Santa Teresa #15",
-          "image": {
-            "data": {
-              "id": 5,
-              "attributes": {
-                "name": "santa-teresa.webp",
-                "alternativeText": "santa-teresa.webp",
-                "caption": "santa-teresa.webp",
-                "width": 4320,
-                "height": 3240,
-                "formats": {
-                  "large": {
-                    "ext": ".webp",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1657657584/large_santa_teresa_9fda4963b8.webp",
-                    "hash": "large_santa_teresa_9fda4963b8",
-                    "mime": "image/webp",
-                    "name": "large_santa-teresa.webp",
-                    "path": null,
-                    "size": 94.29,
-                    "width": 1000,
-                    "height": 750,
-                    "provider_metadata": {
-                      "public_id": "large_santa_teresa_9fda4963b8",
-                      "resource_type": "image"
-                    }
-                  },
-                  "small": {
-                    "ext": ".webp",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1657657585/small_santa_teresa_9fda4963b8.webp",
-                    "hash": "small_santa_teresa_9fda4963b8",
-                    "mime": "image/webp",
-                    "name": "small_santa-teresa.webp",
-                    "path": null,
-                    "size": 31.1,
-                    "width": 500,
-                    "height": 375,
-                    "provider_metadata": {
-                      "public_id": "small_santa_teresa_9fda4963b8",
-                      "resource_type": "image"
-                    }
-                  },
-                  "medium": {
-                    "ext": ".webp",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1657657584/medium_santa_teresa_9fda4963b8.webp",
-                    "hash": "medium_santa_teresa_9fda4963b8",
-                    "mime": "image/webp",
-                    "name": "medium_santa-teresa.webp",
-                    "path": null,
-                    "size": 60.71,
-                    "width": 750,
-                    "height": 562,
-                    "provider_metadata": {
-                      "public_id": "medium_santa_teresa_9fda4963b8",
-                      "resource_type": "image"
-                    }
-                  },
-                  "thumbnail": {
-                    "ext": ".webp",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1657657583/thumbnail_santa_teresa_9fda4963b8.webp",
-                    "hash": "thumbnail_santa_teresa_9fda4963b8",
-                    "mime": "image/webp",
-                    "name": "thumbnail_santa-teresa.webp",
-                    "path": null,
-                    "size": 6.93,
-                    "width": 208,
-                    "height": 156,
-                    "provider_metadata": {
-                      "public_id": "thumbnail_santa_teresa_9fda4963b8",
-                      "resource_type": "image"
-                    }
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1661116677/thumbnail_catedral_2862b40f2b.jpg",
+                  "hash": "thumbnail_catedral_2862b40f2b",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_catedral.jpg",
+                  "path": null,
+                  "size": 7.49,
+                  "width": 208,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_catedral_2862b40f2b",
+                    "resource_type": "image"
                   }
-                },
-                "hash": "santa_teresa_9fda4963b8",
-                "ext": ".webp",
-                "mime": "image/webp",
-                "size": 897.19,
-                "url": "https://res.cloudinary.com/potosi/image/upload/v1657657582/santa_teresa_9fda4963b8.webp",
-                "previewUrl": null,
-                "provider": "cloudinary",
-                "provider_metadata": {
-                  "public_id": "santa_teresa_9fda4963b8",
-                  "resource_type": "image"
-                },
-                "createdAt": "2022-07-12T20:26:25.717Z",
-                "updatedAt": "2022-07-12T20:26:25.717Z"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 4,
-        "attributes": {
-          "name": "Museo Eclesiástico Franciscano",
-          "description": "Descripción: Famoso por la escultura del Señor de la Vera Cruz patrono de la ciudad de Potosí, se constituye en un lugar imperdible en la isita a esta ciudad, que junto a la gran pinacoteca que engalana los corredores del claustro franciscano, los cementerios conventuales denominados criptas, ubicados en el sub suelo de la iglesia y el fascinante mirador de Santa María de los Ángeles, hacen de este lugar único en Bolivia. Solo atiendo en dos tours a horas 15:00 y 16:00.",
-          "coordinates": [
-            -19.59116603230462,
-            -65.75287310104692
-          ],
-          "uid": "museo-3",
-          "createdAt": "2022-08-21T20:35:03.068Z",
-          "updatedAt": "2022-08-31T04:52:43.065Z",
-          "publishedAt": "2022-08-21T20:38:44.021Z",
-          "precio": 15,
-          "dias": "Lun-Vie",
-          "telefono": "+591 26222539",
-          "manana": null,
-          "tarde": null,
-          "web": null,
-          "precioExtranjeros": 20,
-          "mail": null,
-          "calle": "Tarija esq. Nogales #47",
-          "image": {
-            "data": {
-              "id": 6,
-              "attributes": {
-                "name": "iglesia-san-francisco-en-potosi-32927552.jpg",
-                "alternativeText": "iglesia-san-francisco-en-potosi-32927552.jpg",
-                "caption": "iglesia-san-francisco-en-potosi-32927552.jpg",
-                "width": 598,
-                "height": 900,
-                "formats": {
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1661113855/small_iglesia_san_francisco_en_potosi_32927552_310949dd60.jpg",
-                    "hash": "small_iglesia_san_francisco_en_potosi_32927552_310949dd60",
-                    "mime": "image/jpeg",
-                    "name": "small_iglesia-san-francisco-en-potosi-32927552.jpg",
-                    "path": null,
-                    "size": 42.92,
-                    "width": 332,
-                    "height": 500,
-                    "provider_metadata": {
-                      "public_id": "small_iglesia_san_francisco_en_potosi_32927552_310949dd60",
-                      "resource_type": "image"
-                    }
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1661113854/medium_iglesia_san_francisco_en_potosi_32927552_310949dd60.jpg",
-                    "hash": "medium_iglesia_san_francisco_en_potosi_32927552_310949dd60",
-                    "mime": "image/jpeg",
-                    "name": "medium_iglesia-san-francisco-en-potosi-32927552.jpg",
-                    "path": null,
-                    "size": 87.24,
-                    "width": 498,
-                    "height": 750,
-                    "provider_metadata": {
-                      "public_id": "medium_iglesia_san_francisco_en_potosi_32927552_310949dd60",
-                      "resource_type": "image"
-                    }
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1661113854/thumbnail_iglesia_san_francisco_en_potosi_32927552_310949dd60.jpg",
-                    "hash": "thumbnail_iglesia_san_francisco_en_potosi_32927552_310949dd60",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_iglesia-san-francisco-en-potosi-32927552.jpg",
-                    "path": null,
-                    "size": 5.1,
-                    "width": 103,
-                    "height": 156,
-                    "provider_metadata": {
-                      "public_id": "thumbnail_iglesia_san_francisco_en_potosi_32927552_310949dd60",
-                      "resource_type": "image"
-                    }
-                  }
-                },
-                "hash": "iglesia_san_francisco_en_potosi_32927552_310949dd60",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 114.83,
-                "url": "https://res.cloudinary.com/potosi/image/upload/v1661113853/iglesia_san_francisco_en_potosi_32927552_310949dd60.jpg",
-                "previewUrl": null,
-                "provider": "cloudinary",
-                "provider_metadata": {
-                  "public_id": "iglesia_san_francisco_en_potosi_32927552_310949dd60",
-                  "resource_type": "image"
-                },
-                "createdAt": "2022-08-21T20:30:55.585Z",
-                "updatedAt": "2022-08-21T20:30:55.585Z"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 2,
-        "attributes": {
-          "name": "Casa Museo Humberto Iporre Salinas",
-          "description": "Inmueble colonial que perteneció a dos personajes importantes de la colonia: José Alonso Ibáñez, líder criollo del bando vicuña que se rebeló contra el poder colonial, y Francisco Gómez de la Rocha, empresario español que falsifico las monedas acuñadas en la Casa Real de Moneda. Se trata de n museo musical que lleva l nombre de Humberto Iporre Salinas, autor de la mas emblemática obra musical de Potosí el huayño “Potosino Soy”, que esta inscrita en la Memora de la Humanidad de la UNESCO.",
-          "coordinates": [
-            -19.590496259901357,
-            -65.75029996468965
-          ],
-          "uid": "museo-1",
-          "createdAt": "2022-07-12T19:37:35.407Z",
-          "updatedAt": "2022-08-31T05:06:03.995Z",
-          "publishedAt": "2022-07-12T19:37:36.860Z",
-          "precio": 20,
-          "dias": "Lun-Sab",
-          "telefono": "+591 76166776",
-          "manana": "15:00 a 18:00",
-          "tarde": null,
-          "web": null,
-          "precioExtranjeros": null,
-          "mail": null,
-          "calle": "Nogales entre La Paz y Porco",
-          "image": {
-            "data": {
-              "id": 3,
-              "attributes": {
-                "name": "Iporre-salinas.jfif",
-                "alternativeText": "Iporre-salinas.jfif",
-                "caption": "Iporre-salinas.jfif",
-                "width": 275,
-                "height": 183,
-                "formats": {
-                  "thumbnail": {
-                    "ext": ".jfif",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1657654083/thumbnail_Iporre_salinas_79dda743c0.jpg",
-                    "hash": "thumbnail_Iporre_salinas_79dda743c0",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_Iporre-salinas.jfif",
-                    "path": null,
-                    "size": 10.03,
-                    "width": 234,
-                    "height": 156,
-                    "provider_metadata": {
-                      "public_id": "thumbnail_Iporre_salinas_79dda743c0",
-                      "resource_type": "image"
-                    }
-                  }
-                },
-                "hash": "Iporre_salinas_79dda743c0",
-                "ext": ".jfif",
-                "mime": "image/jpeg",
-                "size": 9.99,
-                "url": "https://res.cloudinary.com/potosi/image/upload/v1657654083/Iporre_salinas_79dda743c0.jpg",
-                "previewUrl": null,
-                "provider": "cloudinary",
-                "provider_metadata": {
-                  "public_id": "Iporre_salinas_79dda743c0",
-                  "resource_type": "image"
-                },
-                "createdAt": "2022-07-12T19:28:04.145Z",
-                "updatedAt": "2022-07-12T19:28:04.145Z"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 5,
-        "attributes": {
-          "name": "Museo Universitario Dr. Ricardo Bohorquez R.",
-          "description": "Descripción: Fue abierto al publico el 1 de abril de 1974, El museo lleva ahora el nombre de su impulsor el Dr. Ricardo Bohorquez Ramírez que trabajo sin escatimar esfuerzos para organizar tan importante repositorio. Se exponen restos de cerámica de la cultura Yura; varios cráneos, instrumentos musicales de la colonia y la república; retratos de personajes importantes.\nSu biblioteca cuenta con obras antiguas de mucho valor, excelentes fuentes de investigación\n",
-          "coordinates": [
-            -19.58746182795781,
-            -65.75308055405823
-          ],
-          "uid": "museo-4",
-          "createdAt": "2022-08-21T20:58:35.255Z",
-          "updatedAt": "2022-08-31T05:31:12.089Z",
-          "publishedAt": "2022-08-21T20:58:37.193Z",
-          "precio": 5,
-          "dias": "Lun-Vie",
-          "telefono": "+591 73856435",
-          "manana": null,
-          "tarde": null,
-          "web": null,
-          "precioExtranjeros": 5,
-          "mail": null,
-          "calle": "Bolívar entre Junín y Sucre",
-          "image": {
-            "data": {
-              "id": 7,
-              "attributes": {
-                "name": "Museo-Universitario-Ricardo-Bohórquez..webp",
-                "alternativeText": "Museo-Universitario-Ricardo-Bohórquez..webp",
-                "caption": "Museo-Universitario-Ricardo-Bohórquez..webp",
-                "width": 600,
-                "height": 400,
-                "formats": {
-                  "small": {
-                    "ext": ".webp",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1661115028/small_Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0.webp",
-                    "hash": "small_Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0",
-                    "mime": "image/webp",
-                    "name": "small_Museo-Universitario-Ricardo-Bohórquez..webp",
-                    "path": null,
-                    "size": 25.45,
-                    "width": 500,
-                    "height": 333,
-                    "provider_metadata": {
-                      "public_id": "small_Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0",
-                      "resource_type": "image"
-                    }
-                  },
-                  "thumbnail": {
-                    "ext": ".webp",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1661115028/thumbnail_Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0.webp",
-                    "hash": "thumbnail_Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0",
-                    "mime": "image/webp",
-                    "name": "thumbnail_Museo-Universitario-Ricardo-Bohórquez..webp",
-                    "path": null,
-                    "size": 7.35,
-                    "width": 234,
-                    "height": 156,
-                    "provider_metadata": {
-                      "public_id": "thumbnail_Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0",
-                      "resource_type": "image"
-                    }
-                  }
-                },
-                "hash": "Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0",
-                "ext": ".webp",
-                "mime": "image/webp",
-                "size": 40.91,
-                "url": "https://res.cloudinary.com/potosi/image/upload/v1661115027/Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0.webp",
-                "previewUrl": null,
-                "provider": "cloudinary",
-                "provider_metadata": {
-                  "public_id": "Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0",
-                  "resource_type": "image"
-                },
-                "createdAt": "2022-08-21T20:50:29.043Z",
-                "updatedAt": "2022-08-21T20:50:29.043Z"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 8,
-        "attributes": {
-          "name": "Museo Militar SOF. López",
-          "description": "Caracterizada por presentar en maquetas la historia de las guerras, batallas y combates mas memorables de la historia universal y particularmente boliviana. Desde las batallas mitológicas, legendarias, bíblicas, Primera y Segunda Guerras Mundiales, Corea, Vietnam, “Tormenta del Desierto” y otras, así mismo las batallas nacionales desde los levantamientos indígenas, la Guerra de la Independencia, Guerra del Pacifico, Guerra del Acre, Guerra del Chaco, Guerra de Guerrillas, entre otras.",
-          "coordinates": [
-            -19.5981944,
-            -65.7478333
-          ],
-          "uid": "museo-7",
-          "createdAt": "2022-08-31T19:50:59.330Z",
-          "updatedAt": "2022-09-01T22:52:06.529Z",
-          "publishedAt": "2022-08-31T19:51:20.807Z",
-          "precio": null,
-          "dias": "Lun-Sab",
-          "telefono": "+591 72405533",
-          "manana": "",
-          "tarde": "15:00 – 18:00",
-          "web": null,
-          "precioExtranjeros": null,
-          "mail": null,
-          "calle": "H. Vargas # 818 entre Hernández y Surco",
-          "image": {
-            "data": {
-              "id": 11,
-              "attributes": {
-                "name": "Lopez.jfif",
-                "alternativeText": "Lopez.jfif",
-                "caption": "Lopez.jfif",
-                "width": 162,
-                "height": 312,
-                "formats": {
-                  "thumbnail": {
-                    "ext": ".jfif",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1661975301/thumbnail_Lopez_04721a70d8.jpg",
-                    "hash": "thumbnail_Lopez_04721a70d8",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_Lopez.jfif",
-                    "path": null,
-                    "size": 4.87,
-                    "width": 81,
-                    "height": 156,
-                    "provider_metadata": {
-                      "public_id": "thumbnail_Lopez_04721a70d8",
-                      "resource_type": "image"
-                    }
-                  }
-                },
-                "hash": "Lopez_04721a70d8",
-                "ext": ".jfif",
-                "mime": "image/jpeg",
-                "size": 11.62,
-                "url": "https://res.cloudinary.com/potosi/image/upload/v1661975300/Lopez_04721a70d8.jpg",
-                "previewUrl": null,
-                "provider": "cloudinary",
-                "provider_metadata": {
-                  "public_id": "Lopez_04721a70d8",
-                  "resource_type": "image"
-                },
-                "createdAt": "2022-08-31T19:48:22.134Z",
-                "updatedAt": "2022-08-31T19:48:22.134Z"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 7,
-        "attributes": {
-          "name": "Museo La Carroza",
-          "description": "Una casa funcional donde podemos encontrar una variedad de colecciones de diversos objetos antiguos como ser planchas, maquinas de escribir, coser, fotografías y de calcular, además de juegos de cristalería y platería. La familia ha restaurado y elaborado objetos a escala como armas personales y de artillería replicando modelos de la Primera y Segunda guerras mundiales. Otra área del museo esta destinada a la restauración de motocicletas y vehículos militares y de uso particular.",
-          "coordinates": [
-            -19.575,
-            -65.761111
-          ],
-          "uid": "museo-6",
-          "createdAt": "2022-08-31T19:23:52.301Z",
-          "updatedAt": "2022-08-31T19:51:30.342Z",
-          "publishedAt": "2022-08-31T19:51:30.339Z",
-          "precio": 10,
-          "dias": "Lun-Sab",
-          "telefono": "+591 71813001",
-          "manana": "15:00 – 18:00",
-          "tarde": null,
-          "web": null,
-          "precioExtranjeros": 15,
-          "mail": null,
-          "calle": "Av. Corcino Rodríguez #101 zona delicias",
-          "image": {
-            "data": {
-              "id": 10,
-              "attributes": {
-                "name": "la carroza.jpg",
-                "alternativeText": "la carroza.jpg",
-                "caption": "la carroza.jpg",
-                "width": 980,
-                "height": 735,
-                "formats": {
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1661973269/small_la_carroza_f90efbfb2a.jpg",
-                    "hash": "small_la_carroza_f90efbfb2a",
-                    "mime": "image/jpeg",
-                    "name": "small_la carroza.jpg",
-                    "path": null,
-                    "size": 43.95,
-                    "width": 500,
-                    "height": 375,
-                    "provider_metadata": {
-                      "public_id": "small_la_carroza_f90efbfb2a",
-                      "resource_type": "image"
-                    }
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1661973268/medium_la_carroza_f90efbfb2a.jpg",
-                    "hash": "medium_la_carroza_f90efbfb2a",
-                    "mime": "image/jpeg",
-                    "name": "medium_la carroza.jpg",
-                    "path": null,
-                    "size": 80.54,
-                    "width": 750,
-                    "height": 563,
-                    "provider_metadata": {
-                      "public_id": "medium_la_carroza_f90efbfb2a",
-                      "resource_type": "image"
-                    }
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1661973268/thumbnail_la_carroza_f90efbfb2a.jpg",
-                    "hash": "thumbnail_la_carroza_f90efbfb2a",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_la carroza.jpg",
-                    "path": null,
-                    "size": 10.31,
-                    "width": 208,
-                    "height": 156,
-                    "provider_metadata": {
-                      "public_id": "thumbnail_la_carroza_f90efbfb2a",
-                      "resource_type": "image"
-                    }
-                  }
-                },
-                "hash": "la_carroza_f90efbfb2a",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 119.38,
-                "url": "https://res.cloudinary.com/potosi/image/upload/v1661973268/la_carroza_f90efbfb2a.jpg",
-                "previewUrl": null,
-                "provider": "cloudinary",
-                "provider_metadata": {
-                  "public_id": "la_carroza_f90efbfb2a",
-                  "resource_type": "image"
-                },
-                "createdAt": "2022-08-31T19:14:29.600Z",
-                "updatedAt": "2022-08-31T19:14:29.600Z"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 9,
-        "attributes": {
-          "name": "Museo Departamental El Cabildo",
-          "description": "El novel Museo Histórico Departamental de Potosí muestra la historia y ola importancia que tuvo la época del Cabildo.\nAdemás, pone en valor diferentes colecciones que atesora. El Hallazgo de un “tapado” consiste en 45 monedas de plata acuñadas en 1815, en la provincia Chayanta, a cargo de mineros de la Cooperativa Colquechaca en agosto de 2017, dio pie a la creación de un museo en el edificio de la Gobernación.\n",
-          "coordinates": [
-            -19.589428544257654,
-            -65.75391083787439
-          ],
-          "uid": "museo-8",
-          "createdAt": "2022-08-31T20:07:44.022Z",
-          "updatedAt": "2022-08-31T20:08:08.560Z",
-          "publishedAt": "2022-08-31T20:08:08.556Z",
-          "precio": null,
-          "dias": "Lun-Vie",
-          "telefono": "+591 76160605",
-          "manana": "09:00 – 12:00",
-          "tarde": null,
-          "web": null,
-          "precioExtranjeros": null,
-          "mail": null,
-          "calle": "Plaza 10 de Noviembre Edificio Gobernación",
-          "image": {
-            "data": {
-              "id": 12,
-              "attributes": {
-                "name": "cabildo.jpg",
-                "alternativeText": "cabildo.jpg",
-                "caption": "cabildo.jpg",
-                "width": 840,
-                "height": 559,
-                "formats": {
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1661976354/small_cabildo_2987da5432.jpg",
-                    "hash": "small_cabildo_2987da5432",
-                    "mime": "image/jpeg",
-                    "name": "small_cabildo.jpg",
-                    "path": null,
-                    "size": 37.41,
-                    "width": 500,
-                    "height": 333,
-                    "provider_metadata": {
-                      "public_id": "small_cabildo_2987da5432",
-                      "resource_type": "image"
-                    }
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1661976353/medium_cabildo_2987da5432.jpg",
-                    "hash": "medium_cabildo_2987da5432",
-                    "mime": "image/jpeg",
-                    "name": "medium_cabildo.jpg",
-                    "path": null,
-                    "size": 67.81,
-                    "width": 750,
-                    "height": 499,
-                    "provider_metadata": {
-                      "public_id": "medium_cabildo_2987da5432",
-                      "resource_type": "image"
-                    }
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1661976353/thumbnail_cabildo_2987da5432.jpg",
-                    "hash": "thumbnail_cabildo_2987da5432",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_cabildo.jpg",
-                    "path": null,
-                    "size": 11.25,
-                    "width": 235,
-                    "height": 156,
-                    "provider_metadata": {
-                      "public_id": "thumbnail_cabildo_2987da5432",
-                      "resource_type": "image"
-                    }
-                  }
-                },
-                "hash": "cabildo_2987da5432",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 79.41,
-                "url": "https://res.cloudinary.com/potosi/image/upload/v1661976352/cabildo_2987da5432.jpg",
-                "previewUrl": null,
-                "provider": "cloudinary",
-                "provider_metadata": {
-                  "public_id": "cabildo_2987da5432",
-                  "resource_type": "image"
-                },
-                "createdAt": "2022-08-31T20:05:54.805Z",
-                "updatedAt": "2022-08-31T20:05:54.805Z"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 10,
-        "attributes": {
-          "name": "Museo Iglesia Santo Domingo",
-          "description": "Una visita al museo es el encuentro del esplendor, el arte y fe de Potosí. El convento de la orden de predicadores de Santo Domingo Guzmán se fundo en 1553 en el aun floreciente asiento minero Potosí, bajo la advocación de Nuestra Señora del Rosario. El visitante podrá recorrer los claustros y el templo, conociendo el régimen de vida masculina del periodo virreinal, vinculada íntimamente a las obras de arte y objetos de culto divino y la vida de Fray Vicente Bernedo.",
-          "coordinates": [
-            -19.589783555317503,
-            -65.75545835032746
-          ],
-          "uid": "museo-9",
-          "createdAt": "2022-08-31T20:40:50.007Z",
-          "updatedAt": "2022-08-31T20:40:51.528Z",
-          "publishedAt": "2022-08-31T20:40:51.524Z",
-          "precio": 10,
-          "dias": "Lun-Vie",
-          "telefono": "+591 (26231610 - 72700330)",
-          "manana": "09:00 – 12:00",
-          "tarde": "14:00 – 17:00",
-          "web": null,
-          "precioExtranjeros": null,
-          "mail": null,
-          "calle": "Cobija esq. Oruro",
-          "image": {
-            "data": {
-              "id": 13,
-              "attributes": {
-                "name": "santo domingo.webp",
-                "alternativeText": "santo domingo.webp",
-                "caption": "santo domingo.webp",
-                "width": 800,
-                "height": 450,
-                "formats": {
-                  "small": {
-                    "ext": ".webp",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1661978253/small_santo_domingo_93d6b52d22.webp",
-                    "hash": "small_santo_domingo_93d6b52d22",
-                    "mime": "image/webp",
-                    "name": "small_santo domingo.webp",
-                    "path": null,
-                    "size": 22,
-                    "width": 500,
-                    "height": 281,
-                    "provider_metadata": {
-                      "public_id": "small_santo_domingo_93d6b52d22",
-                      "resource_type": "image"
-                    }
-                  },
-                  "medium": {
-                    "ext": ".webp",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1661978253/medium_santo_domingo_93d6b52d22.webp",
-                    "hash": "medium_santo_domingo_93d6b52d22",
-                    "mime": "image/webp",
-                    "name": "medium_santo domingo.webp",
-                    "path": null,
-                    "size": 40.11,
-                    "width": 750,
-                    "height": 422,
-                    "provider_metadata": {
-                      "public_id": "medium_santo_domingo_93d6b52d22",
-                      "resource_type": "image"
-                    }
-                  },
-                  "thumbnail": {
-                    "ext": ".webp",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1661978252/thumbnail_santo_domingo_93d6b52d22.webp",
-                    "hash": "thumbnail_santo_domingo_93d6b52d22",
-                    "mime": "image/webp",
-                    "name": "thumbnail_santo domingo.webp",
-                    "path": null,
-                    "size": 7.36,
-                    "width": 245,
-                    "height": 138,
-                    "provider_metadata": {
-                      "public_id": "thumbnail_santo_domingo_93d6b52d22",
-                      "resource_type": "image"
-                    }
-                  }
-                },
-                "hash": "santo_domingo_93d6b52d22",
-                "ext": ".webp",
-                "mime": "image/webp",
-                "size": 53.51,
-                "url": "https://res.cloudinary.com/potosi/image/upload/v1661978252/santo_domingo_93d6b52d22.webp",
-                "previewUrl": null,
-                "provider": "cloudinary",
-                "provider_metadata": {
-                  "public_id": "santo_domingo_93d6b52d22",
-                  "resource_type": "image"
-                },
-                "createdAt": "2022-08-31T20:37:33.759Z",
-                "updatedAt": "2022-08-31T20:37:33.759Z"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 1,
-        "attributes": {
-          "name": "Museo Casa Nacional de Moneda",
-          "description": "Es el museo mas importante de Bolivia, conformado en el edificio industrial de la segunda Casa de Moneda de Potosí que acuño monedas de plata y oro entre 1767 a 1945 que circularon en todas partes del mundo. Actualmente es el museo mas visitado de Bolivia y es Patrimonio de la Humanidad registrado en el catalogo del Patrimonio de Potosí UNESCO.",
-          "coordinates": [
-            -19.587863014034948,
-            -65.75433866138206
-          ],
-          "uid": "museo",
-          "createdAt": "2022-07-12T19:30:56.381Z",
-          "updatedAt": "2022-09-01T22:21:14.700Z",
-          "publishedAt": "2022-07-12T19:31:48.147Z",
-          "precio": 10,
-          "dias": "Lun-Sab",
-          "telefono": "+591 26222777",
-          "manana": "08:30 – 15:30",
-          "tarde": "",
-          "web": "http://www.casanacionaldemoneda.bo/",
-          "precioExtranjeros": 40,
-          "mail": null,
-          "calle": "Ayacucho entre Quijarro y Bustillos",
-          "image": {
-            "data": {
-              "id": 2,
-              "attributes": {
-                "name": "casa-de-moneda.jpg",
-                "alternativeText": "casa-de-moneda.jpg",
-                "caption": "casa-de-moneda.jpg",
-                "width": 598,
-                "height": 400,
-                "formats": {
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1657654057/small_casa_de_moneda_2ae258240c.jpg",
-                    "hash": "small_casa_de_moneda_2ae258240c",
-                    "mime": "image/jpeg",
-                    "name": "small_casa-de-moneda.jpg",
-                    "path": null,
-                    "size": 42.26,
-                    "width": 500,
-                    "height": 334,
-                    "provider_metadata": {
-                      "public_id": "small_casa_de_moneda_2ae258240c",
-                      "resource_type": "image"
-                    }
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1657654057/thumbnail_casa_de_moneda_2ae258240c.jpg",
-                    "hash": "thumbnail_casa_de_moneda_2ae258240c",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_casa-de-moneda.jpg",
-                    "path": null,
-                    "size": 11.32,
-                    "width": 233,
-                    "height": 156,
-                    "provider_metadata": {
-                      "public_id": "thumbnail_casa_de_moneda_2ae258240c",
-                      "resource_type": "image"
-                    }
-                  }
-                },
-                "hash": "casa_de_moneda_2ae258240c",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 46.92,
-                "url": "https://res.cloudinary.com/potosi/image/upload/v1657654056/casa_de_moneda_2ae258240c.jpg",
-                "previewUrl": null,
-                "provider": "cloudinary",
-                "provider_metadata": {
-                  "public_id": "casa_de_moneda_2ae258240c",
-                  "resource_type": "image"
-                },
-                "createdAt": "2022-07-12T19:27:37.718Z",
-                "updatedAt": "2022-07-12T19:27:37.718Z"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 11,
-        "attributes": {
-          "name": "Museo Iglesia San Martin de Tours",
-          "description": "Iglesia de indios Lupaca, construida de adobe afueras de la ciudad, Data de 1592. Fue la ultima arena en fundarse en tiempos delo Virrey Toledo. La planta es de Cruz Latina con cimborrio con el crucero. La torre es octagonal y corresponde al siglo XVII. La portada consta de un arco de medio puente escoltado por sencillas pilastras con remates piramidales y esféricos.",
-          "coordinates": [
-            -19.588629446976924,
-            -65.74771754070292
-          ],
-          "uid": "museo-10",
-          "createdAt": "2022-08-31T21:16:04.259Z",
-          "updatedAt": "2022-08-31T21:16:06.010Z",
-          "publishedAt": "2022-08-31T21:16:06.006Z",
-          "precio": 5,
-          "dias": "Lun-Sab",
-          "telefono": "+591 (26223682- 72433255)",
-          "manana": "10:00 – 12:00",
-          "tarde": "15:00 – 18:00",
-          "web": null,
-          "precioExtranjeros": 10,
-          "mail": null,
-          "calle": "Hoyos entre Almagro y Pizarro",
-          "image": {
-            "data": {
-              "id": 14,
-              "attributes": {
-                "name": "martin.jfif",
-                "alternativeText": "martin.jfif",
-                "caption": "martin.jfif",
-                "width": 224,
-                "height": 225,
-                "formats": {
-                  "thumbnail": {
-                    "ext": ".jfif",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1661980483/thumbnail_martin_bea2dac289.jpg",
-                    "hash": "thumbnail_martin_bea2dac289",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_martin.jfif",
-                    "path": null,
-                    "size": 7.33,
-                    "width": 155,
-                    "height": 156,
-                    "provider_metadata": {
-                      "public_id": "thumbnail_martin_bea2dac289",
-                      "resource_type": "image"
-                    }
-                  }
-                },
-                "hash": "martin_bea2dac289",
-                "ext": ".jfif",
-                "mime": "image/jpeg",
-                "size": 9.98,
-                "url": "https://res.cloudinary.com/potosi/image/upload/v1661980482/martin_bea2dac289.jpg",
-                "previewUrl": null,
-                "provider": "cloudinary",
-                "provider_metadata": {
-                  "public_id": "martin_bea2dac289",
-                  "resource_type": "image"
-                },
-                "createdAt": "2022-08-31T21:14:44.771Z",
-                "updatedAt": "2022-08-31T21:14:44.771Z"
-              }
-            }
-          }
-        }
-      },
-      {
-        "id": 12,
-        "attributes": {
-          "name": "Museo Mirador Nuestra Señora de la Merced",
-          "description": "Una de las construcciones que mas tiempo demando y cuya edificación se realizo entre los años 1555 y 1687. La misma fue fundada por los padres mercedarios quienes rinden culto precisamente a la Virgen de las Mercedes, la cual esta Ornamentada con un arco de plata repujada. Esta iglesia corresponde al estilo renacentista. Sufrió varias modificaciones. La Planta es de cruz latina, teniendo un cuerpo central y el crucero, con arco triunfal. La portada se la hizo en 1687.",
-          "coordinates": [
-            -19.588553193511135,
-            -65.75169855959751
-          ],
-          "uid": "museo-11",
-          "createdAt": "2022-08-31T21:31:51.304Z",
-          "updatedAt": "2022-08-31T21:31:52.910Z",
-          "publishedAt": "2022-08-31T21:31:52.907Z",
-          "precio": null,
-          "dias": "Lun-Vie",
-          "telefono": "+591 26230250",
-          "manana": "09:00 – 12:00",
-          "tarde": "14:30 – 18:00",
-          "web": null,
-          "precioExtranjeros": null,
-          "mail": null,
-          "calle": "Hoyos esq. Millares",
-          "image": {
-            "data": {
-              "id": 15,
-              "attributes": {
-                "name": "merced.jfif",
-                "alternativeText": "merced.jfif",
-                "caption": "merced.jfif",
-                "width": 275,
-                "height": 183,
-                "formats": {
-                  "thumbnail": {
-                    "ext": ".jfif",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1661981430/thumbnail_merced_666ee02bc5.jpg",
-                    "hash": "thumbnail_merced_666ee02bc5",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_merced.jfif",
-                    "path": null,
-                    "size": 9.43,
-                    "width": 234,
-                    "height": 156,
-                    "provider_metadata": {
-                      "public_id": "thumbnail_merced_666ee02bc5",
-                      "resource_type": "image"
-                    }
-                  }
-                },
-                "hash": "merced_666ee02bc5",
-                "ext": ".jfif",
-                "mime": "image/jpeg",
-                "size": 8.38,
-                "url": "https://res.cloudinary.com/potosi/image/upload/v1661981430/merced_666ee02bc5.jpg",
-                "previewUrl": null,
-                "provider": "cloudinary",
-                "provider_metadata": {
-                  "public_id": "merced_666ee02bc5",
-                  "resource_type": "image"
-                },
-                "createdAt": "2022-08-31T21:30:31.371Z",
-                "updatedAt": "2022-08-31T21:30:31.371Z"
-              }
+                }
+              },
+              "hash": "catedral_2862b40f2b",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 46.04,
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1661116676/catedral_2862b40f2b.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "catedral_2862b40f2b",
+                "resource_type": "image"
+              },
+              "createdAt": "2022-08-22T01:17:57.744Z",
+              "updatedAt": "2022-08-22T01:17:57.744Z"
             }
           }
         }
       }
-    ],
-    "meta": {
-      "pagination": {
-        "page": 1,
-        "pageSize": 25,
-        "pageCount": 1,
-        "total": 12
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "name": "Museo Santa Teresa",
+        "description": "Museo conventual perteneciente a la Orden de las Carmelitas Descalzas que, en tiempo de colonia, eran hermanas de claustro, actualmente es un convento activo, donde habitan hermanas de la orden ya mencionada, en el interior del museo se puede apreciar arte sacro, como también la historia de la vida cotidiana de las hermanas Carmelitas.",
+        "coordinates": [
+          -19.5886733395874,
+          -65.75689888241716
+        ],
+        "uid": "museo-2",
+        "createdAt": "2022-07-12T23:39:45.107Z",
+        "updatedAt": "2022-08-31T08:32:10.067Z",
+        "publishedAt": "2022-07-12T23:39:46.793Z",
+        "precio": 11,
+        "dias": "Lun-Sab",
+        "telefono": "+591 (26223847 – 63712598)",
+        "manana": "09:00 – 12:30",
+        "tarde": "14:30 – 18:00",
+        "web": null,
+        "precioExtranjeros": 30,
+        "mail": null,
+        "calle": "Santa Teresa #15",
+        "image": {
+          "data": {
+            "id": 5,
+            "attributes": {
+              "name": "santa-teresa.webp",
+              "alternativeText": "santa-teresa.webp",
+              "caption": "santa-teresa.webp",
+              "width": 4320,
+              "height": 3240,
+              "formats": {
+                "large": {
+                  "ext": ".webp",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1657657584/large_santa_teresa_9fda4963b8.webp",
+                  "hash": "large_santa_teresa_9fda4963b8",
+                  "mime": "image/webp",
+                  "name": "large_santa-teresa.webp",
+                  "path": null,
+                  "size": 94.29,
+                  "width": 1000,
+                  "height": 750,
+                  "provider_metadata": {
+                    "public_id": "large_santa_teresa_9fda4963b8",
+                    "resource_type": "image"
+                  }
+                },
+                "small": {
+                  "ext": ".webp",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1657657585/small_santa_teresa_9fda4963b8.webp",
+                  "hash": "small_santa_teresa_9fda4963b8",
+                  "mime": "image/webp",
+                  "name": "small_santa-teresa.webp",
+                  "path": null,
+                  "size": 31.1,
+                  "width": 500,
+                  "height": 375,
+                  "provider_metadata": {
+                    "public_id": "small_santa_teresa_9fda4963b8",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".webp",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1657657584/medium_santa_teresa_9fda4963b8.webp",
+                  "hash": "medium_santa_teresa_9fda4963b8",
+                  "mime": "image/webp",
+                  "name": "medium_santa-teresa.webp",
+                  "path": null,
+                  "size": 60.71,
+                  "width": 750,
+                  "height": 562,
+                  "provider_metadata": {
+                    "public_id": "medium_santa_teresa_9fda4963b8",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".webp",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1657657583/thumbnail_santa_teresa_9fda4963b8.webp",
+                  "hash": "thumbnail_santa_teresa_9fda4963b8",
+                  "mime": "image/webp",
+                  "name": "thumbnail_santa-teresa.webp",
+                  "path": null,
+                  "size": 6.93,
+                  "width": 208,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_santa_teresa_9fda4963b8",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "santa_teresa_9fda4963b8",
+              "ext": ".webp",
+              "mime": "image/webp",
+              "size": 897.19,
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1657657582/santa_teresa_9fda4963b8.webp",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "santa_teresa_9fda4963b8",
+                "resource_type": "image"
+              },
+              "createdAt": "2022-07-13T00:26:25.717Z",
+              "updatedAt": "2022-07-13T00:26:25.717Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 9,
+      "attributes": {
+        "name": "Museo Departamental El Cabildo",
+        "description": "El novel Museo Histórico Departamental de Potosí muestra la historia y ola importancia que tuvo la época del Cabildo.\nAdemás, pone en valor diferentes colecciones que atesora. El Hallazgo de un “tapado” consiste en 45 monedas de plata acuñadas en 1815, en la provincia Chayanta, a cargo de mineros de la Cooperativa Colquechaca en agosto de 2017, dio pie a la creación de un museo en el edificio de la Gobernación.\n",
+        "coordinates": [
+          -19.589428544257654,
+          -65.75391083787439
+        ],
+        "uid": "museo-8",
+        "createdAt": "2022-09-01T00:07:44.022Z",
+        "updatedAt": "2022-09-29T06:34:37.161Z",
+        "publishedAt": "2022-09-01T00:08:08.556Z",
+        "precio": null,
+        "dias": "Lun-Vie",
+        "telefono": "+591 76160605",
+        "manana": "09:00 – 12:00",
+        "tarde": null,
+        "web": null,
+        "precioExtranjeros": null,
+        "mail": null,
+        "calle": "Plaza 10 de Noviembre Edificio Gobernación",
+        "image": {
+          "data": {
+            "id": 25,
+            "attributes": {
+              "name": "cabildo.jpeg",
+              "alternativeText": "cabildo.jpeg",
+              "caption": "cabildo.jpeg",
+              "width": 1600,
+              "height": 1520,
+              "formats": {
+                "large": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433262/large_cabildo_ff01b91d61.jpg",
+                  "hash": "large_cabildo_ff01b91d61",
+                  "mime": "image/jpeg",
+                  "name": "large_cabildo.jpeg",
+                  "path": null,
+                  "size": 198.27,
+                  "width": 1000,
+                  "height": 950,
+                  "provider_metadata": {
+                    "public_id": "large_cabildo_ff01b91d61",
+                    "resource_type": "image"
+                  }
+                },
+                "small": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433265/small_cabildo_ff01b91d61.jpg",
+                  "hash": "small_cabildo_ff01b91d61",
+                  "mime": "image/jpeg",
+                  "name": "small_cabildo.jpeg",
+                  "path": null,
+                  "size": 55.65,
+                  "width": 500,
+                  "height": 475,
+                  "provider_metadata": {
+                    "public_id": "small_cabildo_ff01b91d61",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433263/medium_cabildo_ff01b91d61.jpg",
+                  "hash": "medium_cabildo_ff01b91d61",
+                  "mime": "image/jpeg",
+                  "name": "medium_cabildo.jpeg",
+                  "path": null,
+                  "size": 116.84,
+                  "width": 750,
+                  "height": 713,
+                  "provider_metadata": {
+                    "public_id": "medium_cabildo_ff01b91d61",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433260/thumbnail_cabildo_ff01b91d61.jpg",
+                  "hash": "thumbnail_cabildo_ff01b91d61",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_cabildo.jpeg",
+                  "path": null,
+                  "size": 8.14,
+                  "width": 164,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_cabildo_ff01b91d61",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "cabildo_ff01b91d61",
+              "ext": ".jpeg",
+              "mime": "image/jpeg",
+              "size": 383.36,
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1664433259/cabildo_ff01b91d61.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "cabildo_ff01b91d61",
+                "resource_type": "image"
+              },
+              "createdAt": "2022-09-29T06:34:25.458Z",
+              "updatedAt": "2022-09-29T06:34:25.458Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 10,
+      "attributes": {
+        "name": "Museo Iglesia Santo Domingo",
+        "description": "Una visita al museo es el encuentro del esplendor, el arte y fe de Potosí. El convento de la orden de predicadores de Santo Domingo Guzmán se fundo en 1553 en el aun floreciente asiento minero Potosí, bajo la advocación de Nuestra Señora del Rosario. El visitante podrá recorrer los claustros y el templo, conociendo el régimen de vida masculina del periodo virreinal, vinculada íntimamente a las obras de arte y objetos de culto divino y la vida de Fray Vicente Bernedo.",
+        "coordinates": [
+          -19.589783555317503,
+          -65.75545835032746
+        ],
+        "uid": "museo-9",
+        "createdAt": "2022-09-01T00:40:50.007Z",
+        "updatedAt": "2022-09-29T06:38:17.680Z",
+        "publishedAt": "2022-09-01T00:40:51.524Z",
+        "precio": 10,
+        "dias": "Lun-Vie",
+        "telefono": "+591 (26231610 - 72700330)",
+        "manana": "09:00 – 12:00",
+        "tarde": "14:00 – 17:00",
+        "web": null,
+        "precioExtranjeros": null,
+        "mail": null,
+        "calle": "Cobija esq. Oruro",
+        "image": {
+          "data": {
+            "id": 28,
+            "attributes": {
+              "name": "domingo.jpeg",
+              "alternativeText": "domingo.jpeg",
+              "caption": "domingo.jpeg",
+              "width": 1464,
+              "height": 928,
+              "formats": {
+                "large": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433486/large_domingo_a86ab34a94.jpg",
+                  "hash": "large_domingo_a86ab34a94",
+                  "mime": "image/jpeg",
+                  "name": "large_domingo.jpeg",
+                  "path": null,
+                  "size": 169.51,
+                  "width": 1000,
+                  "height": 634,
+                  "provider_metadata": {
+                    "public_id": "large_domingo_a86ab34a94",
+                    "resource_type": "image"
+                  }
+                },
+                "small": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433490/small_domingo_a86ab34a94.jpg",
+                  "hash": "small_domingo_a86ab34a94",
+                  "mime": "image/jpeg",
+                  "name": "small_domingo.jpeg",
+                  "path": null,
+                  "size": 47.83,
+                  "width": 500,
+                  "height": 317,
+                  "provider_metadata": {
+                    "public_id": "small_domingo_a86ab34a94",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433488/medium_domingo_a86ab34a94.jpg",
+                  "hash": "medium_domingo_a86ab34a94",
+                  "mime": "image/jpeg",
+                  "name": "medium_domingo.jpeg",
+                  "path": null,
+                  "size": 100.51,
+                  "width": 750,
+                  "height": 475,
+                  "provider_metadata": {
+                    "public_id": "medium_domingo_a86ab34a94",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433484/thumbnail_domingo_a86ab34a94.jpg",
+                  "hash": "thumbnail_domingo_a86ab34a94",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_domingo.jpeg",
+                  "path": null,
+                  "size": 12.67,
+                  "width": 245,
+                  "height": 155,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_domingo_a86ab34a94",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "domingo_a86ab34a94",
+              "ext": ".jpeg",
+              "mime": "image/jpeg",
+              "size": 291.79,
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1664433483/domingo_a86ab34a94.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "domingo_a86ab34a94",
+                "resource_type": "image"
+              },
+              "createdAt": "2022-09-29T06:38:10.565Z",
+              "updatedAt": "2022-09-29T06:38:10.565Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 1,
+      "attributes": {
+        "name": "Museo Casa Nacional de Monedaaa",
+        "description": "Es el museo mas importante de Bolivia, conformado en el edificio industrial de la segunda Casa de Moneda de Potosí que acuño monedas de plata y oro entre 1767 a 1945 que circularon en todas partes del mundo. Actualmente es el museo mas visitado de Bolivia y es Patrimonio de la Humanidad registrado en el catalogo del Patrimonio de Potosí UNESCO.",
+        "coordinates": [
+          -19.587863014034948,
+          -65.75433866138206
+        ],
+        "uid": "museo",
+        "createdAt": "2022-07-12T23:30:56.381Z",
+        "updatedAt": "2022-09-29T06:32:47.196Z",
+        "publishedAt": "2022-07-12T23:31:48.147Z",
+        "precio": 10,
+        "dias": "Lun-Sab",
+        "telefono": "+591 26222777",
+        "manana": "08:30 – 15:30",
+        "tarde": "",
+        "web": "http://www.casanacionaldemoneda.bo/",
+        "precioExtranjeros": 40,
+        "mail": null,
+        "calle": "Ayacucho entre Quijarro y Bustillos",
+        "image": {
+          "data": {
+            "id": 24,
+            "attributes": {
+              "name": "moneda.jpeg",
+              "alternativeText": "moneda.jpeg",
+              "caption": "moneda.jpeg",
+              "width": 1320,
+              "height": 880,
+              "formats": {
+                "large": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433148/large_moneda_3d89887fbc.jpg",
+                  "hash": "large_moneda_3d89887fbc",
+                  "mime": "image/jpeg",
+                  "name": "large_moneda.jpeg",
+                  "path": null,
+                  "size": 118.19,
+                  "width": 1000,
+                  "height": 667,
+                  "provider_metadata": {
+                    "public_id": "large_moneda_3d89887fbc",
+                    "resource_type": "image"
+                  }
+                },
+                "small": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433151/small_moneda_3d89887fbc.jpg",
+                  "hash": "small_moneda_3d89887fbc",
+                  "mime": "image/jpeg",
+                  "name": "small_moneda.jpeg",
+                  "path": null,
+                  "size": 35.11,
+                  "width": 500,
+                  "height": 333,
+                  "provider_metadata": {
+                    "public_id": "small_moneda_3d89887fbc",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433150/medium_moneda_3d89887fbc.jpg",
+                  "hash": "medium_moneda_3d89887fbc",
+                  "mime": "image/jpeg",
+                  "name": "medium_moneda.jpeg",
+                  "path": null,
+                  "size": 71.73,
+                  "width": 750,
+                  "height": 500,
+                  "provider_metadata": {
+                    "public_id": "medium_moneda_3d89887fbc",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433147/thumbnail_moneda_3d89887fbc.jpg",
+                  "hash": "thumbnail_moneda_3d89887fbc",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_moneda.jpeg",
+                  "path": null,
+                  "size": 9.47,
+                  "width": 234,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_moneda_3d89887fbc",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "moneda_3d89887fbc",
+              "ext": ".jpeg",
+              "mime": "image/jpeg",
+              "size": 164.74,
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1664433146/moneda_3d89887fbc.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "moneda_3d89887fbc",
+                "resource_type": "image"
+              },
+              "createdAt": "2022-09-29T06:32:32.347Z",
+              "updatedAt": "2022-09-29T06:32:32.347Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "name": "Museo Universitario Dr. Ricardo Bohorquez R.",
+        "description": "Descripción: Fue abierto al publico el 1 de abril de 1974, El museo lleva ahora el nombre de su impulsor el Dr. Ricardo Bohorquez Ramírez que trabajo sin escatimar esfuerzos para organizar tan importante repositorio. Se exponen restos de cerámica de la cultura Yura; varios cráneos, instrumentos musicales de la colonia y la república; retratos de personajes importantes.\nSu biblioteca cuenta con obras antiguas de mucho valor, excelentes fuentes de investigación\n",
+        "coordinates": [
+          -19.58746182795781,
+          -65.75308055405823
+        ],
+        "uid": "museo-4",
+        "createdAt": "2022-08-22T00:58:35.255Z",
+        "updatedAt": "2022-08-31T09:31:12.089Z",
+        "publishedAt": "2022-08-22T00:58:37.193Z",
+        "precio": 5,
+        "dias": "Lun-Vie",
+        "telefono": "+591 73856435",
+        "manana": null,
+        "tarde": null,
+        "web": null,
+        "precioExtranjeros": 5,
+        "mail": null,
+        "calle": "Bolívar entre Junín y Sucre",
+        "image": {
+          "data": {
+            "id": 7,
+            "attributes": {
+              "name": "Museo-Universitario-Ricardo-Bohórquez..webp",
+              "alternativeText": "Museo-Universitario-Ricardo-Bohórquez..webp",
+              "caption": "Museo-Universitario-Ricardo-Bohórquez..webp",
+              "width": 600,
+              "height": 400,
+              "formats": {
+                "small": {
+                  "ext": ".webp",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1661115028/small_Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0.webp",
+                  "hash": "small_Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0",
+                  "mime": "image/webp",
+                  "name": "small_Museo-Universitario-Ricardo-Bohórquez..webp",
+                  "path": null,
+                  "size": 25.45,
+                  "width": 500,
+                  "height": 333,
+                  "provider_metadata": {
+                    "public_id": "small_Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".webp",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1661115028/thumbnail_Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0.webp",
+                  "hash": "thumbnail_Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0",
+                  "mime": "image/webp",
+                  "name": "thumbnail_Museo-Universitario-Ricardo-Bohórquez..webp",
+                  "path": null,
+                  "size": 7.35,
+                  "width": 234,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0",
+              "ext": ".webp",
+              "mime": "image/webp",
+              "size": 40.91,
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1661115027/Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0.webp",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0",
+                "resource_type": "image"
+              },
+              "createdAt": "2022-08-22T00:50:29.043Z",
+              "updatedAt": "2022-08-22T00:50:29.043Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 8,
+      "attributes": {
+        "name": "Museo Militar SOF. López",
+        "description": "Caracterizada por presentar en maquetas la historia de las guerras, batallas y combates mas memorables de la historia universal y particularmente boliviana. Desde las batallas mitológicas, legendarias, bíblicas, Primera y Segunda Guerras Mundiales, Corea, Vietnam, “Tormenta del Desierto” y otras, así mismo las batallas nacionales desde los levantamientos indígenas, la Guerra de la Independencia, Guerra del Pacifico, Guerra del Acre, Guerra del Chaco, Guerra de Guerrillas, entre otras.",
+        "coordinates": [
+          -19.5981944,
+          -65.7478333
+        ],
+        "uid": "museo-7",
+        "createdAt": "2022-08-31T23:50:59.330Z",
+        "updatedAt": "2022-09-29T06:40:18.573Z",
+        "publishedAt": "2022-08-31T23:51:20.807Z",
+        "precio": null,
+        "dias": "Lun-Sab",
+        "telefono": "+591 72405533",
+        "manana": "",
+        "tarde": "15:00 – 18:00",
+        "web": null,
+        "precioExtranjeros": null,
+        "mail": null,
+        "calle": "H. Vargas # 818 entre Hernández y Surco",
+        "image": {
+          "data": {
+            "id": 30,
+            "attributes": {
+              "name": "lopez.jpeg",
+              "alternativeText": "lopez.jpeg",
+              "caption": "lopez.jpeg",
+              "width": 777,
+              "height": 1600,
+              "formats": {
+                "large": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433600/large_lopez_80b38156a6.jpg",
+                  "hash": "large_lopez_80b38156a6",
+                  "mime": "image/jpeg",
+                  "name": "large_lopez.jpeg",
+                  "path": null,
+                  "size": 96.76,
+                  "width": 486,
+                  "height": 1000,
+                  "provider_metadata": {
+                    "public_id": "large_lopez_80b38156a6",
+                    "resource_type": "image"
+                  }
+                },
+                "small": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433605/small_lopez_80b38156a6.jpg",
+                  "hash": "small_lopez_80b38156a6",
+                  "mime": "image/jpeg",
+                  "name": "small_lopez.jpeg",
+                  "path": null,
+                  "size": 27.03,
+                  "width": 243,
+                  "height": 500,
+                  "provider_metadata": {
+                    "public_id": "small_lopez_80b38156a6",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433602/medium_lopez_80b38156a6.jpg",
+                  "hash": "medium_lopez_80b38156a6",
+                  "mime": "image/jpeg",
+                  "name": "medium_lopez.jpeg",
+                  "path": null,
+                  "size": 56.43,
+                  "width": 364,
+                  "height": 750,
+                  "provider_metadata": {
+                    "public_id": "medium_lopez_80b38156a6",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433597/thumbnail_lopez_80b38156a6.jpg",
+                  "hash": "thumbnail_lopez_80b38156a6",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_lopez.jpeg",
+                  "path": null,
+                  "size": 3.72,
+                  "width": 76,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_lopez_80b38156a6",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "lopez_80b38156a6",
+              "ext": ".jpeg",
+              "mime": "image/jpeg",
+              "size": 193.97,
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1664433596/lopez_80b38156a6.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "lopez_80b38156a6",
+                "resource_type": "image"
+              },
+              "createdAt": "2022-09-29T06:40:05.719Z",
+              "updatedAt": "2022-09-29T06:40:05.719Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "name": "Museo Eclesiástico Franciscano",
+        "description": "Descripción: Famoso por la escultura del Señor de la Vera Cruz patrono de la ciudad de Potosí, se constituye en un lugar imperdible en la isita a esta ciudad, que junto a la gran pinacoteca que engalana los corredores del claustro franciscano, los cementerios conventuales denominados criptas, ubicados en el sub suelo de la iglesia y el fascinante mirador de Santa María de los Ángeles, hacen de este lugar único en Bolivia. Solo atiendo en dos tours a horas 15:00 y 16:00.",
+        "coordinates": [
+          -19.59116603230462,
+          -65.75287310104692
+        ],
+        "uid": "museo-3",
+        "createdAt": "2022-08-22T00:35:03.068Z",
+        "updatedAt": "2022-09-29T06:35:42.357Z",
+        "publishedAt": "2022-08-22T00:38:44.021Z",
+        "precio": 15,
+        "dias": "Lun-Vie",
+        "telefono": "+591 26222539",
+        "manana": null,
+        "tarde": null,
+        "web": null,
+        "precioExtranjeros": 20,
+        "mail": null,
+        "calle": "Tarija esq. Nogales #47",
+        "image": {
+          "data": {
+            "id": 26,
+            "attributes": {
+              "name": "franciscano.jpeg",
+              "alternativeText": "franciscano.jpeg",
+              "caption": "franciscano.jpeg",
+              "width": 1280,
+              "height": 1280,
+              "formats": {
+                "large": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433332/large_franciscano_61effe0738.jpg",
+                  "hash": "large_franciscano_61effe0738",
+                  "mime": "image/jpeg",
+                  "name": "large_franciscano.jpeg",
+                  "path": null,
+                  "size": 198.8,
+                  "width": 1000,
+                  "height": 1000,
+                  "provider_metadata": {
+                    "public_id": "large_franciscano_61effe0738",
+                    "resource_type": "image"
+                  }
+                },
+                "small": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433335/small_franciscano_61effe0738.jpg",
+                  "hash": "small_franciscano_61effe0738",
+                  "mime": "image/jpeg",
+                  "name": "small_franciscano.jpeg",
+                  "path": null,
+                  "size": 61.57,
+                  "width": 500,
+                  "height": 500,
+                  "provider_metadata": {
+                    "public_id": "small_franciscano_61effe0738",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433334/medium_franciscano_61effe0738.jpg",
+                  "hash": "medium_franciscano_61effe0738",
+                  "mime": "image/jpeg",
+                  "name": "medium_franciscano.jpeg",
+                  "path": null,
+                  "size": 124.15,
+                  "width": 750,
+                  "height": 750,
+                  "provider_metadata": {
+                    "public_id": "medium_franciscano_61effe0738",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433327/thumbnail_franciscano_61effe0738.jpg",
+                  "hash": "thumbnail_franciscano_61effe0738",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_franciscano.jpeg",
+                  "path": null,
+                  "size": 7.06,
+                  "width": 156,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_franciscano_61effe0738",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "franciscano_61effe0738",
+              "ext": ".jpeg",
+              "mime": "image/jpeg",
+              "size": 250.65,
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1664433326/franciscano_61effe0738.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "franciscano_61effe0738",
+                "resource_type": "image"
+              },
+              "createdAt": "2022-09-29T06:35:35.909Z",
+              "updatedAt": "2022-09-29T06:35:35.909Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 7,
+      "attributes": {
+        "name": "Museo La Carroza",
+        "description": "Una casa funcional donde podemos encontrar una variedad de colecciones de diversos objetos antiguos como ser planchas, maquinas de escribir, coser, fotografías y de calcular, además de juegos de cristalería y platería. La familia ha restaurado y elaborado objetos a escala como armas personales y de artillería replicando modelos de la Primera y Segunda guerras mundiales. Otra área del museo esta destinada a la restauración de motocicletas y vehículos militares y de uso particular.",
+        "coordinates": [
+          -19.575,
+          -65.761111
+        ],
+        "uid": "museo-6",
+        "createdAt": "2022-08-31T23:23:52.301Z",
+        "updatedAt": "2022-09-29T06:39:11.422Z",
+        "publishedAt": "2022-08-31T23:51:30.339Z",
+        "precio": 10,
+        "dias": "Lun-Sab",
+        "telefono": "+591 71813001",
+        "manana": "15:00 – 18:00",
+        "tarde": null,
+        "web": null,
+        "precioExtranjeros": 15,
+        "mail": null,
+        "calle": "Av. Corcino Rodríguez #101 zona delicias",
+        "image": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "carroza.jpeg",
+              "alternativeText": "carroza.jpeg",
+              "caption": "carroza.jpeg",
+              "width": 1600,
+              "height": 777,
+              "formats": {
+                "large": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433529/large_carroza_c07265d59c.jpg",
+                  "hash": "large_carroza_c07265d59c",
+                  "mime": "image/jpeg",
+                  "name": "large_carroza.jpeg",
+                  "path": null,
+                  "size": 133.79,
+                  "width": 1000,
+                  "height": 486,
+                  "provider_metadata": {
+                    "public_id": "large_carroza_c07265d59c",
+                    "resource_type": "image"
+                  }
+                },
+                "small": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433537/small_carroza_c07265d59c.jpg",
+                  "hash": "small_carroza_c07265d59c",
+                  "mime": "image/jpeg",
+                  "name": "small_carroza.jpeg",
+                  "path": null,
+                  "size": 36.56,
+                  "width": 500,
+                  "height": 243,
+                  "provider_metadata": {
+                    "public_id": "small_carroza_c07265d59c",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433535/medium_carroza_c07265d59c.jpg",
+                  "hash": "medium_carroza_c07265d59c",
+                  "mime": "image/jpeg",
+                  "name": "medium_carroza.jpeg",
+                  "path": null,
+                  "size": 77.57,
+                  "width": 750,
+                  "height": 364,
+                  "provider_metadata": {
+                    "public_id": "medium_carroza_c07265d59c",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433526/thumbnail_carroza_c07265d59c.jpg",
+                  "hash": "thumbnail_carroza_c07265d59c",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_carroza.jpeg",
+                  "path": null,
+                  "size": 9.94,
+                  "width": 245,
+                  "height": 119,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_carroza_c07265d59c",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "carroza_c07265d59c",
+              "ext": ".jpeg",
+              "mime": "image/jpeg",
+              "size": 278.46,
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1664433525/carroza_c07265d59c.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "carroza_c07265d59c",
+                "resource_type": "image"
+              },
+              "createdAt": "2022-09-29T06:38:57.975Z",
+              "updatedAt": "2022-09-29T06:38:57.975Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "name": "Casa Museo Humberto Iporre Salinas",
+        "description": "Inmueble colonial que perteneció a dos personajes importantes de la colonia: José Alonso Ibáñez, líder criollo del bando vicuña que se rebeló contra el poder colonial, y Francisco Gómez de la Rocha, empresario español que falsifico las monedas acuñadas en la Casa Real de Moneda. Se trata de n museo musical que lleva l nombre de Humberto Iporre Salinas, autor de la mas emblemática obra musical de Potosí el huayño “Potosino Soy”, que esta inscrita en la Memora de la Humanidad de la UNESCO.",
+        "coordinates": [
+          -19.590496259901357,
+          -65.75029996468965
+        ],
+        "uid": "museo-1",
+        "createdAt": "2022-07-12T23:37:35.407Z",
+        "updatedAt": "2022-09-29T06:31:29.762Z",
+        "publishedAt": "2022-07-12T23:37:36.860Z",
+        "precio": 20,
+        "dias": "Lun-Sab",
+        "telefono": "+591 76166776",
+        "manana": "15:00 a 18:00",
+        "tarde": null,
+        "web": null,
+        "precioExtranjeros": null,
+        "mail": null,
+        "calle": "Nogales entre La Paz y Porco",
+        "image": {
+          "data": {
+            "id": 23,
+            "attributes": {
+              "name": "iporre.jpeg",
+              "alternativeText": "iporre.jpeg",
+              "caption": "iporre.jpeg",
+              "width": 1280,
+              "height": 622,
+              "formats": {
+                "large": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433080/large_iporre_40d5db9d9a.jpg",
+                  "hash": "large_iporre_40d5db9d9a",
+                  "mime": "image/jpeg",
+                  "name": "large_iporre.jpeg",
+                  "path": null,
+                  "size": 79.33,
+                  "width": 1000,
+                  "height": 486,
+                  "provider_metadata": {
+                    "public_id": "large_iporre_40d5db9d9a",
+                    "resource_type": "image"
+                  }
+                },
+                "small": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433082/small_iporre_40d5db9d9a.jpg",
+                  "hash": "small_iporre_40d5db9d9a",
+                  "mime": "image/jpeg",
+                  "name": "small_iporre.jpeg",
+                  "path": null,
+                  "size": 24.04,
+                  "width": 500,
+                  "height": 243,
+                  "provider_metadata": {
+                    "public_id": "small_iporre_40d5db9d9a",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433081/medium_iporre_40d5db9d9a.jpg",
+                  "hash": "medium_iporre_40d5db9d9a",
+                  "mime": "image/jpeg",
+                  "name": "medium_iporre.jpeg",
+                  "path": null,
+                  "size": 48.67,
+                  "width": 750,
+                  "height": 364,
+                  "provider_metadata": {
+                    "public_id": "medium_iporre_40d5db9d9a",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433079/thumbnail_iporre_40d5db9d9a.jpg",
+                  "hash": "thumbnail_iporre_40d5db9d9a",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_iporre.jpeg",
+                  "path": null,
+                  "size": 6.79,
+                  "width": 245,
+                  "height": 119,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_iporre_40d5db9d9a",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "iporre_40d5db9d9a",
+              "ext": ".jpeg",
+              "mime": "image/jpeg",
+              "size": 103.93,
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1664433078/iporre_40d5db9d9a.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "iporre_40d5db9d9a",
+                "resource_type": "image"
+              },
+              "createdAt": "2022-09-29T06:31:23.302Z",
+              "updatedAt": "2022-09-29T06:31:23.302Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 12,
+      "attributes": {
+        "name": "Museo Mirador Nuestra Señora de la Merced",
+        "description": "Una de las construcciones que mas tiempo demando y cuya edificación se realizo entre los años 1555 y 1687. La misma fue fundada por los padres mercedarios quienes rinden culto precisamente a la Virgen de las Mercedes, la cual esta Ornamentada con un arco de plata repujada. Esta iglesia corresponde al estilo renacentista. Sufrió varias modificaciones. La Planta es de cruz latina, teniendo un cuerpo central y el crucero, con arco triunfal. La portada se la hizo en 1687.",
+        "coordinates": [
+          -19.588553193511135,
+          -65.75169855959751
+        ],
+        "uid": "museo-11",
+        "createdAt": "2022-09-01T01:31:51.304Z",
+        "updatedAt": "2022-09-01T01:31:52.910Z",
+        "publishedAt": "2022-09-01T01:31:52.907Z",
+        "precio": null,
+        "dias": "Lun-Vie",
+        "telefono": "+591 26230250",
+        "manana": "09:00 – 12:00",
+        "tarde": "14:30 – 18:00",
+        "web": null,
+        "precioExtranjeros": null,
+        "mail": null,
+        "calle": "Hoyos esq. Millares",
+        "image": {
+          "data": {
+            "id": 15,
+            "attributes": {
+              "name": "merced.jfif",
+              "alternativeText": "merced.jfif",
+              "caption": "merced.jfif",
+              "width": 275,
+              "height": 183,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".jfif",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1661981430/thumbnail_merced_666ee02bc5.jpg",
+                  "hash": "thumbnail_merced_666ee02bc5",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_merced.jfif",
+                  "path": null,
+                  "size": 9.43,
+                  "width": 234,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_merced_666ee02bc5",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "merced_666ee02bc5",
+              "ext": ".jfif",
+              "mime": "image/jpeg",
+              "size": 8.38,
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1661981430/merced_666ee02bc5.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "merced_666ee02bc5",
+                "resource_type": "image"
+              },
+              "createdAt": "2022-09-01T01:30:31.371Z",
+              "updatedAt": "2022-09-01T01:30:31.371Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 11,
+      "attributes": {
+        "name": "Museo Iglesia San Martin de Tours",
+        "description": "Iglesia de indios Lupaca, construida de adobe afueras de la ciudad, Data de 1592. Fue la ultima arena en fundarse en tiempos delo Virrey Toledo. La planta es de Cruz Latina con cimborrio con el crucero. La torre es octagonal y corresponde al siglo XVII. La portada consta de un arco de medio puente escoltado por sencillas pilastras con remates piramidales y esféricos.",
+        "coordinates": [
+          -19.588629446976924,
+          -65.74771754070292
+        ],
+        "uid": "museo-10",
+        "createdAt": "2022-09-01T01:16:04.259Z",
+        "updatedAt": "2022-09-29T06:36:46.373Z",
+        "publishedAt": "2022-09-01T01:16:06.006Z",
+        "precio": 5,
+        "dias": "Lun-Sab",
+        "telefono": "+591 (26223682- 72433255)",
+        "manana": "10:00 – 12:00",
+        "tarde": "15:00 – 18:00",
+        "web": null,
+        "precioExtranjeros": 10,
+        "mail": null,
+        "calle": "Hoyos entre Almagro y Pizarro",
+        "image": {
+          "data": {
+            "id": 27,
+            "attributes": {
+              "name": "martin.jpeg",
+              "alternativeText": "martin.jpeg",
+              "caption": "martin.jpeg",
+              "width": 1268,
+              "height": 972,
+              "formats": {
+                "large": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433397/large_martin_a1fb9ce92a.jpg",
+                  "hash": "large_martin_a1fb9ce92a",
+                  "mime": "image/jpeg",
+                  "name": "large_martin.jpeg",
+                  "path": null,
+                  "size": 133.59,
+                  "width": 1000,
+                  "height": 767,
+                  "provider_metadata": {
+                    "public_id": "large_martin_a1fb9ce92a",
+                    "resource_type": "image"
+                  }
+                },
+                "small": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433400/small_martin_a1fb9ce92a.jpg",
+                  "hash": "small_martin_a1fb9ce92a",
+                  "mime": "image/jpeg",
+                  "name": "small_martin.jpeg",
+                  "path": null,
+                  "size": 39.11,
+                  "width": 500,
+                  "height": 383,
+                  "provider_metadata": {
+                    "public_id": "small_martin_a1fb9ce92a",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433399/medium_martin_a1fb9ce92a.jpg",
+                  "hash": "medium_martin_a1fb9ce92a",
+                  "mime": "image/jpeg",
+                  "name": "medium_martin.jpeg",
+                  "path": null,
+                  "size": 80.79,
+                  "width": 750,
+                  "height": 575,
+                  "provider_metadata": {
+                    "public_id": "medium_martin_a1fb9ce92a",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433396/thumbnail_martin_a1fb9ce92a.jpg",
+                  "hash": "thumbnail_martin_a1fb9ce92a",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_martin.jpeg",
+                  "path": null,
+                  "size": 7.76,
+                  "width": 204,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_martin_a1fb9ce92a",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "martin_a1fb9ce92a",
+              "ext": ".jpeg",
+              "mime": "image/jpeg",
+              "size": 174.69,
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1664433395/martin_a1fb9ce92a.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "martin_a1fb9ce92a",
+                "resource_type": "image"
+              },
+              "createdAt": "2022-09-29T06:36:41.554Z",
+              "updatedAt": "2022-09-29T06:36:41.554Z"
+            }
+          }
+        }
       }
     }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 12
+    }
   }
+}

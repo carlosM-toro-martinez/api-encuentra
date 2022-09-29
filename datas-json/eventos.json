@@ -1,111 +1,14 @@
 {
-    "data": [
-      {
-        "id": 1,
-        "attributes": {
-          "title": "Ch'utillos 2022",
-          "fecha": "2022-09-02T04:09:00.000Z",
-          "description": "Al margen de la riqueza autóctona y folclórica que demuestra con danzas coloridas como una síntesis de las expresiones culturales de Potosí y el país, Ch’utillos tiene también un carácter religioso que debe ser tomado en cuenta y que lamentablemente no es considerado como corresponde por parte de algunos bailarines y feligreses que participan de las veladas en el templo de San Bernardo y la visita a la localidad de La Puerta en el municipio de Yocalla, departamento de Potosí.",
-          "price": 0,
-          "createdAt": "2022-08-22T21:45:02.715Z",
-          "updatedAt": "2022-08-25T01:47:03.192Z",
-          "publishedAt": "2022-08-22T21:45:05.318Z",
-          "image": {
-            "data": {
-              "id": 9,
-              "attributes": {
-                "name": "chutillos 2022.jpg",
-                "alternativeText": "chutillos 2022.jpg",
-                "caption": "chutillos 2022.jpg",
-                "width": 2048,
-                "height": 1356,
-                "formats": {
-                  "large": {
-                    "ext": ".jpg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1661204589/large_chutillos_2022_11e5eca971.jpg",
-                    "hash": "large_chutillos_2022_11e5eca971",
-                    "mime": "image/jpeg",
-                    "name": "large_chutillos 2022.jpg",
-                    "path": null,
-                    "size": 159.54,
-                    "width": 1000,
-                    "height": 662,
-                    "provider_metadata": {
-                      "public_id": "large_chutillos_2022_11e5eca971",
-                      "resource_type": "image"
-                    }
-                  },
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1661204590/small_chutillos_2022_11e5eca971.jpg",
-                    "hash": "small_chutillos_2022_11e5eca971",
-                    "mime": "image/jpeg",
-                    "name": "small_chutillos 2022.jpg",
-                    "path": null,
-                    "size": 49.16,
-                    "width": 500,
-                    "height": 331,
-                    "provider_metadata": {
-                      "public_id": "small_chutillos_2022_11e5eca971",
-                      "resource_type": "image"
-                    }
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1661204589/medium_chutillos_2022_11e5eca971.jpg",
-                    "hash": "medium_chutillos_2022_11e5eca971",
-                    "mime": "image/jpeg",
-                    "name": "medium_chutillos 2022.jpg",
-                    "path": null,
-                    "size": 98.44,
-                    "width": 750,
-                    "height": 497,
-                    "provider_metadata": {
-                      "public_id": "medium_chutillos_2022_11e5eca971",
-                      "resource_type": "image"
-                    }
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1661204588/thumbnail_chutillos_2022_11e5eca971.jpg",
-                    "hash": "thumbnail_chutillos_2022_11e5eca971",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_chutillos 2022.jpg",
-                    "path": null,
-                    "size": 13.1,
-                    "width": 236,
-                    "height": 156,
-                    "provider_metadata": {
-                      "public_id": "thumbnail_chutillos_2022_11e5eca971",
-                      "resource_type": "image"
-                    }
-                  }
-                },
-                "hash": "chutillos_2022_11e5eca971",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 535.69,
-                "url": "https://res.cloudinary.com/potosi/image/upload/v1661204588/chutillos_2022_11e5eca971.jpg",
-                "previewUrl": null,
-                "provider": "cloudinary",
-                "provider_metadata": {
-                  "public_id": "chutillos_2022_11e5eca971",
-                  "resource_type": "image"
-                },
-                "createdAt": "2022-08-22T21:43:10.579Z",
-                "updatedAt": "2022-08-22T21:43:10.579Z"
-              }
-            }
-          }
-        }
-      }
-    ],
-    "meta": {
-      "pagination": {
-        "page": 1,
-        "pageSize": 25,
-        "pageCount": 1,
-        "total": 1
-      }
+  "data": [
+    {
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 1
     }
   }
+}
