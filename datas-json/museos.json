@@ -196,7 +196,7 @@
       "id": 9,
       "attributes": {
         "name": "Museo Departamental El Cabildo",
-        "description": "El novel Museo Histórico Departamental de Potosí muestra la historia y ola importancia que tuvo la época del Cabildo.\nAdemás, pone en valor diferentes colecciones que atesora. El Hallazgo de un “tapado” consiste en 45 monedas de plata acuñadas en 1815, en la provincia Chayanta, a cargo de mineros de la Cooperativa Colquechaca en agosto de 2017, dio pie a la creación de un museo en el edificio de la Gobernación.\n",
+        "description": "El novel Museo Histórico Departamental de Potosí muestra la historia y la importancia que tuvo la época del cabildo.\nAdemás, pone en valor diferentes colecciones, y dentro de estas la más importante es un Tapado que contiene 45 monedas de plata acuñadas en 1815 en la provincia de Chayanta a cargo de los mineros de la Cooperativa Colquechaca, este hallazgo dio pie a la creación de este Museo en la Gobernación de la ciudad de Potosí.\n",
         "coordinates": [
           -19.589428544257654,
           -65.75391083787439
@@ -417,8 +417,8 @@
     {
       "id": 1,
       "attributes": {
-        "name": "Museo Casa Nacional de Monedaaa",
-        "description": "Es el museo mas importante de Bolivia, conformado en el edificio industrial de la segunda Casa de Moneda de Potosí que acuño monedas de plata y oro entre 1767 a 1945 que circularon en todas partes del mundo. Actualmente es el museo mas visitado de Bolivia y es Patrimonio de la Humanidad registrado en el catalogo del Patrimonio de Potosí UNESCO.",
+        "name": "Museo Casa Nacional de Moneda",
+        "description": "Es el museo más importante de Bolivia, construido en el edificio industrial de la segunda Casa de Moneda de Potosí acuñó monedas de plata y oro que recorrieron el mundo entero entre 1767 y 1945. Siendo este Patrimonio de la Humanidad, se consagra como el museo más importante de Bolivia contando con un registro en el catálogo de Patrimonios de Potosí en la UNESCO.",
         "coordinates": [
           -19.587863014034948,
           -65.75433866138206
@@ -529,7 +529,7 @@
       "id": 5,
       "attributes": {
         "name": "Museo Universitario Dr. Ricardo Bohorquez R.",
-        "description": "Descripción: Fue abierto al publico el 1 de abril de 1974, El museo lleva ahora el nombre de su impulsor el Dr. Ricardo Bohorquez Ramírez que trabajo sin escatimar esfuerzos para organizar tan importante repositorio. Se exponen restos de cerámica de la cultura Yura; varios cráneos, instrumentos musicales de la colonia y la república; retratos de personajes importantes.\nSu biblioteca cuenta con obras antiguas de mucho valor, excelentes fuentes de investigación\n",
+        "description": "Fue abierto al publico el 1 de abril de 1974, El museo lleva ahora el nombre de su impulsor el Dr. Ricardo Bohorquez Ramírez que trabajo sin escatimar esfuerzos para organizar tan importante repositorio. Se exponen restos de cerámica de la cultura Yura; varios cráneos, instrumentos musicales de la colonia y la república; retratos de personajes importantes.\nSu biblioteca cuenta con obras antiguas de mucho valor, constituyéndose en excelentes fuentes de investigación.\n",
         "coordinates": [
           -19.58746182795781,
           -65.75308055405823
@@ -721,7 +721,7 @@
       "id": 4,
       "attributes": {
         "name": "Museo Eclesiástico Franciscano",
-        "description": "Descripción: Famoso por la escultura del Señor de la Vera Cruz patrono de la ciudad de Potosí, se constituye en un lugar imperdible en la isita a esta ciudad, que junto a la gran pinacoteca que engalana los corredores del claustro franciscano, los cementerios conventuales denominados criptas, ubicados en el sub suelo de la iglesia y el fascinante mirador de Santa María de los Ángeles, hacen de este lugar único en Bolivia. Solo atiendo en dos tours a horas 15:00 y 16:00.",
+        "description": "Famoso por la escultura del Señor de la Vera Cruz patrono de la ciudad de Potosí, su mística al tener un mirador, una gran pinacoteca y cementerios conventuales denominados criptas en sus corredores más profundos hace que se constituya en un lugar imperdible de visitar en nuestras calles coloniales.",
         "coordinates": [
           -19.59116603230462,
           -65.75287310104692
@@ -943,7 +943,7 @@
       "id": 2,
       "attributes": {
         "name": "Casa Museo Humberto Iporre Salinas",
-        "description": "Inmueble colonial que perteneció a dos personajes importantes de la colonia: José Alonso Ibáñez, líder criollo del bando vicuña que se rebeló contra el poder colonial, y Francisco Gómez de la Rocha, empresario español que falsifico las monedas acuñadas en la Casa Real de Moneda. Se trata de n museo musical que lleva l nombre de Humberto Iporre Salinas, autor de la mas emblemática obra musical de Potosí el huayño “Potosino Soy”, que esta inscrita en la Memora de la Humanidad de la UNESCO.",
+        "description": "Inmueble colonial que perteneció a dos personajes importantes de la colonia: José Alonso de Ibáñez, líder criollo del bando vicuña, y Francisco Gómez de la Rocha, empresario español que falsificó las monedas acuñadas en la Casa Real de Moneda. Se trata de un museo musical que lleva el nombre de Humberto Iporre salinas, autor de la más emblemática obra musical de Potosí el Huayño “Potosino Soy”, que esta inscrita en el programa “Memoria del mundo” de la UNESCO.",
         "coordinates": [
           -19.590496259901357,
           -65.75029996468965
@@ -1120,7 +1120,7 @@
       "id": 11,
       "attributes": {
         "name": "Museo Iglesia San Martin de Tours",
-        "description": "Iglesia de indios Lupaca, construida de adobe afueras de la ciudad, Data de 1592. Fue la ultima arena en fundarse en tiempos delo Virrey Toledo. La planta es de Cruz Latina con cimborrio con el crucero. La torre es octagonal y corresponde al siglo XVII. La portada consta de un arco de medio puente escoltado por sencillas pilastras con remates piramidales y esféricos.",
+        "description": "Iglesia de los indios Lupaca, fue construida de adobe a las afueras de la ciudad por ese entonces, Data de 1592 siendo el ultimo templo en fundarse en tiempos del Virrey Toledo.\nLa torre es octagonal y corresponde al siglo XVII. La portada consta de un arco de medio puente escoltado por sencillas pilastras con remates piramidales y esféricos.",
         "coordinates": [
           -19.588629446976924,
           -65.74771754070292
