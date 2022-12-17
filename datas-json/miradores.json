@@ -1,0 +1,33 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "attributes": {
+          "name": "Santa Teresa",
+          "description": "Museo conventual perteneciente a la Orden de las Carmelitas Descalzas que, en tiempo de colonia, eran hermanas de claustro, actualmente es un convento activo, donde habitan hermanas de la orden ya mencionada, en el interior del museo se puede apreciar arte sacro, como también la historia de la vida cotidiana de las hermanas Carmelitas.",
+          "coordinates": [
+            -19.5886733395874,
+            -65.75689888241716
+          ],
+          "uid": "iglesia",
+          "calle": "Santa Teresa #15 ",
+          "attributes": {
+          },
+          "extension": null,
+          "image": {
+            "data": {
+              "attributes": {
+                "url": "https://res.cloudinary.com/potosi/image/upload/v1657657582/santa_teresa_9fda4963b8.webp"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "meta": {
+      "pagination": {
+        "total": 1
+      }
+    },
+    "name": "iglesias"
+  }
