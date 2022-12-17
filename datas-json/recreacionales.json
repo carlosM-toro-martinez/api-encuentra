@@ -3,9 +3,6 @@
     {
       "id": 1,
       "attributes": {
-        "createdAt": "2022-09-17T05:31:13.063Z",
-        "updatedAt": "2022-09-29T05:10:53.753Z",
-        "publishedAt": "2022-09-29T04:23:55.756Z",
         "name": "\"Los Pinos\" Complejo Recreacional",
         "description": "Lugar recreacional con espacios verdes, donde se respira un ambiente de natural sin salir de la ciudad.",
         "coordinates": [
@@ -33,102 +30,17 @@
         "extension": null,
         "observations": null,
         "image": {
-          "data": [
-            {
-              "id": 16,
-              "attributes": {
-                "name": "los_pinos.jpeg",
-                "alternativeText": "los_pinos.jpeg",
-                "caption": "los_pinos.jpeg",
-                "width": 1600,
-                "height": 777,
-                "formats": {
-                  "large": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1663355577/large_los_pinos_01998dec63.jpg",
-                    "hash": "large_los_pinos_01998dec63",
-                    "mime": "image/jpeg",
-                    "name": "large_los_pinos.jpeg",
-                    "path": null,
-                    "size": 105.47,
-                    "width": 1000,
-                    "height": 486,
-                    "provider_metadata": {
-                      "public_id": "large_los_pinos_01998dec63",
-                      "resource_type": "image"
-                    }
-                  },
-                  "small": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1663355578/small_los_pinos_01998dec63.jpg",
-                    "hash": "small_los_pinos_01998dec63",
-                    "mime": "image/jpeg",
-                    "name": "small_los_pinos.jpeg",
-                    "path": null,
-                    "size": 30.56,
-                    "width": 500,
-                    "height": 243,
-                    "provider_metadata": {
-                      "public_id": "small_los_pinos_01998dec63",
-                      "resource_type": "image"
-                    }
-                  },
-                  "medium": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1663355577/medium_los_pinos_01998dec63.jpg",
-                    "hash": "medium_los_pinos_01998dec63",
-                    "mime": "image/jpeg",
-                    "name": "medium_los_pinos.jpeg",
-                    "path": null,
-                    "size": 63.19,
-                    "width": 750,
-                    "height": 364,
-                    "provider_metadata": {
-                      "public_id": "medium_los_pinos_01998dec63",
-                      "resource_type": "image"
-                    }
-                  },
-                  "thumbnail": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1663355576/thumbnail_los_pinos_01998dec63.jpg",
-                    "hash": "thumbnail_los_pinos_01998dec63",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_los_pinos.jpeg",
-                    "path": null,
-                    "size": 8.91,
-                    "width": 245,
-                    "height": 119,
-                    "provider_metadata": {
-                      "public_id": "thumbnail_los_pinos_01998dec63",
-                      "resource_type": "image"
-                    }
-                  }
-                },
-                "hash": "los_pinos_01998dec63",
-                "ext": ".jpeg",
-                "mime": "image/jpeg",
-                "size": 204.73,
-                "url": "https://res.cloudinary.com/potosi/image/upload/v1663355576/los_pinos_01998dec63.jpg",
-                "previewUrl": null,
-                "provider": "cloudinary",
-                "provider_metadata": {
-                  "public_id": "los_pinos_01998dec63",
-                  "resource_type": "image"
-                },
-                "createdAt": "2022-09-16T23:12:58.434Z",
-                "updatedAt": "2022-09-16T23:12:58.434Z"
-              }
+          "data": {
+            "attributes": {
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1663355576/los_pinos_01998dec63.jpg"
             }
-          ]
+          }
         }
       }
     },
     {
       "id": 2,
       "attributes": {
-        "createdAt": "2022-09-29T05:32:57.069Z",
-        "updatedAt": "2022-09-29T05:33:03.595Z",
-        "publishedAt": "2022-09-29T05:33:03.386Z",
         "name": "Parque Recreacional Potosí",
         "description": "Lugar recreacional abierto, para convivir con la familia o junto a los amigos.",
         "coordinates": [
@@ -157,102 +69,17 @@
         "extension": null,
         "observations": "prohibido el consumo de bebidas alcohólicas.",
         "image": {
-          "data": [
-            {
-              "id": 17,
-              "attributes": {
-                "name": "parque_potosi.jpeg",
-                "alternativeText": "parque_potosi.jpeg",
-                "caption": "parque_potosi.jpeg",
-                "width": 1600,
-                "height": 777,
-                "formats": {
-                  "large": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1664428853/large_parque_potosi_c0242d6b76.jpg",
-                    "hash": "large_parque_potosi_c0242d6b76",
-                    "mime": "image/jpeg",
-                    "name": "large_parque_potosi.jpeg",
-                    "path": null,
-                    "size": 95.57,
-                    "width": 1000,
-                    "height": 486,
-                    "provider_metadata": {
-                      "public_id": "large_parque_potosi_c0242d6b76",
-                      "resource_type": "image"
-                    }
-                  },
-                  "small": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1664428856/small_parque_potosi_c0242d6b76.jpg",
-                    "hash": "small_parque_potosi_c0242d6b76",
-                    "mime": "image/jpeg",
-                    "name": "small_parque_potosi.jpeg",
-                    "path": null,
-                    "size": 28.81,
-                    "width": 500,
-                    "height": 243,
-                    "provider_metadata": {
-                      "public_id": "small_parque_potosi_c0242d6b76",
-                      "resource_type": "image"
-                    }
-                  },
-                  "medium": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1664428855/medium_parque_potosi_c0242d6b76.jpg",
-                    "hash": "medium_parque_potosi_c0242d6b76",
-                    "mime": "image/jpeg",
-                    "name": "medium_parque_potosi.jpeg",
-                    "path": null,
-                    "size": 58.48,
-                    "width": 750,
-                    "height": 364,
-                    "provider_metadata": {
-                      "public_id": "medium_parque_potosi_c0242d6b76",
-                      "resource_type": "image"
-                    }
-                  },
-                  "thumbnail": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1664428851/thumbnail_parque_potosi_c0242d6b76.jpg",
-                    "hash": "thumbnail_parque_potosi_c0242d6b76",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_parque_potosi.jpeg",
-                    "path": null,
-                    "size": 8.3,
-                    "width": 245,
-                    "height": 119,
-                    "provider_metadata": {
-                      "public_id": "thumbnail_parque_potosi_c0242d6b76",
-                      "resource_type": "image"
-                    }
-                  }
-                },
-                "hash": "parque_potosi_c0242d6b76",
-                "ext": ".jpeg",
-                "mime": "image/jpeg",
-                "size": 185.36,
-                "url": "https://res.cloudinary.com/potosi/image/upload/v1664428850/parque_potosi_c0242d6b76.jpg",
-                "previewUrl": null,
-                "provider": "cloudinary",
-                "provider_metadata": {
-                  "public_id": "parque_potosi_c0242d6b76",
-                  "resource_type": "image"
-                },
-                "createdAt": "2022-09-29T05:20:56.486Z",
-                "updatedAt": "2022-09-29T05:20:56.486Z"
-              }
+          "data": {
+            "attributes": {
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1664428850/parque_potosi_c0242d6b76.jpg"
             }
-          ]
+          }
         }
       }
     },
     {
       "id": 3,
       "attributes": {
-        "createdAt": "2022-09-29T05:40:43.832Z",
-        "updatedAt": "2022-09-29T05:40:50.749Z",
-        "publishedAt": "2022-09-29T05:40:50.536Z",
         "name": "Parque Recreacional Potoquito",
         "description": "Espacio de entretenimiento infantil tradicional.",
         "coordinates": [
@@ -276,102 +103,17 @@
         "extension": null,
         "observations": "prohibido el consumo de bebidas alcohólicas.",
         "image": {
-          "data": [
-            {
-              "id": 18,
-              "attributes": {
-                "name": "potoquito.jpeg",
-                "alternativeText": "potoquito.jpeg",
-                "caption": "potoquito.jpeg",
-                "width": 1600,
-                "height": 777,
-                "formats": {
-                  "large": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1664429922/large_potoquito_7a7d96b811.jpg",
-                    "hash": "large_potoquito_7a7d96b811",
-                    "mime": "image/jpeg",
-                    "name": "large_potoquito.jpeg",
-                    "path": null,
-                    "size": 125.08,
-                    "width": 1000,
-                    "height": 486,
-                    "provider_metadata": {
-                      "public_id": "large_potoquito_7a7d96b811",
-                      "resource_type": "image"
-                    }
-                  },
-                  "small": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1664429924/small_potoquito_7a7d96b811.jpg",
-                    "hash": "small_potoquito_7a7d96b811",
-                    "mime": "image/jpeg",
-                    "name": "small_potoquito.jpeg",
-                    "path": null,
-                    "size": 35.56,
-                    "width": 500,
-                    "height": 243,
-                    "provider_metadata": {
-                      "public_id": "small_potoquito_7a7d96b811",
-                      "resource_type": "image"
-                    }
-                  },
-                  "medium": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1664429923/medium_potoquito_7a7d96b811.jpg",
-                    "hash": "medium_potoquito_7a7d96b811",
-                    "mime": "image/jpeg",
-                    "name": "medium_potoquito.jpeg",
-                    "path": null,
-                    "size": 74.53,
-                    "width": 750,
-                    "height": 364,
-                    "provider_metadata": {
-                      "public_id": "medium_potoquito_7a7d96b811",
-                      "resource_type": "image"
-                    }
-                  },
-                  "thumbnail": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1664429920/thumbnail_potoquito_7a7d96b811.jpg",
-                    "hash": "thumbnail_potoquito_7a7d96b811",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_potoquito.jpeg",
-                    "path": null,
-                    "size": 9.85,
-                    "width": 245,
-                    "height": 119,
-                    "provider_metadata": {
-                      "public_id": "thumbnail_potoquito_7a7d96b811",
-                      "resource_type": "image"
-                    }
-                  }
-                },
-                "hash": "potoquito_7a7d96b811",
-                "ext": ".jpeg",
-                "mime": "image/jpeg",
-                "size": 242.89,
-                "url": "https://res.cloudinary.com/potosi/image/upload/v1664429919/potoquito_7a7d96b811.jpg",
-                "previewUrl": null,
-                "provider": "cloudinary",
-                "provider_metadata": {
-                  "public_id": "potoquito_7a7d96b811",
-                  "resource_type": "image"
-                },
-                "createdAt": "2022-09-29T05:38:45.327Z",
-                "updatedAt": "2022-09-29T05:38:45.327Z"
-              }
+          "data": {
+            "attributes": {
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1664429919/potoquito_7a7d96b811.jpg"
             }
-          ]
+          }
         }
       }
     },
     {
       "id": 4,
       "attributes": {
-        "createdAt": "2022-09-29T05:47:40.241Z",
-        "updatedAt": "2022-09-29T05:47:48.386Z",
-        "publishedAt": "2022-09-29T05:47:48.189Z",
         "name": "Parque Recreacional Crena II",
         "description": "Espacio recreacional familiar.",
         "coordinates": [
@@ -396,102 +138,17 @@
         "extension": null,
         "observations": null,
         "image": {
-          "data": [
-            {
-              "id": 19,
-              "attributes": {
-                "name": "parque_san_cristobal.jpeg",
-                "alternativeText": "parque_san_cristobal.jpeg",
-                "caption": "parque_san_cristobal.jpeg",
-                "width": 1600,
-                "height": 777,
-                "formats": {
-                  "large": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1664430155/large_parque_san_cristobal_6ed00d3715.jpg",
-                    "hash": "large_parque_san_cristobal_6ed00d3715",
-                    "mime": "image/jpeg",
-                    "name": "large_parque_san_cristobal.jpeg",
-                    "path": null,
-                    "size": 114.7,
-                    "width": 1000,
-                    "height": 486,
-                    "provider_metadata": {
-                      "public_id": "large_parque_san_cristobal_6ed00d3715",
-                      "resource_type": "image"
-                    }
-                  },
-                  "small": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1664430157/small_parque_san_cristobal_6ed00d3715.jpg",
-                    "hash": "small_parque_san_cristobal_6ed00d3715",
-                    "mime": "image/jpeg",
-                    "name": "small_parque_san_cristobal.jpeg",
-                    "path": null,
-                    "size": 32.16,
-                    "width": 500,
-                    "height": 243,
-                    "provider_metadata": {
-                      "public_id": "small_parque_san_cristobal_6ed00d3715",
-                      "resource_type": "image"
-                    }
-                  },
-                  "medium": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1664430156/medium_parque_san_cristobal_6ed00d3715.jpg",
-                    "hash": "medium_parque_san_cristobal_6ed00d3715",
-                    "mime": "image/jpeg",
-                    "name": "medium_parque_san_cristobal.jpeg",
-                    "path": null,
-                    "size": 67.8,
-                    "width": 750,
-                    "height": 364,
-                    "provider_metadata": {
-                      "public_id": "medium_parque_san_cristobal_6ed00d3715",
-                      "resource_type": "image"
-                    }
-                  },
-                  "thumbnail": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1664430153/thumbnail_parque_san_cristobal_6ed00d3715.jpg",
-                    "hash": "thumbnail_parque_san_cristobal_6ed00d3715",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_parque_san_cristobal.jpeg",
-                    "path": null,
-                    "size": 8.89,
-                    "width": 245,
-                    "height": 119,
-                    "provider_metadata": {
-                      "public_id": "thumbnail_parque_san_cristobal_6ed00d3715",
-                      "resource_type": "image"
-                    }
-                  }
-                },
-                "hash": "parque_san_cristobal_6ed00d3715",
-                "ext": ".jpeg",
-                "mime": "image/jpeg",
-                "size": 233.35,
-                "url": "https://res.cloudinary.com/potosi/image/upload/v1664430152/parque_san_cristobal_6ed00d3715.jpg",
-                "previewUrl": null,
-                "provider": "cloudinary",
-                "provider_metadata": {
-                  "public_id": "parque_san_cristobal_6ed00d3715",
-                  "resource_type": "image"
-                },
-                "createdAt": "2022-09-29T05:42:38.470Z",
-                "updatedAt": "2022-09-29T05:42:38.470Z"
-              }
+          "data": {
+            "attributes": {
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1664430152/parque_san_cristobal_6ed00d3715.jpg"
             }
-          ]
+          }
         }
       }
     },
     {
       "id": 5,
       "attributes": {
-        "createdAt": "2022-09-29T05:51:33.749Z",
-        "updatedAt": "2022-09-29T05:51:39.535Z",
-        "publishedAt": "2022-09-29T05:51:39.327Z",
         "name": "Parque San Marcos",
         "description": "Espacio abierto de ingreso libre, en el centro histórico de la ciudad.",
         "coordinates": [
@@ -517,102 +174,17 @@
         "extension": null,
         "observations": null,
         "image": {
-          "data": [
-            {
-              "id": 20,
-              "attributes": {
-                "name": "san_marcos.jpeg",
-                "alternativeText": "san_marcos.jpeg",
-                "caption": "san_marcos.jpeg",
-                "width": 1600,
-                "height": 777,
-                "formats": {
-                  "large": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1664430552/large_san_marcos_453252dd27.jpg",
-                    "hash": "large_san_marcos_453252dd27",
-                    "mime": "image/jpeg",
-                    "name": "large_san_marcos.jpeg",
-                    "path": null,
-                    "size": 107.9,
-                    "width": 1000,
-                    "height": 486,
-                    "provider_metadata": {
-                      "public_id": "large_san_marcos_453252dd27",
-                      "resource_type": "image"
-                    }
-                  },
-                  "small": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1664430555/small_san_marcos_453252dd27.jpg",
-                    "hash": "small_san_marcos_453252dd27",
-                    "mime": "image/jpeg",
-                    "name": "small_san_marcos.jpeg",
-                    "path": null,
-                    "size": 30.24,
-                    "width": 500,
-                    "height": 243,
-                    "provider_metadata": {
-                      "public_id": "small_san_marcos_453252dd27",
-                      "resource_type": "image"
-                    }
-                  },
-                  "medium": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1664430554/medium_san_marcos_453252dd27.jpg",
-                    "hash": "medium_san_marcos_453252dd27",
-                    "mime": "image/jpeg",
-                    "name": "medium_san_marcos.jpeg",
-                    "path": null,
-                    "size": 63.55,
-                    "width": 750,
-                    "height": 364,
-                    "provider_metadata": {
-                      "public_id": "medium_san_marcos_453252dd27",
-                      "resource_type": "image"
-                    }
-                  },
-                  "thumbnail": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1664430551/thumbnail_san_marcos_453252dd27.jpg",
-                    "hash": "thumbnail_san_marcos_453252dd27",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_san_marcos.jpeg",
-                    "path": null,
-                    "size": 8.21,
-                    "width": 245,
-                    "height": 119,
-                    "provider_metadata": {
-                      "public_id": "thumbnail_san_marcos_453252dd27",
-                      "resource_type": "image"
-                    }
-                  }
-                },
-                "hash": "san_marcos_453252dd27",
-                "ext": ".jpeg",
-                "mime": "image/jpeg",
-                "size": 216.95,
-                "url": "https://res.cloudinary.com/potosi/image/upload/v1664430550/san_marcos_453252dd27.jpg",
-                "previewUrl": null,
-                "provider": "cloudinary",
-                "provider_metadata": {
-                  "public_id": "san_marcos_453252dd27",
-                  "resource_type": "image"
-                },
-                "createdAt": "2022-09-29T05:49:16.435Z",
-                "updatedAt": "2022-09-29T05:49:16.435Z"
-              }
+          "data": {
+            "attributes": {
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1664430550/san_marcos_453252dd27.jpg"
             }
-          ]
+          }
         }
       }
     },
     {
       "id": 6,
       "attributes": {
-        "createdAt": "2022-09-29T05:56:39.805Z",
-        "updatedAt": "2022-09-29T05:56:45.709Z",
-        "publishedAt": "2022-09-29T05:56:45.499Z",
         "name": "Campos Deportivos Municipales (Pampa Ingenio)",
         "description": "Espacio de campos deportivos.",
         "coordinates": [
@@ -636,102 +208,17 @@
         "extension": null,
         "observations": null,
         "image": {
-          "data": [
-            {
-              "id": 21,
-              "attributes": {
-                "name": "complejo_pampa_ingenio.jpeg",
-                "alternativeText": "complejo_pampa_ingenio.jpeg",
-                "caption": "complejo_pampa_ingenio.jpeg",
-                "width": 1600,
-                "height": 777,
-                "formats": {
-                  "large": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1664430880/large_complejo_pampa_ingenio_fb6b3680a5.jpg",
-                    "hash": "large_complejo_pampa_ingenio_fb6b3680a5",
-                    "mime": "image/jpeg",
-                    "name": "large_complejo_pampa_ingenio.jpeg",
-                    "path": null,
-                    "size": 109.8,
-                    "width": 1000,
-                    "height": 486,
-                    "provider_metadata": {
-                      "public_id": "large_complejo_pampa_ingenio_fb6b3680a5",
-                      "resource_type": "image"
-                    }
-                  },
-                  "small": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1664430882/small_complejo_pampa_ingenio_fb6b3680a5.jpg",
-                    "hash": "small_complejo_pampa_ingenio_fb6b3680a5",
-                    "mime": "image/jpeg",
-                    "name": "small_complejo_pampa_ingenio.jpeg",
-                    "path": null,
-                    "size": 33,
-                    "width": 500,
-                    "height": 243,
-                    "provider_metadata": {
-                      "public_id": "small_complejo_pampa_ingenio_fb6b3680a5",
-                      "resource_type": "image"
-                    }
-                  },
-                  "medium": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1664430881/medium_complejo_pampa_ingenio_fb6b3680a5.jpg",
-                    "hash": "medium_complejo_pampa_ingenio_fb6b3680a5",
-                    "mime": "image/jpeg",
-                    "name": "medium_complejo_pampa_ingenio.jpeg",
-                    "path": null,
-                    "size": 67.06,
-                    "width": 750,
-                    "height": 364,
-                    "provider_metadata": {
-                      "public_id": "medium_complejo_pampa_ingenio_fb6b3680a5",
-                      "resource_type": "image"
-                    }
-                  },
-                  "thumbnail": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1664430878/thumbnail_complejo_pampa_ingenio_fb6b3680a5.jpg",
-                    "hash": "thumbnail_complejo_pampa_ingenio_fb6b3680a5",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_complejo_pampa_ingenio.jpeg",
-                    "path": null,
-                    "size": 9.28,
-                    "width": 245,
-                    "height": 119,
-                    "provider_metadata": {
-                      "public_id": "thumbnail_complejo_pampa_ingenio_fb6b3680a5",
-                      "resource_type": "image"
-                    }
-                  }
-                },
-                "hash": "complejo_pampa_ingenio_fb6b3680a5",
-                "ext": ".jpeg",
-                "mime": "image/jpeg",
-                "size": 210.13,
-                "url": "https://res.cloudinary.com/potosi/image/upload/v1664430877/complejo_pampa_ingenio_fb6b3680a5.jpg",
-                "previewUrl": null,
-                "provider": "cloudinary",
-                "provider_metadata": {
-                  "public_id": "complejo_pampa_ingenio_fb6b3680a5",
-                  "resource_type": "image"
-                },
-                "createdAt": "2022-09-29T05:54:43.308Z",
-                "updatedAt": "2022-09-29T05:54:43.308Z"
-              }
+          "data": {
+            "attributes": {
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1664430877/complejo_pampa_ingenio_fb6b3680a5.jpg"
             }
-          ]
+          }
         }
       }
     },
     {
       "id": 7,
       "attributes": {
-        "createdAt": "2022-09-29T05:59:18.203Z",
-        "updatedAt": "2022-09-29T05:59:25.333Z",
-        "publishedAt": "2022-09-29T05:59:25.141Z",
         "name": "Jardín Botánico",
         "description": null,
         "coordinates": [
@@ -752,93 +239,7 @@
         "extension": null,
         "observations": null,
         "image": {
-          "data": [
-            {
-              "id": 22,
-              "attributes": {
-                "name": "jardin_botanico.jpeg",
-                "alternativeText": "jardin_botanico.jpeg",
-                "caption": "jardin_botanico.jpeg",
-                "width": 1600,
-                "height": 777,
-                "formats": {
-                  "large": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1664431066/large_jardin_botanico_804bd8e2d9.jpg",
-                    "hash": "large_jardin_botanico_804bd8e2d9",
-                    "mime": "image/jpeg",
-                    "name": "large_jardin_botanico.jpeg",
-                    "path": null,
-                    "size": 124.9,
-                    "width": 1000,
-                    "height": 486,
-                    "provider_metadata": {
-                      "public_id": "large_jardin_botanico_804bd8e2d9",
-                      "resource_type": "image"
-                    }
-                  },
-                  "small": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1664431068/small_jardin_botanico_804bd8e2d9.jpg",
-                    "hash": "small_jardin_botanico_804bd8e2d9",
-                    "mime": "image/jpeg",
-                    "name": "small_jardin_botanico.jpeg",
-                    "path": null,
-                    "size": 33.19,
-                    "width": 500,
-                    "height": 243,
-                    "provider_metadata": {
-                      "public_id": "small_jardin_botanico_804bd8e2d9",
-                      "resource_type": "image"
-                    }
-                  },
-                  "medium": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1664431067/medium_jardin_botanico_804bd8e2d9.jpg",
-                    "hash": "medium_jardin_botanico_804bd8e2d9",
-                    "mime": "image/jpeg",
-                    "name": "medium_jardin_botanico.jpeg",
-                    "path": null,
-                    "size": 72.15,
-                    "width": 750,
-                    "height": 364,
-                    "provider_metadata": {
-                      "public_id": "medium_jardin_botanico_804bd8e2d9",
-                      "resource_type": "image"
-                    }
-                  },
-                  "thumbnail": {
-                    "ext": ".jpeg",
-                    "url": "https://res.cloudinary.com/potosi/image/upload/v1664431064/thumbnail_jardin_botanico_804bd8e2d9.jpg",
-                    "hash": "thumbnail_jardin_botanico_804bd8e2d9",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_jardin_botanico.jpeg",
-                    "path": null,
-                    "size": 8.65,
-                    "width": 245,
-                    "height": 119,
-                    "provider_metadata": {
-                      "public_id": "thumbnail_jardin_botanico_804bd8e2d9",
-                      "resource_type": "image"
-                    }
-                  }
-                },
-                "hash": "jardin_botanico_804bd8e2d9",
-                "ext": ".jpeg",
-                "mime": "image/jpeg",
-                "size": 248.39,
-                "url": "https://res.cloudinary.com/potosi/image/upload/v1664431063/jardin_botanico_804bd8e2d9.jpg",
-                "previewUrl": null,
-                "provider": "cloudinary",
-                "provider_metadata": {
-                  "public_id": "jardin_botanico_804bd8e2d9",
-                  "resource_type": "image"
-                },
-                "createdAt": "2022-09-29T05:57:49.336Z",
-                "updatedAt": "2022-09-29T05:57:49.336Z"
-              }
-            }
-          ]
+          "url": "https://res.cloudinary.com/potosi/image/upload/v1664431063/jardin_botanico_804bd8e2d9.jpg"
         }
       }
     }
@@ -850,5 +251,6 @@
       "pageCount": 1,
       "total": 7
     }
-  }
+  },
+  "name": "recreacionales"
 }

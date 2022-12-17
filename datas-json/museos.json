@@ -10,9 +10,6 @@
           -65.7533351921793
         ],
         "uid": "museo-5",
-        "createdAt": "2022-08-22T01:20:43.303Z",
-        "updatedAt": "2022-08-31T07:37:12.170Z",
-        "publishedAt": "2022-08-22T01:20:45.095Z",
         "precio": 20,
         "dias": "Lun-Sab",
         "telefono": "+591 (68436185 – 75730660)",
@@ -24,58 +21,8 @@
         "calle": "Matos entre Quijarro y Junín",
         "image": {
           "data": {
-            "id": 8,
             "attributes": {
-              "name": "catedral.jpg",
-              "alternativeText": "catedral.jpg",
-              "caption": "catedral.jpg",
-              "width": 600,
-              "height": 450,
-              "formats": {
-                "small": {
-                  "ext": ".jpg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1661116677/small_catedral_2862b40f2b.jpg",
-                  "hash": "small_catedral_2862b40f2b",
-                  "mime": "image/jpeg",
-                  "name": "small_catedral.jpg",
-                  "path": null,
-                  "size": 32.87,
-                  "width": 500,
-                  "height": 375,
-                  "provider_metadata": {
-                    "public_id": "small_catedral_2862b40f2b",
-                    "resource_type": "image"
-                  }
-                },
-                "thumbnail": {
-                  "ext": ".jpg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1661116677/thumbnail_catedral_2862b40f2b.jpg",
-                  "hash": "thumbnail_catedral_2862b40f2b",
-                  "mime": "image/jpeg",
-                  "name": "thumbnail_catedral.jpg",
-                  "path": null,
-                  "size": 7.49,
-                  "width": 208,
-                  "height": 156,
-                  "provider_metadata": {
-                    "public_id": "thumbnail_catedral_2862b40f2b",
-                    "resource_type": "image"
-                  }
-                }
-              },
-              "hash": "catedral_2862b40f2b",
-              "ext": ".jpg",
-              "mime": "image/jpeg",
-              "size": 46.04,
-              "url": "https://res.cloudinary.com/potosi/image/upload/v1661116676/catedral_2862b40f2b.jpg",
-              "previewUrl": null,
-              "provider": "cloudinary",
-              "provider_metadata": {
-                "public_id": "catedral_2862b40f2b",
-                "resource_type": "image"
-              },
-              "createdAt": "2022-08-22T01:17:57.744Z",
-              "updatedAt": "2022-08-22T01:17:57.744Z"
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1661116676/catedral_2862b40f2b.jpg"
             }
           }
         }
@@ -91,9 +38,6 @@
           -65.75689888241716
         ],
         "uid": "museo-2",
-        "createdAt": "2022-07-12T23:39:45.107Z",
-        "updatedAt": "2022-08-31T08:32:10.067Z",
-        "publishedAt": "2022-07-12T23:39:46.793Z",
         "precio": 11,
         "dias": "Lun-Sab",
         "telefono": "+591 (26223847 – 63712598)",
@@ -105,88 +49,8 @@
         "calle": "Santa Teresa #15",
         "image": {
           "data": {
-            "id": 5,
             "attributes": {
-              "name": "santa-teresa.webp",
-              "alternativeText": "santa-teresa.webp",
-              "caption": "santa-teresa.webp",
-              "width": 4320,
-              "height": 3240,
-              "formats": {
-                "large": {
-                  "ext": ".webp",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1657657584/large_santa_teresa_9fda4963b8.webp",
-                  "hash": "large_santa_teresa_9fda4963b8",
-                  "mime": "image/webp",
-                  "name": "large_santa-teresa.webp",
-                  "path": null,
-                  "size": 94.29,
-                  "width": 1000,
-                  "height": 750,
-                  "provider_metadata": {
-                    "public_id": "large_santa_teresa_9fda4963b8",
-                    "resource_type": "image"
-                  }
-                },
-                "small": {
-                  "ext": ".webp",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1657657585/small_santa_teresa_9fda4963b8.webp",
-                  "hash": "small_santa_teresa_9fda4963b8",
-                  "mime": "image/webp",
-                  "name": "small_santa-teresa.webp",
-                  "path": null,
-                  "size": 31.1,
-                  "width": 500,
-                  "height": 375,
-                  "provider_metadata": {
-                    "public_id": "small_santa_teresa_9fda4963b8",
-                    "resource_type": "image"
-                  }
-                },
-                "medium": {
-                  "ext": ".webp",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1657657584/medium_santa_teresa_9fda4963b8.webp",
-                  "hash": "medium_santa_teresa_9fda4963b8",
-                  "mime": "image/webp",
-                  "name": "medium_santa-teresa.webp",
-                  "path": null,
-                  "size": 60.71,
-                  "width": 750,
-                  "height": 562,
-                  "provider_metadata": {
-                    "public_id": "medium_santa_teresa_9fda4963b8",
-                    "resource_type": "image"
-                  }
-                },
-                "thumbnail": {
-                  "ext": ".webp",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1657657583/thumbnail_santa_teresa_9fda4963b8.webp",
-                  "hash": "thumbnail_santa_teresa_9fda4963b8",
-                  "mime": "image/webp",
-                  "name": "thumbnail_santa-teresa.webp",
-                  "path": null,
-                  "size": 6.93,
-                  "width": 208,
-                  "height": 156,
-                  "provider_metadata": {
-                    "public_id": "thumbnail_santa_teresa_9fda4963b8",
-                    "resource_type": "image"
-                  }
-                }
-              },
-              "hash": "santa_teresa_9fda4963b8",
-              "ext": ".webp",
-              "mime": "image/webp",
-              "size": 897.19,
-              "url": "https://res.cloudinary.com/potosi/image/upload/v1657657582/santa_teresa_9fda4963b8.webp",
-              "previewUrl": null,
-              "provider": "cloudinary",
-              "provider_metadata": {
-                "public_id": "santa_teresa_9fda4963b8",
-                "resource_type": "image"
-              },
-              "createdAt": "2022-07-13T00:26:25.717Z",
-              "updatedAt": "2022-07-13T00:26:25.717Z"
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1657657582/santa_teresa_9fda4963b8.webp"
             }
           }
         }
@@ -202,9 +66,6 @@
           -65.75391083787439
         ],
         "uid": "museo-8",
-        "createdAt": "2022-09-01T00:07:44.022Z",
-        "updatedAt": "2022-09-29T06:34:37.161Z",
-        "publishedAt": "2022-09-01T00:08:08.556Z",
         "precio": null,
         "dias": "Lun-Vie",
         "telefono": "+591 76160605",
@@ -216,88 +77,8 @@
         "calle": "Plaza 10 de Noviembre Edificio Gobernación",
         "image": {
           "data": {
-            "id": 25,
             "attributes": {
-              "name": "cabildo.jpeg",
-              "alternativeText": "cabildo.jpeg",
-              "caption": "cabildo.jpeg",
-              "width": 1600,
-              "height": 1520,
-              "formats": {
-                "large": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433262/large_cabildo_ff01b91d61.jpg",
-                  "hash": "large_cabildo_ff01b91d61",
-                  "mime": "image/jpeg",
-                  "name": "large_cabildo.jpeg",
-                  "path": null,
-                  "size": 198.27,
-                  "width": 1000,
-                  "height": 950,
-                  "provider_metadata": {
-                    "public_id": "large_cabildo_ff01b91d61",
-                    "resource_type": "image"
-                  }
-                },
-                "small": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433265/small_cabildo_ff01b91d61.jpg",
-                  "hash": "small_cabildo_ff01b91d61",
-                  "mime": "image/jpeg",
-                  "name": "small_cabildo.jpeg",
-                  "path": null,
-                  "size": 55.65,
-                  "width": 500,
-                  "height": 475,
-                  "provider_metadata": {
-                    "public_id": "small_cabildo_ff01b91d61",
-                    "resource_type": "image"
-                  }
-                },
-                "medium": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433263/medium_cabildo_ff01b91d61.jpg",
-                  "hash": "medium_cabildo_ff01b91d61",
-                  "mime": "image/jpeg",
-                  "name": "medium_cabildo.jpeg",
-                  "path": null,
-                  "size": 116.84,
-                  "width": 750,
-                  "height": 713,
-                  "provider_metadata": {
-                    "public_id": "medium_cabildo_ff01b91d61",
-                    "resource_type": "image"
-                  }
-                },
-                "thumbnail": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433260/thumbnail_cabildo_ff01b91d61.jpg",
-                  "hash": "thumbnail_cabildo_ff01b91d61",
-                  "mime": "image/jpeg",
-                  "name": "thumbnail_cabildo.jpeg",
-                  "path": null,
-                  "size": 8.14,
-                  "width": 164,
-                  "height": 156,
-                  "provider_metadata": {
-                    "public_id": "thumbnail_cabildo_ff01b91d61",
-                    "resource_type": "image"
-                  }
-                }
-              },
-              "hash": "cabildo_ff01b91d61",
-              "ext": ".jpeg",
-              "mime": "image/jpeg",
-              "size": 383.36,
-              "url": "https://res.cloudinary.com/potosi/image/upload/v1664433259/cabildo_ff01b91d61.jpg",
-              "previewUrl": null,
-              "provider": "cloudinary",
-              "provider_metadata": {
-                "public_id": "cabildo_ff01b91d61",
-                "resource_type": "image"
-              },
-              "createdAt": "2022-09-29T06:34:25.458Z",
-              "updatedAt": "2022-09-29T06:34:25.458Z"
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1664433259/cabildo_ff01b91d61.jpg"
             }
           }
         }
@@ -313,9 +94,6 @@
           -65.75545835032746
         ],
         "uid": "museo-9",
-        "createdAt": "2022-09-01T00:40:50.007Z",
-        "updatedAt": "2022-09-29T06:38:17.680Z",
-        "publishedAt": "2022-09-01T00:40:51.524Z",
         "precio": 10,
         "dias": "Lun-Vie",
         "telefono": "+591 (26231610 - 72700330)",
@@ -327,88 +105,8 @@
         "calle": "Cobija esq. Oruro",
         "image": {
           "data": {
-            "id": 28,
             "attributes": {
-              "name": "domingo.jpeg",
-              "alternativeText": "domingo.jpeg",
-              "caption": "domingo.jpeg",
-              "width": 1464,
-              "height": 928,
-              "formats": {
-                "large": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433486/large_domingo_a86ab34a94.jpg",
-                  "hash": "large_domingo_a86ab34a94",
-                  "mime": "image/jpeg",
-                  "name": "large_domingo.jpeg",
-                  "path": null,
-                  "size": 169.51,
-                  "width": 1000,
-                  "height": 634,
-                  "provider_metadata": {
-                    "public_id": "large_domingo_a86ab34a94",
-                    "resource_type": "image"
-                  }
-                },
-                "small": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433490/small_domingo_a86ab34a94.jpg",
-                  "hash": "small_domingo_a86ab34a94",
-                  "mime": "image/jpeg",
-                  "name": "small_domingo.jpeg",
-                  "path": null,
-                  "size": 47.83,
-                  "width": 500,
-                  "height": 317,
-                  "provider_metadata": {
-                    "public_id": "small_domingo_a86ab34a94",
-                    "resource_type": "image"
-                  }
-                },
-                "medium": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433488/medium_domingo_a86ab34a94.jpg",
-                  "hash": "medium_domingo_a86ab34a94",
-                  "mime": "image/jpeg",
-                  "name": "medium_domingo.jpeg",
-                  "path": null,
-                  "size": 100.51,
-                  "width": 750,
-                  "height": 475,
-                  "provider_metadata": {
-                    "public_id": "medium_domingo_a86ab34a94",
-                    "resource_type": "image"
-                  }
-                },
-                "thumbnail": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433484/thumbnail_domingo_a86ab34a94.jpg",
-                  "hash": "thumbnail_domingo_a86ab34a94",
-                  "mime": "image/jpeg",
-                  "name": "thumbnail_domingo.jpeg",
-                  "path": null,
-                  "size": 12.67,
-                  "width": 245,
-                  "height": 155,
-                  "provider_metadata": {
-                    "public_id": "thumbnail_domingo_a86ab34a94",
-                    "resource_type": "image"
-                  }
-                }
-              },
-              "hash": "domingo_a86ab34a94",
-              "ext": ".jpeg",
-              "mime": "image/jpeg",
-              "size": 291.79,
-              "url": "https://res.cloudinary.com/potosi/image/upload/v1664433483/domingo_a86ab34a94.jpg",
-              "previewUrl": null,
-              "provider": "cloudinary",
-              "provider_metadata": {
-                "public_id": "domingo_a86ab34a94",
-                "resource_type": "image"
-              },
-              "createdAt": "2022-09-29T06:38:10.565Z",
-              "updatedAt": "2022-09-29T06:38:10.565Z"
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1664433483/domingo_a86ab34a94.jpg"
             }
           }
         }
@@ -424,9 +122,6 @@
           -65.75433866138206
         ],
         "uid": "museo",
-        "createdAt": "2022-07-12T23:30:56.381Z",
-        "updatedAt": "2022-09-29T06:32:47.196Z",
-        "publishedAt": "2022-07-12T23:31:48.147Z",
         "precio": 10,
         "dias": "Lun-Sab",
         "telefono": "+591 26222777",
@@ -438,88 +133,8 @@
         "calle": "Ayacucho entre Quijarro y Bustillos",
         "image": {
           "data": {
-            "id": 24,
             "attributes": {
-              "name": "moneda.jpeg",
-              "alternativeText": "moneda.jpeg",
-              "caption": "moneda.jpeg",
-              "width": 1320,
-              "height": 880,
-              "formats": {
-                "large": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433148/large_moneda_3d89887fbc.jpg",
-                  "hash": "large_moneda_3d89887fbc",
-                  "mime": "image/jpeg",
-                  "name": "large_moneda.jpeg",
-                  "path": null,
-                  "size": 118.19,
-                  "width": 1000,
-                  "height": 667,
-                  "provider_metadata": {
-                    "public_id": "large_moneda_3d89887fbc",
-                    "resource_type": "image"
-                  }
-                },
-                "small": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433151/small_moneda_3d89887fbc.jpg",
-                  "hash": "small_moneda_3d89887fbc",
-                  "mime": "image/jpeg",
-                  "name": "small_moneda.jpeg",
-                  "path": null,
-                  "size": 35.11,
-                  "width": 500,
-                  "height": 333,
-                  "provider_metadata": {
-                    "public_id": "small_moneda_3d89887fbc",
-                    "resource_type": "image"
-                  }
-                },
-                "medium": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433150/medium_moneda_3d89887fbc.jpg",
-                  "hash": "medium_moneda_3d89887fbc",
-                  "mime": "image/jpeg",
-                  "name": "medium_moneda.jpeg",
-                  "path": null,
-                  "size": 71.73,
-                  "width": 750,
-                  "height": 500,
-                  "provider_metadata": {
-                    "public_id": "medium_moneda_3d89887fbc",
-                    "resource_type": "image"
-                  }
-                },
-                "thumbnail": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433147/thumbnail_moneda_3d89887fbc.jpg",
-                  "hash": "thumbnail_moneda_3d89887fbc",
-                  "mime": "image/jpeg",
-                  "name": "thumbnail_moneda.jpeg",
-                  "path": null,
-                  "size": 9.47,
-                  "width": 234,
-                  "height": 156,
-                  "provider_metadata": {
-                    "public_id": "thumbnail_moneda_3d89887fbc",
-                    "resource_type": "image"
-                  }
-                }
-              },
-              "hash": "moneda_3d89887fbc",
-              "ext": ".jpeg",
-              "mime": "image/jpeg",
-              "size": 164.74,
-              "url": "https://res.cloudinary.com/potosi/image/upload/v1664433146/moneda_3d89887fbc.jpg",
-              "previewUrl": null,
-              "provider": "cloudinary",
-              "provider_metadata": {
-                "public_id": "moneda_3d89887fbc",
-                "resource_type": "image"
-              },
-              "createdAt": "2022-09-29T06:32:32.347Z",
-              "updatedAt": "2022-09-29T06:32:32.347Z"
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1664433146/moneda_3d89887fbc.jpg"
             }
           }
         }
@@ -535,9 +150,6 @@
           -65.75308055405823
         ],
         "uid": "museo-4",
-        "createdAt": "2022-08-22T00:58:35.255Z",
-        "updatedAt": "2022-08-31T09:31:12.089Z",
-        "publishedAt": "2022-08-22T00:58:37.193Z",
         "precio": 5,
         "dias": "Lun-Vie",
         "telefono": "+591 73856435",
@@ -549,58 +161,8 @@
         "calle": "Bolívar entre Junín y Sucre",
         "image": {
           "data": {
-            "id": 7,
             "attributes": {
-              "name": "Museo-Universitario-Ricardo-Bohórquez..webp",
-              "alternativeText": "Museo-Universitario-Ricardo-Bohórquez..webp",
-              "caption": "Museo-Universitario-Ricardo-Bohórquez..webp",
-              "width": 600,
-              "height": 400,
-              "formats": {
-                "small": {
-                  "ext": ".webp",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1661115028/small_Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0.webp",
-                  "hash": "small_Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0",
-                  "mime": "image/webp",
-                  "name": "small_Museo-Universitario-Ricardo-Bohórquez..webp",
-                  "path": null,
-                  "size": 25.45,
-                  "width": 500,
-                  "height": 333,
-                  "provider_metadata": {
-                    "public_id": "small_Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0",
-                    "resource_type": "image"
-                  }
-                },
-                "thumbnail": {
-                  "ext": ".webp",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1661115028/thumbnail_Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0.webp",
-                  "hash": "thumbnail_Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0",
-                  "mime": "image/webp",
-                  "name": "thumbnail_Museo-Universitario-Ricardo-Bohórquez..webp",
-                  "path": null,
-                  "size": 7.35,
-                  "width": 234,
-                  "height": 156,
-                  "provider_metadata": {
-                    "public_id": "thumbnail_Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0",
-                    "resource_type": "image"
-                  }
-                }
-              },
-              "hash": "Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0",
-              "ext": ".webp",
-              "mime": "image/webp",
-              "size": 40.91,
-              "url": "https://res.cloudinary.com/potosi/image/upload/v1661115027/Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0.webp",
-              "previewUrl": null,
-              "provider": "cloudinary",
-              "provider_metadata": {
-                "public_id": "Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0",
-                "resource_type": "image"
-              },
-              "createdAt": "2022-08-22T00:50:29.043Z",
-              "updatedAt": "2022-08-22T00:50:29.043Z"
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1661115027/Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0.webp"
             }
           }
         }
@@ -616,9 +178,6 @@
           -65.7478333
         ],
         "uid": "museo-7",
-        "createdAt": "2022-08-31T23:50:59.330Z",
-        "updatedAt": "2022-09-29T06:40:18.573Z",
-        "publishedAt": "2022-08-31T23:51:20.807Z",
         "precio": null,
         "dias": "Lun-Sab",
         "telefono": "+591 72405533",
@@ -630,88 +189,8 @@
         "calle": "H. Vargas # 818 entre Hernández y Surco",
         "image": {
           "data": {
-            "id": 30,
             "attributes": {
-              "name": "lopez.jpeg",
-              "alternativeText": "lopez.jpeg",
-              "caption": "lopez.jpeg",
-              "width": 777,
-              "height": 1600,
-              "formats": {
-                "large": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433600/large_lopez_80b38156a6.jpg",
-                  "hash": "large_lopez_80b38156a6",
-                  "mime": "image/jpeg",
-                  "name": "large_lopez.jpeg",
-                  "path": null,
-                  "size": 96.76,
-                  "width": 486,
-                  "height": 1000,
-                  "provider_metadata": {
-                    "public_id": "large_lopez_80b38156a6",
-                    "resource_type": "image"
-                  }
-                },
-                "small": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433605/small_lopez_80b38156a6.jpg",
-                  "hash": "small_lopez_80b38156a6",
-                  "mime": "image/jpeg",
-                  "name": "small_lopez.jpeg",
-                  "path": null,
-                  "size": 27.03,
-                  "width": 243,
-                  "height": 500,
-                  "provider_metadata": {
-                    "public_id": "small_lopez_80b38156a6",
-                    "resource_type": "image"
-                  }
-                },
-                "medium": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433602/medium_lopez_80b38156a6.jpg",
-                  "hash": "medium_lopez_80b38156a6",
-                  "mime": "image/jpeg",
-                  "name": "medium_lopez.jpeg",
-                  "path": null,
-                  "size": 56.43,
-                  "width": 364,
-                  "height": 750,
-                  "provider_metadata": {
-                    "public_id": "medium_lopez_80b38156a6",
-                    "resource_type": "image"
-                  }
-                },
-                "thumbnail": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433597/thumbnail_lopez_80b38156a6.jpg",
-                  "hash": "thumbnail_lopez_80b38156a6",
-                  "mime": "image/jpeg",
-                  "name": "thumbnail_lopez.jpeg",
-                  "path": null,
-                  "size": 3.72,
-                  "width": 76,
-                  "height": 156,
-                  "provider_metadata": {
-                    "public_id": "thumbnail_lopez_80b38156a6",
-                    "resource_type": "image"
-                  }
-                }
-              },
-              "hash": "lopez_80b38156a6",
-              "ext": ".jpeg",
-              "mime": "image/jpeg",
-              "size": 193.97,
-              "url": "https://res.cloudinary.com/potosi/image/upload/v1664433596/lopez_80b38156a6.jpg",
-              "previewUrl": null,
-              "provider": "cloudinary",
-              "provider_metadata": {
-                "public_id": "lopez_80b38156a6",
-                "resource_type": "image"
-              },
-              "createdAt": "2022-09-29T06:40:05.719Z",
-              "updatedAt": "2022-09-29T06:40:05.719Z"
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1664433596/lopez_80b38156a6.jpg"
             }
           }
         }
@@ -727,9 +206,6 @@
           -65.75287310104692
         ],
         "uid": "museo-3",
-        "createdAt": "2022-08-22T00:35:03.068Z",
-        "updatedAt": "2022-09-29T06:35:42.357Z",
-        "publishedAt": "2022-08-22T00:38:44.021Z",
         "precio": 15,
         "dias": "Lun-Vie",
         "telefono": "+591 26222539",
@@ -741,88 +217,8 @@
         "calle": "Tarija esq. Nogales #47",
         "image": {
           "data": {
-            "id": 26,
             "attributes": {
-              "name": "franciscano.jpeg",
-              "alternativeText": "franciscano.jpeg",
-              "caption": "franciscano.jpeg",
-              "width": 1280,
-              "height": 1280,
-              "formats": {
-                "large": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433332/large_franciscano_61effe0738.jpg",
-                  "hash": "large_franciscano_61effe0738",
-                  "mime": "image/jpeg",
-                  "name": "large_franciscano.jpeg",
-                  "path": null,
-                  "size": 198.8,
-                  "width": 1000,
-                  "height": 1000,
-                  "provider_metadata": {
-                    "public_id": "large_franciscano_61effe0738",
-                    "resource_type": "image"
-                  }
-                },
-                "small": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433335/small_franciscano_61effe0738.jpg",
-                  "hash": "small_franciscano_61effe0738",
-                  "mime": "image/jpeg",
-                  "name": "small_franciscano.jpeg",
-                  "path": null,
-                  "size": 61.57,
-                  "width": 500,
-                  "height": 500,
-                  "provider_metadata": {
-                    "public_id": "small_franciscano_61effe0738",
-                    "resource_type": "image"
-                  }
-                },
-                "medium": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433334/medium_franciscano_61effe0738.jpg",
-                  "hash": "medium_franciscano_61effe0738",
-                  "mime": "image/jpeg",
-                  "name": "medium_franciscano.jpeg",
-                  "path": null,
-                  "size": 124.15,
-                  "width": 750,
-                  "height": 750,
-                  "provider_metadata": {
-                    "public_id": "medium_franciscano_61effe0738",
-                    "resource_type": "image"
-                  }
-                },
-                "thumbnail": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433327/thumbnail_franciscano_61effe0738.jpg",
-                  "hash": "thumbnail_franciscano_61effe0738",
-                  "mime": "image/jpeg",
-                  "name": "thumbnail_franciscano.jpeg",
-                  "path": null,
-                  "size": 7.06,
-                  "width": 156,
-                  "height": 156,
-                  "provider_metadata": {
-                    "public_id": "thumbnail_franciscano_61effe0738",
-                    "resource_type": "image"
-                  }
-                }
-              },
-              "hash": "franciscano_61effe0738",
-              "ext": ".jpeg",
-              "mime": "image/jpeg",
-              "size": 250.65,
-              "url": "https://res.cloudinary.com/potosi/image/upload/v1664433326/franciscano_61effe0738.jpg",
-              "previewUrl": null,
-              "provider": "cloudinary",
-              "provider_metadata": {
-                "public_id": "franciscano_61effe0738",
-                "resource_type": "image"
-              },
-              "createdAt": "2022-09-29T06:35:35.909Z",
-              "updatedAt": "2022-09-29T06:35:35.909Z"
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1664433326/franciscano_61effe0738.jpg"
             }
           }
         }
@@ -838,9 +234,6 @@
           -65.761111
         ],
         "uid": "museo-6",
-        "createdAt": "2022-08-31T23:23:52.301Z",
-        "updatedAt": "2022-09-29T06:39:11.422Z",
-        "publishedAt": "2022-08-31T23:51:30.339Z",
         "precio": 10,
         "dias": "Lun-Sab",
         "telefono": "+591 71813001",
@@ -852,88 +245,8 @@
         "calle": "Av. Corcino Rodríguez #101 zona delicias",
         "image": {
           "data": {
-            "id": 29,
             "attributes": {
-              "name": "carroza.jpeg",
-              "alternativeText": "carroza.jpeg",
-              "caption": "carroza.jpeg",
-              "width": 1600,
-              "height": 777,
-              "formats": {
-                "large": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433529/large_carroza_c07265d59c.jpg",
-                  "hash": "large_carroza_c07265d59c",
-                  "mime": "image/jpeg",
-                  "name": "large_carroza.jpeg",
-                  "path": null,
-                  "size": 133.79,
-                  "width": 1000,
-                  "height": 486,
-                  "provider_metadata": {
-                    "public_id": "large_carroza_c07265d59c",
-                    "resource_type": "image"
-                  }
-                },
-                "small": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433537/small_carroza_c07265d59c.jpg",
-                  "hash": "small_carroza_c07265d59c",
-                  "mime": "image/jpeg",
-                  "name": "small_carroza.jpeg",
-                  "path": null,
-                  "size": 36.56,
-                  "width": 500,
-                  "height": 243,
-                  "provider_metadata": {
-                    "public_id": "small_carroza_c07265d59c",
-                    "resource_type": "image"
-                  }
-                },
-                "medium": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433535/medium_carroza_c07265d59c.jpg",
-                  "hash": "medium_carroza_c07265d59c",
-                  "mime": "image/jpeg",
-                  "name": "medium_carroza.jpeg",
-                  "path": null,
-                  "size": 77.57,
-                  "width": 750,
-                  "height": 364,
-                  "provider_metadata": {
-                    "public_id": "medium_carroza_c07265d59c",
-                    "resource_type": "image"
-                  }
-                },
-                "thumbnail": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433526/thumbnail_carroza_c07265d59c.jpg",
-                  "hash": "thumbnail_carroza_c07265d59c",
-                  "mime": "image/jpeg",
-                  "name": "thumbnail_carroza.jpeg",
-                  "path": null,
-                  "size": 9.94,
-                  "width": 245,
-                  "height": 119,
-                  "provider_metadata": {
-                    "public_id": "thumbnail_carroza_c07265d59c",
-                    "resource_type": "image"
-                  }
-                }
-              },
-              "hash": "carroza_c07265d59c",
-              "ext": ".jpeg",
-              "mime": "image/jpeg",
-              "size": 278.46,
-              "url": "https://res.cloudinary.com/potosi/image/upload/v1664433525/carroza_c07265d59c.jpg",
-              "previewUrl": null,
-              "provider": "cloudinary",
-              "provider_metadata": {
-                "public_id": "carroza_c07265d59c",
-                "resource_type": "image"
-              },
-              "createdAt": "2022-09-29T06:38:57.975Z",
-              "updatedAt": "2022-09-29T06:38:57.975Z"
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1664433525/carroza_c07265d59c.jpg"
             }
           }
         }
@@ -949,9 +262,6 @@
           -65.75029996468965
         ],
         "uid": "museo-1",
-        "createdAt": "2022-07-12T23:37:35.407Z",
-        "updatedAt": "2022-09-29T06:31:29.762Z",
-        "publishedAt": "2022-07-12T23:37:36.860Z",
         "precio": 20,
         "dias": "Lun-Sab",
         "telefono": "+591 76166776",
@@ -963,88 +273,8 @@
         "calle": "Nogales entre La Paz y Porco",
         "image": {
           "data": {
-            "id": 23,
             "attributes": {
-              "name": "iporre.jpeg",
-              "alternativeText": "iporre.jpeg",
-              "caption": "iporre.jpeg",
-              "width": 1280,
-              "height": 622,
-              "formats": {
-                "large": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433080/large_iporre_40d5db9d9a.jpg",
-                  "hash": "large_iporre_40d5db9d9a",
-                  "mime": "image/jpeg",
-                  "name": "large_iporre.jpeg",
-                  "path": null,
-                  "size": 79.33,
-                  "width": 1000,
-                  "height": 486,
-                  "provider_metadata": {
-                    "public_id": "large_iporre_40d5db9d9a",
-                    "resource_type": "image"
-                  }
-                },
-                "small": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433082/small_iporre_40d5db9d9a.jpg",
-                  "hash": "small_iporre_40d5db9d9a",
-                  "mime": "image/jpeg",
-                  "name": "small_iporre.jpeg",
-                  "path": null,
-                  "size": 24.04,
-                  "width": 500,
-                  "height": 243,
-                  "provider_metadata": {
-                    "public_id": "small_iporre_40d5db9d9a",
-                    "resource_type": "image"
-                  }
-                },
-                "medium": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433081/medium_iporre_40d5db9d9a.jpg",
-                  "hash": "medium_iporre_40d5db9d9a",
-                  "mime": "image/jpeg",
-                  "name": "medium_iporre.jpeg",
-                  "path": null,
-                  "size": 48.67,
-                  "width": 750,
-                  "height": 364,
-                  "provider_metadata": {
-                    "public_id": "medium_iporre_40d5db9d9a",
-                    "resource_type": "image"
-                  }
-                },
-                "thumbnail": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433079/thumbnail_iporre_40d5db9d9a.jpg",
-                  "hash": "thumbnail_iporre_40d5db9d9a",
-                  "mime": "image/jpeg",
-                  "name": "thumbnail_iporre.jpeg",
-                  "path": null,
-                  "size": 6.79,
-                  "width": 245,
-                  "height": 119,
-                  "provider_metadata": {
-                    "public_id": "thumbnail_iporre_40d5db9d9a",
-                    "resource_type": "image"
-                  }
-                }
-              },
-              "hash": "iporre_40d5db9d9a",
-              "ext": ".jpeg",
-              "mime": "image/jpeg",
-              "size": 103.93,
-              "url": "https://res.cloudinary.com/potosi/image/upload/v1664433078/iporre_40d5db9d9a.jpg",
-              "previewUrl": null,
-              "provider": "cloudinary",
-              "provider_metadata": {
-                "public_id": "iporre_40d5db9d9a",
-                "resource_type": "image"
-              },
-              "createdAt": "2022-09-29T06:31:23.302Z",
-              "updatedAt": "2022-09-29T06:31:23.302Z"
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1664433078/iporre_40d5db9d9a.jpg"
             }
           }
         }
@@ -1060,9 +290,6 @@
           -65.75169855959751
         ],
         "uid": "museo-11",
-        "createdAt": "2022-09-01T01:31:51.304Z",
-        "updatedAt": "2022-09-01T01:31:52.910Z",
-        "publishedAt": "2022-09-01T01:31:52.907Z",
         "precio": null,
         "dias": "Lun-Vie",
         "telefono": "+591 26230250",
@@ -1074,43 +301,8 @@
         "calle": "Hoyos esq. Millares",
         "image": {
           "data": {
-            "id": 15,
             "attributes": {
-              "name": "merced.jfif",
-              "alternativeText": "merced.jfif",
-              "caption": "merced.jfif",
-              "width": 275,
-              "height": 183,
-              "formats": {
-                "thumbnail": {
-                  "ext": ".jfif",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1661981430/thumbnail_merced_666ee02bc5.jpg",
-                  "hash": "thumbnail_merced_666ee02bc5",
-                  "mime": "image/jpeg",
-                  "name": "thumbnail_merced.jfif",
-                  "path": null,
-                  "size": 9.43,
-                  "width": 234,
-                  "height": 156,
-                  "provider_metadata": {
-                    "public_id": "thumbnail_merced_666ee02bc5",
-                    "resource_type": "image"
-                  }
-                }
-              },
-              "hash": "merced_666ee02bc5",
-              "ext": ".jfif",
-              "mime": "image/jpeg",
-              "size": 8.38,
-              "url": "https://res.cloudinary.com/potosi/image/upload/v1661981430/merced_666ee02bc5.jpg",
-              "previewUrl": null,
-              "provider": "cloudinary",
-              "provider_metadata": {
-                "public_id": "merced_666ee02bc5",
-                "resource_type": "image"
-              },
-              "createdAt": "2022-09-01T01:30:31.371Z",
-              "updatedAt": "2022-09-01T01:30:31.371Z"
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1661981430/merced_666ee02bc5.jpg"
             }
           }
         }
@@ -1126,9 +318,6 @@
           -65.74771754070292
         ],
         "uid": "museo-10",
-        "createdAt": "2022-09-01T01:16:04.259Z",
-        "updatedAt": "2022-09-29T06:36:46.373Z",
-        "publishedAt": "2022-09-01T01:16:06.006Z",
         "precio": 5,
         "dias": "Lun-Sab",
         "telefono": "+591 (26223682- 72433255)",
@@ -1140,88 +329,8 @@
         "calle": "Hoyos entre Almagro y Pizarro",
         "image": {
           "data": {
-            "id": 27,
             "attributes": {
-              "name": "martin.jpeg",
-              "alternativeText": "martin.jpeg",
-              "caption": "martin.jpeg",
-              "width": 1268,
-              "height": 972,
-              "formats": {
-                "large": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433397/large_martin_a1fb9ce92a.jpg",
-                  "hash": "large_martin_a1fb9ce92a",
-                  "mime": "image/jpeg",
-                  "name": "large_martin.jpeg",
-                  "path": null,
-                  "size": 133.59,
-                  "width": 1000,
-                  "height": 767,
-                  "provider_metadata": {
-                    "public_id": "large_martin_a1fb9ce92a",
-                    "resource_type": "image"
-                  }
-                },
-                "small": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433400/small_martin_a1fb9ce92a.jpg",
-                  "hash": "small_martin_a1fb9ce92a",
-                  "mime": "image/jpeg",
-                  "name": "small_martin.jpeg",
-                  "path": null,
-                  "size": 39.11,
-                  "width": 500,
-                  "height": 383,
-                  "provider_metadata": {
-                    "public_id": "small_martin_a1fb9ce92a",
-                    "resource_type": "image"
-                  }
-                },
-                "medium": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433399/medium_martin_a1fb9ce92a.jpg",
-                  "hash": "medium_martin_a1fb9ce92a",
-                  "mime": "image/jpeg",
-                  "name": "medium_martin.jpeg",
-                  "path": null,
-                  "size": 80.79,
-                  "width": 750,
-                  "height": 575,
-                  "provider_metadata": {
-                    "public_id": "medium_martin_a1fb9ce92a",
-                    "resource_type": "image"
-                  }
-                },
-                "thumbnail": {
-                  "ext": ".jpeg",
-                  "url": "https://res.cloudinary.com/potosi/image/upload/v1664433396/thumbnail_martin_a1fb9ce92a.jpg",
-                  "hash": "thumbnail_martin_a1fb9ce92a",
-                  "mime": "image/jpeg",
-                  "name": "thumbnail_martin.jpeg",
-                  "path": null,
-                  "size": 7.76,
-                  "width": 204,
-                  "height": 156,
-                  "provider_metadata": {
-                    "public_id": "thumbnail_martin_a1fb9ce92a",
-                    "resource_type": "image"
-                  }
-                }
-              },
-              "hash": "martin_a1fb9ce92a",
-              "ext": ".jpeg",
-              "mime": "image/jpeg",
-              "size": 174.69,
-              "url": "https://res.cloudinary.com/potosi/image/upload/v1664433395/martin_a1fb9ce92a.jpg",
-              "previewUrl": null,
-              "provider": "cloudinary",
-              "provider_metadata": {
-                "public_id": "martin_a1fb9ce92a",
-                "resource_type": "image"
-              },
-              "createdAt": "2022-09-29T06:36:41.554Z",
-              "updatedAt": "2022-09-29T06:36:41.554Z"
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1664433395/martin_a1fb9ce92a.jpg"
             }
           }
         }
@@ -1230,10 +339,8 @@
   ],
   "meta": {
     "pagination": {
-      "page": 1,
-      "pageSize": 25,
-      "pageCount": 1,
       "total": 12
     }
-  }
+  },
+  "name": "museos"
 }
