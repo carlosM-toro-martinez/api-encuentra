@@ -239,7 +239,11 @@
         "extension": null,
         "observations": null,
         "image": {
-          "url": "https://res.cloudinary.com/potosi/image/upload/v1664431063/jardin_botanico_804bd8e2d9.jpg"
+          "data": {
+            "attributes": {
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1664431063/jardin_botanico_804bd8e2d9.jpg"
+            }
+          }
         }
       }
     }
