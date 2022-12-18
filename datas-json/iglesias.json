@@ -22,6 +22,106 @@
             }
           }
         }
+      },
+      {
+        "id": 6,
+        "attributes": {
+          "name": "Catedral Santiago Apóstol",
+          "description": "Es una hermosa catedral consagrada a Santiago Apóstol de estilo ecléctico construida con piedra granítica de las canteras de Potosí, su altar mayor es neogótica y posee dos torres gemelas que dominan las alturas de nuestra ciudad. En su interior se encuentra la Cripta de los ilustres, donde están sepultados los presidentes de Bolivia y los hombres más prominentes de nuestra región.",
+          "coordinates": [
+            -19.588823974409276,
+            -65.7533351921793
+          ],
+          "uid": "iglesia",
+          "calle": "Matos entre Quijarro y Junín",
+          "image": {
+            "data": {
+              "attributes": {
+                "url": "https://res.cloudinary.com/potosi/image/upload/v1661116676/catedral_2862b40f2b.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 10,
+        "attributes": {
+          "name": "Iglesia Santo Domingo",
+          "description": "El convento de la orden de predicadores de Santo Domingo Guzmán se fundo en 1553 en el aun floreciente asiento minero Potosí, bajo la advocación de Nuestra Señora del Rosario. El visitante podrá recorrer los claustros y el templo, conociendo el régimen de vida masculina del periodo virreinal, vinculada íntimamente a las obras de arte y objetos de culto divino y la vida de Fray Vicente Bernedo.",
+          "coordinates": [
+            -19.589783555317503,
+            -65.75545835032746
+          ],
+          "uid": "iglesia",
+          "calle": "Cobija esq. Oruro",
+          "image": {
+            "data": {
+              "attributes": {
+                "url": "https://res.cloudinary.com/potosi/image/upload/v1664433483/domingo_a86ab34a94.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4,
+        "attributes": {
+          "name": "San Francisco",
+          "description": "Famoso por la escultura del Señor de la Vera Cruz patrono de la ciudad de Potosí, su mística al tener un mirador, una gran pinacoteca y cementerios conventuales denominados criptas en sus corredores más profundos hace que se constituya en un lugar imperdible de visitar en nuestras calles coloniales.",
+          "coordinates": [
+            -19.59116603230462,
+            -65.75287310104692
+          ],
+          "uid": "iglesia",
+          "calle": "Tarija esq. Nogales #47",
+          "image": {
+            "data": {
+              "attributes": {
+                "url": "https://res.cloudinary.com/potosi/image/upload/v1664433326/franciscano_61effe0738.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 12,
+        "attributes": {
+          "name": "Iglesia Nuestra Señora de la Merced",
+          "description": "Una de las construcciones que mas tiempo demando y cuya edificación se realizo entre los años 1555 y 1687. La misma fue fundada por los padres mercedarios quienes rinden culto precisamente a la Virgen de las Mercedes, la cual esta Ornamentada con un arco de plata repujada. Esta iglesia corresponde al estilo renacentista. Sufrió varias modificaciones. La Planta es de cruz latina, teniendo un cuerpo central y el crucero, con arco triunfal. La portada se la hizo en 1687.",
+          "coordinates": [
+            -19.588553193511135,
+            -65.75169855959751
+          ],
+          "uid": "iglesia",
+          "calle": "Hoyos esq. Millares",
+          "image": {
+            "data": {
+              "attributes": {
+                "url": "https://res.cloudinary.com/potosi/image/upload/v1661981430/merced_666ee02bc5.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 11,
+        "attributes": {
+          "name": "Iglesia San Martin",
+          "description": "Iglesia de los indios Lupaca, fue construida de adobe a las afueras de la ciudad por ese entonces, Data de 1592 siendo el ultimo templo en fundarse en tiempos del Virrey Toledo.\nLa torre es octagonal y corresponde al siglo XVII. La portada consta de un arco de medio puente escoltado por sencillas pilastras con remates piramidales y esféricos.",
+          "coordinates": [
+            -19.588629446976924,
+            -65.74771754070292
+          ],
+          "uid": "iglesia",
+          "calle": "Hoyos entre Almagro y Pizarro",
+          "image": {
+            "data": {
+              "attributes": {
+                "url": "https://res.cloudinary.com/potosi/image/upload/v1664433395/martin_a1fb9ce92a.jpg"
+              }
+            }
+          }
+        }
       }
     ],
     "meta": {

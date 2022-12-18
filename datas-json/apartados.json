@@ -16,13 +16,14 @@
         "name": "pub",
         "title": "Pub Restaurante",
         "eslogan": "Ya conoces todos los bares de la ciudad. Es momento de conocer todos los museos¡¡¡ (Y después ir a un bar para celebrar. 😉)", 
-        "url": "https://encuentra-api.onrender.com/api/v1/miradores"
+        "url": "https://encuentra-api.onrender.com/api/v1/pubs"
+
       },
       {
         "name": "mirador",
         "title": "Miradores Naturales",
         "eslogan": "Ya conoces todos los bares de la ciudad. Es momento de conocer todos los museos¡¡¡ (Y después ir a un bar para celebrar. 😉)",
-        "url": "https://encuentra-api.onrender.com/api/v1/pubs"
+        "url": "https://encuentra-api.onrender.com/api/v1/miradores"
       },
       {
         "name": "iglesias",
