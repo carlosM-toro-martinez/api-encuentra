@@ -3,8 +3,8 @@
       {
         "id": 1,
         "attributes": {
-          "name": "Zona Alto Potosi",
-          "description": "Una hermosa vista desde la zona alto Potosi desde donde se puede observar toda la ciudad.",
+          "name": "Mirador natural Alto Potosi",
+          "description": "Hermosa vista en la zona alta de nuestra ciudad desde donde se puede observar un paisaje inolvidable.",
           "coordinates": [
             -19.579493861262538,
             -65.73969344790667
@@ -12,9 +12,9 @@
           "uid": "mirador",
           "calle": "sin nombre",
           "attributes": {
-            "1": "transporte publico que te acerca a la zona linea N y 01",
-            "2": "cuidado con los perritos de la zona.",
-            "3": "acudir por el dia para no molestar a los vecinos de la zona."
+            "1": "Transporte publico que te acerca a la zona linea N y 01",
+            "2": "Cuidado con los perritos de la zona.",
+            "3": "Acudir por el dia para no molestar a los vecinos de la zona."
           },
           "extension": null,
           "image": {

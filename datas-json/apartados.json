@@ -20,16 +20,16 @@
 
       },
       {
-        "name": "miscelaneos",
-        "title": "Miscelaneos",
-        "eslogan": "Hay mucho mas en nuestra ciudad calles emblematicas, miradores naturales, cronicas, etc. echa un vistazo y descúbrelo",
-        "url": "https://encuentra-api.onrender.com/api/v1/miradores"
-      },
-      {
         "name": "iglesias",
         "title": "Iglesias",
         "eslogan": "Construidas en la época colonial y haciendo gala de distintos estilos arquitectonicos, conoce las iglesias que descansan en nuestra ciudad. ⛪ 🏛️",
         "url": "https://encuentra-api.onrender.com/api/v1/iglesias"
+      },
+      {
+        "name": "miscelaneos",
+        "title": "Miscelaneos",
+        "eslogan": "Hay mucho mas en nuestra ciudad calles emblematicas, miradores naturales, cronicas, etc. echa un vistazo y descúbrelo",
+        "url": "https://encuentra-api.onrender.com/api/v1/miradores"
       }
     ]
 }
