@@ -4,7 +4,7 @@
         "id": 1,
         "attributes": {
           "name": "Santa Teresa",
-          "description": "Museo conventual perteneciente a la Orden de las Carmelitas Descalzas que, en tiempo de colonia, eran hermanas de claustro, actualmente es un convento activo, donde habitan hermanas de la orden ya mencionada, en el interior del museo se puede apreciar arte sacro, como también la historia de la vida cotidiana de las hermanas Carmelitas.",
+          "description": "El Monasterio de las Carmelitas Descalzas, bajo la advocación de San José, fué fundado en 1685 en la ciudad de Potosí y desde 1976 funciona como Museo Santa Teresa. La Iglesia es considerada una de las obras arquitectónicas más hermosas, con un artesonado, un retablo y púlpito que muestra la exquisitez en el estilo barroco.",
           "coordinates": [
             -19.5886733395874,
             -65.75689888241716
@@ -24,10 +24,10 @@
         }
       },
       {
-        "id": 6,
+        "id": 2,
         "attributes": {
           "name": "Catedral Santiago Apóstol",
-          "description": "Es una hermosa catedral consagrada a Santiago Apóstol de estilo ecléctico construida con piedra granítica de las canteras de Potosí, su altar mayor es neogótica y posee dos torres gemelas que dominan las alturas de nuestra ciudad. En su interior se encuentra la Cripta de los ilustres, donde están sepultados los presidentes de Bolivia y los hombres más prominentes de nuestra región.",
+          "description": "Esta obra fue construida entre los años 1808 a 1838, impulsada por Fray Manuel de Sanahuja y su construcción demandó 28 años. El templo tuvo una nave de crucero que subsistió hasta principios de 1807, pero su desplome obligó a la reconstrucción de la Iglesia. Actualmente la Catedral de Potosí muestra la piedra y el ladrillo con que fue originalmente construida, cuenta con una cúpula centra y dos torres. En 1924 obtuvo el rango de Catedral y actualmente es considerada como una de las más bellas de Latinoamérica. En su interior hay importantes reliquias religiosas de oro y plata.",
           "coordinates": [
             -19.588823974409276,
             -65.7533351921793
@@ -44,10 +44,10 @@
         }
       },
       {
-        "id": 10,
+        "id": 3,
         "attributes": {
           "name": "Iglesia Santo Domingo",
-          "description": "El convento de la orden de predicadores de Santo Domingo Guzmán se fundo en 1553 en el aun floreciente asiento minero Potosí, bajo la advocación de Nuestra Señora del Rosario. El visitante podrá recorrer los claustros y el templo, conociendo el régimen de vida masculina del periodo virreinal, vinculada íntimamente a las obras de arte y objetos de culto divino y la vida de Fray Vicente Bernedo.",
+          "description": "Fue la segunda iglesia construida en la ciudad de Potosí y data del año 1620. Fue remodelada el año 1870 fecha en la que se introdujo el estilo neoclásico, la portada de es renacentista y uno de los elementos patrimoniales más importantes es la silería del coro alto y de la sala capitular.",
           "coordinates": [
             -19.589783555317503,
             -65.75545835032746
@@ -67,7 +67,7 @@
         "id": 4,
         "attributes": {
           "name": "San Francisco",
-          "description": "Famoso por la escultura del Señor de la Vera Cruz patrono de la ciudad de Potosí, su mística al tener un mirador, una gran pinacoteca y cementerios conventuales denominados criptas en sus corredores más profundos hace que se constituya en un lugar imperdible de visitar en nuestras calles coloniales.",
+          "description": "Esta iglesia data de 1547 y fue fundada por el Fray Gaspar de Velarde. Es el Claustro más antiguo de Bolivia, su portada esta labrada en piedra y el interior de la iglesia está decorado con lienzos del famoso pintor Melchor Pérez de Olguín y con altares neoclásicos.",
           "coordinates": [
             -19.59116603230462,
             -65.75287310104692
@@ -84,10 +84,10 @@
         }
       },
       {
-        "id": 12,
+        "id": 5,
         "attributes": {
           "name": "Iglesia Nuestra Señora de la Merced",
-          "description": "Una de las construcciones que mas tiempo demando y cuya edificación se realizo entre los años 1555 y 1687. La misma fue fundada por los padres mercedarios quienes rinden culto precisamente a la Virgen de las Mercedes, la cual esta Ornamentada con un arco de plata repujada. Esta iglesia corresponde al estilo renacentista. Sufrió varias modificaciones. La Planta es de cruz latina, teniendo un cuerpo central y el crucero, con arco triunfal. La portada se la hizo en 1687.",
+          "description": "La iglesia de La Merced está construida de acuerdo con la Real Provisión que autorizaba a los mercedarios a edificar sus conventos a no más de una cuadra de la Plaza Mayor. La actual Iglesia de la Merced está construida en piedra labrada en su frente y adobe en lo restante.",
           "coordinates": [
             -19.588553193511135,
             -65.75169855959751
@@ -104,7 +104,7 @@
         }
       },
       {
-        "id": 11,
+        "id": 6,
         "attributes": {
           "name": "Iglesia San Martin",
           "description": "Iglesia de los indios Lupaca, fue construida de adobe a las afueras de la ciudad por ese entonces, Data de 1592 siendo el ultimo templo en fundarse en tiempos del Virrey Toledo.\nLa torre es octagonal y corresponde al siglo XVII. La portada consta de un arco de medio puente escoltado por sencillas pilastras con remates piramidales y esféricos.",
@@ -118,6 +118,226 @@
             "data": {
               "attributes": {
                 "url": "https://res.cloudinary.com/potosi/image/upload/v1664433395/martin_a1fb9ce92a.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 7,
+        "attributes": {
+          "name": "Iglesia San Lorenzo de Carangas",
+          "description": "La iglesia de San Lorenzo de Potosí comenzó a construirse en 1548, como una de las primeras parroquias para españoles e indios, pero una fuerte nevada desplomo el templo diez años más tarde por lo que tuvo que ser reparada. Su remodelación mayor corresponde al siglo XVIII, entre 1728 y 1744, construyéndose la cúpula central, y la fachada íntegra con portada y torres barroca-mestiza de una vasta riqueza ornamental.",
+          "coordinates": [
+            -19.58695684789414,
+            -65.75484099060122
+          ],
+          "uid": "iglesia",
+          "calle": "Heroes del Chaco entre Chayanta y Bustillos",
+          "image": {
+            "data": {
+              "attributes": {
+                "url": "https://res.cloudinary.com/potosi/image/upload/v1671517615/iglesias/san_lorenzo_g6cukp.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 8,
+        "attributes": {
+          "name": "San Benito",
+          "description": "Conocida como la primera iglesia de indios, San Benito fue construida por Bernardo de Rojas, entre los años 1711 y 1727. La Iglesia conserva en su interior una importante colección de pinturas, un retablo del siglo XVIII y un púlpito con medias tallas correspondientes al siglo XVII. De los muros descuelgan cuadros con escenas de la vida de San Benito. El recinto tiene una forma particular, muestra en su estructura una cruz latina cubierta con 9 cúpulas de media naranja.",
+          "coordinates": [
+            -19.59165882599782,
+            -65.76017441282615
+          ],
+          "uid": "iglesia",
+          "calle": "Zona San benito",
+          "image": {
+            "data": {
+              "attributes": {
+                "url": "https://res.cloudinary.com/potosi/image/upload/v1671345477/iglesias/san_benito_wecnts.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 9,
+        "attributes": {
+          "name": "San Pedro",
+          "description": "Esta iglesia se construyó exclusivamente para los indígenas, pero en 1600 arropaba a pacajes y españoles, la fecha de su edificación quedó perdida en el tiempo. Fuentes primarias como Bartolomé Arzans señalan a 1581 como el año de su fundación y se tiene constancia de que en 1585 ya funcionaba como parroquia.",
+          "coordinates": [
+            -19.59429747931544,
+            -65.75212686883363
+          ],
+          "uid": "iglesia",
+          "calle": "San Pedro casi Millares",
+          "image": {
+            "data": {
+              "attributes": {
+                "url": "https://res.cloudinary.com/potosi/image/upload/v1671345480/iglesias/san_pedro_wn56xi.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 10,
+        "attributes": {
+          "name": "San Bernardo",
+          "description": "Se construyó en tiempos del Virrey Toledo y fue reconstruido en 1725. Está edificado en piedra sin labrar y en mampostería. Su planta es de cruz latina cubierta por bóveda de cañón y cúpula sobre tambor. San Bernardo es el centro de recogimiento, reflexión y meditación de la población, previo a la celebración de la festividad de San Bartolomé o los Ch’utillos.",
+          "coordinates": [
+            -19.585542774540464,
+            -65.75752394111504
+          ],
+          "uid": "iglesia",
+          "calle": "Plaza san bernardo calle Camacho",
+          "image": {
+            "data": {
+              "attributes": {
+                "url": "https://res.cloudinary.com/potosi/image/upload/v1671518773/iglesias/san_bernardo_penevr.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 11,
+        "attributes": {
+          "name": "Santa Monica",
+          "description": "El Monasterio de Nuestra Señora de los Remedios, de la Orden de San Agustín, más conocido como Convento de 'Santa Mónica', fue fundado en tiempos del Arzobispo de La Plata Juan Alonzo de Ocon y del Presidente Nestares Marín. En carta del 31 de julio de 1648 al Rey Felipe IV, el Cabildo de Potosí indicaba que había iniciado la construcción de la Iglesia y residencia para las Religiosas.",
+          "coordinates": [
+            -19.586646190812846,
+            -65.75147447112987
+          ],
+          "uid": "iglesia",
+          "calle": "Simon Chacon",
+          "image": {
+            "data": {
+              "attributes": {
+                "url": "https://res.cloudinary.com/potosi/image/upload/v1671519275/iglesias/santa_monica_tsqoyr.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 12,
+        "attributes": {
+          "name": "San Martin",
+          "description": "Esta Parroquia se construyó a fines del Siglo XVI en honor a San Martín de Porres, al principio fue capilla de españoles y posteriormente parroquia de los indígenas. Fue la última iglesia en fundarse en tiempos del Virrey Toledo, el templo exhibe imágenes valiosas como el Cristo Yacente, La Dolorosa y San Juan.",
+          "coordinates": [
+            -19.58864721233739,
+            -65.74773032796719
+          ],
+          "uid": "iglesia",
+          "calle": "Hoyos entre Almagro y Pizarro",
+          "image": {
+            "data": {
+              "attributes": {
+                "url": "https://res.cloudinary.com/potosi/image/upload/v1671345477/iglesias/martin_uzglat.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 13,
+        "attributes": {
+          "name": "San Juan",
+          "description": "La tumba de Alonso Ayaviri Mallku y cacique de la nación charka, nieto del rey o Mallku Cuysara, bisnieto de Coroco y tataranieto de Copacatiaraca que vivió en Sacaca y en la villa imperial, se encuentra en el templo de san juan bautista, templo que lleva en su magnífica torre el primer reloj de la catedral potosina.",
+          "coordinates": [
+            -19.59014943253155,
+            -65.74624556808479
+          ],
+          "uid": "iglesia",
+          "calle": "Chuquisaca esq. Hernandez",
+          "image": {
+            "data": {
+              "attributes": {
+                "url": "https://res.cloudinary.com/potosi/image/upload/v1671345477/iglesias/san_juan_vbxdlw.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 14,
+        "attributes": {
+          "name": "San Agustin",
+          "description": "Fue uno de los conventos más ricos y mejor obrados de la Provincia Agustiniana del Perú, según testimonio de los cronistas agustinos. Ya en 1625 contaba con buenas obras de arquitectura en madera, como el coro, púlpito y retablos. Arquitectónicamente la única pieza de valor que se conserva es la portada, de principios del siglo XVII.",
+          "coordinates": [
+            -19.58749451284563,
+            -65.75388812685846
+          ],
+          "uid": "iglesia",
+          "calle": "Bolivar esq. Quijarro",
+          "image": {
+            "data": {
+              "attributes": {
+                "url": "https://res.cloudinary.com/potosi/image/upload/v1671520280/iglesias/agustin_hta3j0.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 15,
+        "attributes": {
+          "name": "Iglesia Jerusalén",
+          "description": "La iglesia de Jerusalén se encuentra cerca al antiguo cementerio, este santuario está dedicado a la Virgen de la Candelaria aparecida en el año1623 según crónicas de la época. La construcción definitiva data del año1702, a cargo de Don Lázaro de Luna y Francisco Ortega.",
+          "coordinates": [
+            -19.585057088814622,
+            -65.75699466829074
+          ],
+          "uid": "iglesia",
+          "calle": "Antofagasta casi Av. Civica",
+          "image": {
+            "data": {
+              "attributes": {
+                "url": "https://res.cloudinary.com/potosi/image/upload/v1671520618/iglesias/jerusalen_ypxazg.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 16,
+        "attributes": {
+          "name": "Iglesia Copacabana",
+          "description": "Fue construido en el siglo XVII. Destaca por su estilo mudéjar y su cúpula de madera sobre el crucero. Su portada de estilo manierista es digna de ser vista con detenimiento, al igual que el retablo mayor labrado en piedra.",
+          "coordinates": [
+            -19.59228296855875,
+            -65.75424141121508
+          ],
+          "uid": "iglesia",
+          "calle": "Fanola al lado del colegio Copacabana",
+          "image": {
+            "data": {
+              "attributes": {
+                "url": "https://res.cloudinary.com/potosi/image/upload/v1671345476/iglesias/copacabana_gk3yyd.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 17,
+        "attributes": {
+          "name": "Concepción",
+          "description": "Este parroquia estaba ya establecida en 1585, pero fue en 1591 que se señaló el año de su fundación ya que no se encontraba una fecha anterior que demostrase su origen, el propósito de esta parroquia era el de evangelizar a los indígenas siendo esta una de las iglesias más antiguas entre las iglesias de los indios o mitayos.",
+          "coordinates": [
+            -19.592344948758285,
+            -65.74685573579512
+          ],
+          "uid": "iglesia",
+          "calle": "Hernandez",
+          "image": {
+            "data": {
+              "attributes": {
+                "url": "https://res.cloudinary.com/potosi/image/upload/v1671345476/iglesias/concepcion_mqrycs.jpg"
               }
             }
           }

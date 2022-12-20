@@ -4,24 +4,26 @@
         "id": 1,
         "attributes": {
           "name": "Pub Café Cima de Plata ",
-          "description": "Uno de los pubs mas tradicionales y emblematicos de la ciudad en pleno centro de la ciudad, lugar acogedor, musica clasica con un ambiente elegante y acogedor todos sus productos tienen el toque cimna de plata y estan elaborados con solo producto original.",
+          "description": "Uno de los pubs tradicionales más emblemáticos de la ciudad de Potosí ubicado en pleno centro de la ciudad, acogedor y con música de ambiente clásico y elegante, todo lo que nos ofrece tiene una receta especial de la casa con el toque cima de plata y están elaborados con productos originales y de la mejor calidad a continuación listaremos algunos de sus productos especiales y más pedidos:",
           "coordinates": [
             -19.590082938144242,
             -65.75243784495471
           ],
           "uid": "pub",
           "calle": "Padilla#28(bulevar) esq. Chuquisaca",
-          "tarde": "14 :00 – 00:00",
+          "tarde": "15 :00 – 00:00",
           "dias": "Lun-Dom",
           "telefono": "+591 72409229",
           "face": "https://www.facebook.com/profile.php?id=100063840900354",
           "web": null,
           "attributes": {
-            "1": "ESPECIALES DE LA CASA",
-            "2": "Café Potosina",
-            "3": "Destornillador.",
-            "4": "Picado Criollo.",
-            "5": "Cervesas Premium"
+            "1": "Coctel Navideño (ESPECIAL)",
+            "2": "Combo especial six de corona + piqueo de Salchipapa 100bs 😱(PROMOCION!)",
+            "3": "Lomito Potosino",
+            "4": "Sangria",
+            "5": "Destornillador.",
+            "6": "Pipocas de Pollo.",
+            "7": "Variedades de cafes y mucho mas."
           },
           "extension": null,
           "image": {
@@ -33,9 +35,12 @@
           },
           "images": [
             "https://res.cloudinary.com/potosi/image/upload/v1671346161/pubs/cima%20de%20plata/cima_kzaktm.jpg",
-            "https://res.cloudinary.com/potosi/image/upload/v1671346161/pubs/cima%20de%20plata/cima_1_ljqwmy.jpg",
-            "https://res.cloudinary.com/potosi/image/upload/v1671346161/pubs/cima%20de%20plata/cima_2_uzchua.jpg",
-            "https://res.cloudinary.com/potosi/image/upload/v1671346162/pubs/cima%20de%20plata/cima_3_u1free.jpg"
+            "https://res.cloudinary.com/potosi/image/upload/v1671522781/pubs/cima%20de%20plata/0_cima_fjbb3o.jpg",
+            "https://res.cloudinary.com/potosi/image/upload/v1671522780/pubs/cima%20de%20plata/1_cima_v5r4cc.jpg",
+            "https://res.cloudinary.com/potosi/image/upload/v1671522781/pubs/cima%20de%20plata/2_navide%C3%B1o_ESPECIAL_o50o4o.jpg",
+            "https://res.cloudinary.com/potosi/image/upload/v1671522781/pubs/cima%20de%20plata/3_PROMOCION_l40j4v.jpg",
+            "https://res.cloudinary.com/potosi/image/upload/v1671522781/pubs/cima%20de%20plata/4_lomito_ieqhcy.jpg",
+            "https://res.cloudinary.com/potosi/image/upload/v1671522781/pubs/cima%20de%20plata/5_sangria_rd32kb.jpg"
           ]
         }
       }

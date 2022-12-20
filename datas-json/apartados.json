@@ -3,32 +3,32 @@
       {
           "name": "museos",
           "title": "Museos",
-          "eslogan": "Ya conoces todos los bares de la ciudad. Es momento de conocer todos los museos¡¡¡ (Y después ir a un bar para celebrar. 😉)",
+          "eslogan": "Ya conoces todos los bares de la ciudad. Es momento de conocer todos los museos¡¡¡ (Y después ir a un bar para celebrar. 😉🏛️)",
           "url": "https://encuentra-api.onrender.com/api/v1/museos"
       },
       {
         "name": "recreacional",
         "title": "Lug. Recreacionales",
-        "eslogan": "Aburrido? Busca un lugar en nuestra seleccion de entretenimiento y conoce lo nuestro mientras te diviertes. 😉",
+        "eslogan": "Aburrido? Busca un lugar en nuestra seleccion de entretenimiento y conoce lo nuestro mientras te diviertes. 🏞️🧺 ",
         "url": "https://encuentra-api.onrender.com/api/v1/recreacionales"
       },
       {
         "name": "pub",
         "title": "Pub Restaurante",
-        "eslogan": "Ya conoces todos los bares de la ciudad. Es momento de conocer todos los museos¡¡¡ (Y después ir a un bar para celebrar. 😉)", 
+        "eslogan": "No hay nada mejor que un buen trago después de un día dificil, solo o acompañado, encuentra el mejor ambiente para ti. 🍸🍹🥃", 
         "url": "https://encuentra-api.onrender.com/api/v1/pubs"
 
       },
       {
-        "name": "mirador",
-        "title": "Miradores Naturales",
-        "eslogan": "Ya conoces todos los bares de la ciudad. Es momento de conocer todos los museos¡¡¡ (Y después ir a un bar para celebrar. 😉)",
+        "name": "miscelaneos",
+        "title": "Miscelaneos",
+        "eslogan": "Hay mucho mas en nuestra ciudad calles emblematicas, miradores naturales, cronicas, etc. echa un vistazo y descúbrelo",
         "url": "https://encuentra-api.onrender.com/api/v1/miradores"
       },
       {
         "name": "iglesias",
         "title": "Iglesias",
-        "eslogan": "Le gustaria conocer las principales centros religiosos de nuestra ciudad visite las iglesias mas emblematicas y admire el arte y la arquitectura de estas",
+        "eslogan": "Construidas en la época colonial y haciendo gala de distintos estilos arquitectonicos, conoce las iglesias que descansan en nuestra ciudad. ⛪ 🏛️",
         "url": "https://encuentra-api.onrender.com/api/v1/iglesias"
       }
     ]
