@@ -25,6 +25,73 @@
             }
           }
         }
+      },
+      {
+        "id": 2,
+        "attributes": {
+          "name": "Mirador natural Cerro Tunusla",
+          "description": "Hermosa vista de nuestra ciudad desde donde se puede observar un paisaje inolvidable.",
+          "coordinates": [
+            -19.569477565242806,
+            -65.7531631207283
+          ],
+          "uid": "mirador",
+          "calle": "Tumusla",
+          "extension": null,
+          "image": {
+            "data": {
+              "attributes": {
+                "url": "https://res.cloudinary.com/potosi/image/upload/v1671346712/miradores/alto_potosi_dydpuk.jpg"
+              }
+            }
+          },
+          "images": [
+            "https://res.cloudinary.com/potosi/image/upload/v1671742705/miradores/1_tumusla_wn9xzp.jpg",
+            "https://res.cloudinary.com/potosi/image/upload/v1671742705/miradores/2_tumusla_nay108.jpg"
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "attributes": {
+          "name": "Sabias que? Catedral de Potosi",
+          "description": "En la Catedral de Potosí se encuentran los restos de personajes importantes a lo largo de nuestra historia como el compositor de ‘Potosino soy’, Humberto Iporre Salinas; el escritor chuquisaqueño Carlos Medinacelli, autor de ‘La Chaskañawi’, y los presidentes Tomás Frías y José María Linares, entre otros.",
+          "coordinates": [
+            -19.588823974409276,
+            -65.7533351921793
+          ],
+          "uid": "curiosidad",
+          "calle": "Matos entre Quijarro y Junín",
+          "extension": null,
+          "image": {
+            "data": {
+              "attributes": {
+                "url": "https://res.cloudinary.com/potosi/image/upload/v1661116676/catedral_2862b40f2b.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4,
+        "attributes": {
+          "name": "Sabias que? Iglesia San Francisco",
+          "description": "El templo de San Francisco (actualmente museo) fue edificado en la época de la colonia en el siglo XVI y tiene como uno de sus atractivos principales a las Criptas (lugar subterraneo en donde se suelen enterrar a los muertos) a las que se acceden por peldaños de piedra.",
+          "coordinates": [
+            -19.59116603230462,
+            -65.75287310104692
+          ],
+          "uid": "curiosidad",
+          "calle": "Tarija esq. Nogales #47",
+          "extension": null,
+          "image": {
+            "data": {
+              "attributes": {
+                "url": "https://res.cloudinary.com/potosi/image/upload/v1671743658/curiosidades/francisco_xyhg3t.jpg"
+              }
+            }
+          }
+        }
       }
     ],
     "meta": {
