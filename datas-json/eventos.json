@@ -1,5 +1,27 @@
 {
   "data": [
+    {
+      "id": 3,
+      "attributes": {
+        "title": "Misa de Gallo",
+        "description": "Cada 24 de noviembre en Noche Buena entre las 10 p.m. y las 12 p.m. se celebra la 'Misa de Gallo' a manera de vigilia por el nacimiento de Jesús, dicha misa fue instaurada en el siglo V por Sixto III, ya que estan arraigados a la religion catolica fueron traidos por los españoles en la epoca colonial, esta misa tambien se celebra en las iglesias y parrioquias de nuesta colonial Potosí.",
+        "price": 0,
+        "event_type": "Museos",
+        "place": "Iglesias y Parroquias",
+        "attributes": {
+          "1": "Fecha: 24/12/2022"
+        },
+        "image": {
+          "data": {
+            "attributes": {
+              "width": 500,
+              "height": 600,
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1671889219/eventos/misa_de_gallo_ziemxi.jpg"
+            }
+          }
+        }
+      }
+    }
   ],
   "meta": {
     "pagination": {
