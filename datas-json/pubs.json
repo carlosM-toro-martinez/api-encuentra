@@ -17,13 +17,14 @@
           "face": "https://www.facebook.com/profile.php?id=100063840900354",
           "web": null,
           "attributes": {
-            "1": "Coctel Navideño (ESPECIAL)",
-            "2": "Combo especial six de corona + piqueo de Salchipapa 100bs 😱(PROMOCION!)",
-            "3": "Lomito Potosino",
-            "4": "Sangria",
-            "5": "Destornillador.",
-            "6": "Pipocas de Pollo.",
-            "7": "Variedades de cafes y mucho mas."
+            "1": "Cortesia esperando el año 2023 (ESPECIAL)",
+            "2": "Coctel Navideño (ESPECIAL)",
+            "3": "Combo especial six de corona + piqueo de Salchipapa 100bs 😱(PROMOCION!)",
+            "4": "Lomito Potosino",
+            "5": "Sangria",
+            "6": "Destornillador.",
+            "7": "Pipocas de Pollo.",
+            "8": "Variedades de cafes y mucho mas."
           },
           "extension": null,
           "fachada": "https://res.cloudinary.com/potosi/image/upload/v1671346162/pubs/cima%20de%20plata/cima_fachada_tjldzq.jpg",
@@ -35,6 +36,7 @@
             }
           },
           "images": [
+            "https://res.cloudinary.com/potosi/image/upload/v1672441932/pubs/cima%20de%20plata/nuevoa%C3%B1o_t9idlf.jpg",
             "https://res.cloudinary.com/potosi/image/upload/v1671522780/pubs/cima%20de%20plata/1_cima_v5r4cc.jpg",
             "https://res.cloudinary.com/potosi/image/upload/v1671522781/pubs/cima%20de%20plata/2_navide%C3%B1o_ESPECIAL_o50o4o.jpg",
             "https://res.cloudinary.com/potosi/image/upload/v1671522781/pubs/cima%20de%20plata/3_PROMOCION_l40j4v.jpg",
