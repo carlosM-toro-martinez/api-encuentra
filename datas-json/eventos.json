@@ -1,44 +1,115 @@
 {
   "data": [
     {
-      "id": 3,
+      "id": 5,
       "attributes": {
-        "title": "Misa de Gallo",
-        "description": "Cada 24 de Diciembre en Noche Buena entre las 10 p.m. y las 12 p.m. se celebra la 'Misa de Gallo' a manera de vigilia por el nacimiento de Jesús, dicha misa fue instaurada en el siglo V por Sixto III, al estar arraigados por el catolicismo y cristianismo traidos por los españoles en la epoca colonial esta misa tambien se celebra en las iglesias y parrioquias de nuesta colonial Potosí.",
+        "title": "Año Nuevo Cima de Plata",
+        "description": "Café Bar Cima de Plata no para!, esta noche te invita a celebrar el año nuevo en el ultimo evento del año para cerrar con broche de oro, disfruta de sus ambientes acogedores con música agradable, además de la cortesía de año nuevo una copa de sidra para brindar y 12 uvas para pedir tus deseos.😉",
         "price": 0,
         "event_type": "Museos",
-        "place": "Iglesias y Parroquias",
+        "place": "Padilla casi esq. Chuquisaca",
         "attributes": {
-          "1": "Fecha: 24/12/2022"
+          "1": "Fecha: 31/12/2022",
+          "2": "Cortesía esperando el año 2023"
         },
         "image": {
           "data": {
             "attributes": {
               "width": 500,
               "height": 600,
-              "url": "https://res.cloudinary.com/potosi/image/upload/v1671889219/eventos/misa_de_gallo_ziemxi.jpg"
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1672441932/pubs/cima%20de%20plata/nuevoa%C3%B1o_t9idlf.jpg"
             }
           }
         }
       }
     },
     {
-      "id": 4,
+      "id": 5,
       "attributes": {
-        "title": "Misa de Gallo",
-        "description": "Cada 24 de Diciembre en Noche Buena entre las 10 p.m. y las 12 p.m. se celebra la 'Misa de Gallo' a manera de vigilia por el nacimiento de Jesús, dicha misa fue instaurada en el siglo V por Sixto III, al estar arraigados por el catolicismo y cristianismo traidos por los españoles en la epoca colonial esta misa tambien se celebra en las iglesias y parrioquias de nuesta colonial Potosí.",
+        "title": "Año Nuevo Cima de Plata",
+        "description": "Café Bar Cima de Plata no para!, esta noche te invita a celebrar el año nuevo en el ultimo evento del año para cerrar con broche de oro, disfruta de sus ambientes acogedores con música agradable, además de la cortesía de año nuevo una copa de sidra para brindar y 12 uvas para pedir tus deseos.😉",
         "price": 0,
-        "event_type": "Iglesias",
-        "place": "Iglesias y Parroquias",
+        "event_type": "Lug. Recreacionales",
+        "place": "Padilla casi esq. Chuquisaca",
         "attributes": {
-          "1": "Fecha: 24/12/2022"
+          "1": "Fecha: 31/12/2022",
+          "2": "Cortesía esperando el año 2023"
         },
         "image": {
           "data": {
             "attributes": {
               "width": 500,
               "height": 600,
-              "url": "https://res.cloudinary.com/potosi/image/upload/v1671889219/eventos/misa_de_gallo_ziemxi.jpg"
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1672441932/pubs/cima%20de%20plata/nuevoa%C3%B1o_t9idlf.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "title": "Año Nuevo Cima de Plata",
+        "description": "Café Bar Cima de Plata no para!, esta noche te invita a celebrar el año nuevo en el ultimo evento del año para cerrar con broche de oro, disfruta de sus ambientes acogedores con música agradable, además de la cortesía de año nuevo una copa de sidra para brindar y 12 uvas para pedir tus deseos.😉",
+        "price": 0,
+        "event_type": "Pub Restaurante",
+        "place": "Padilla casi esq. Chuquisaca",
+        "attributes": {
+          "1": "Fecha: 31/12/2022",
+          "2": "Cortesía esperando el año 2023"
+        },
+        "image": {
+          "data": {
+            "attributes": {
+              "width": 500,
+              "height": 600,
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1672441932/pubs/cima%20de%20plata/nuevoa%C3%B1o_t9idlf.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "title": "Año Nuevo Cima de Plata",
+        "description": "Café Bar Cima de Plata no para!, esta noche te invita a celebrar el año nuevo en el ultimo evento del año para cerrar con broche de oro, disfruta de sus ambientes acogedores con música agradable, además de la cortesía de año nuevo una copa de sidra para brindar y 12 uvas para pedir tus deseos.😉",
+        "price": 0,
+        "event_type": "Iglesias",
+        "place": "Padilla casi esq. Chuquisaca",
+        "attributes": {
+          "1": "Fecha: 31/12/2022",
+          "2": "Cortesía esperando el año 2023"
+        },
+        "image": {
+          "data": {
+            "attributes": {
+              "width": 500,
+              "height": 600,
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1672441932/pubs/cima%20de%20plata/nuevoa%C3%B1o_t9idlf.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "title": "Año Nuevo Cima de Plata",
+        "description": "Café Bar Cima de Plata no para!, esta noche te invita a celebrar el año nuevo en el ultimo evento del año para cerrar con broche de oro, disfruta de sus ambientes acogedores con música agradable, además de la cortesía de año nuevo una copa de sidra para brindar y 12 uvas para pedir tus deseos.😉",
+        "price": 0,
+        "event_type": "Miscelaneos",
+        "place": "Padilla casi esq. Chuquisaca",
+        "attributes": {
+          "1": "Fecha: 31/12/2022",
+          "2": "Cortesía esperando el año 2023"
+        },
+        "image": {
+          "data": {
+            "attributes": {
+              "width": 500,
+              "height": 600,
+              "url": "https://res.cloudinary.com/potosi/image/upload/v1672441932/pubs/cima%20de%20plata/nuevoa%C3%B1o_t9idlf.jpg"
             }
           }
         }
