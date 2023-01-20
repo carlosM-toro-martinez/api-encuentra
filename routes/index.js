@@ -6,7 +6,7 @@ const routeMiradores = require('./routesMiradores');
 const routePubs = require('./routesPubs');
 const routeIglesias = require('./routesIglesias');
 const routeApartados = require('./routesApartados');
-const routeSession = require('./routesSession');
+//const routeSession = require('./routesSession');
 
 function router(app) {
   const routes = express.Router();
