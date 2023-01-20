@@ -17,14 +17,12 @@
           "face": "https://www.facebook.com/profile.php?id=100063840900354",
           "web": null,
           "attributes": {
-            "1": "Cortesia esperando el año 2023 (ESPECIAL)",
-            "2": "Coctel Navideño (ESPECIAL)",
-            "3": "Combo especial six de corona + piqueo de Salchipapa 100bs 😱(PROMOCION!)",
-            "4": "Lomito Potosino",
-            "5": "Sangria",
-            "6": "Destornillador.",
-            "7": "Pipocas de Pollo.",
-            "8": "Variedades de cafes y mucho mas."
+            "1": "Combos de Cereza + Super Hamburguesa 🤤 70bs (Combo Huari de Miel) y (Combo Corona extra) ",
+            "2": "Fernet Branca (ORIGINAL 😌)",
+            "3": "Lomito Potosino",
+            "5": "Destornillador.",
+            "6": "Pipocas de Pollo.",
+            "7": "Variedades de cafes y mucho mas."
           },
           "extension": null,
           "fachada": "https://res.cloudinary.com/potosi/image/upload/v1671346162/pubs/cima%20de%20plata/cima_fachada_tjldzq.jpg",
@@ -38,10 +36,12 @@
           "images": [
             "https://res.cloudinary.com/potosi/image/upload/v1672441932/pubs/cima%20de%20plata/nuevoa%C3%B1o_t9idlf.jpg",
             "https://res.cloudinary.com/potosi/image/upload/v1671522780/pubs/cima%20de%20plata/1_cima_v5r4cc.jpg",
-            "https://res.cloudinary.com/potosi/image/upload/v1671522781/pubs/cima%20de%20plata/2_navide%C3%B1o_ESPECIAL_o50o4o.jpg",
-            "https://res.cloudinary.com/potosi/image/upload/v1671522781/pubs/cima%20de%20plata/3_PROMOCION_l40j4v.jpg",
+            "https://res.cloudinary.com/potosi/image/upload/v1674253661/pubs/cima%20de%20plata/11_corona_combo_pq0knq.jpg",
+            "https://res.cloudinary.com/potosi/image/upload/v1674253661/pubs/cima%20de%20plata/10_huaris_combo_nichuo.jpg",
+            "https://res.cloudinary.com/potosi/image/upload/v1674249179/pubs/cima%20de%20plata/13_Super_hamburguesa_vwmsvx.jpg",
+            "https://res.cloudinary.com/potosi/image/upload/v1674249179/pubs/cima%20de%20plata/12_fernet_branca_acqa9t.jpg",
             "https://res.cloudinary.com/potosi/image/upload/v1671522781/pubs/cima%20de%20plata/4_lomito_ieqhcy.jpg",
-            "https://res.cloudinary.com/potosi/image/upload/v1671522781/pubs/cima%20de%20plata/5_sangria_rd32kb.jpg"
+            "https://res.cloudinary.com/potosi/image/upload/v1671522781/pubs/cima%20de%20plata/8_capuchino_gckymy.jpg"
           ]
         }
       }
