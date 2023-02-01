@@ -7,7 +7,7 @@ const { Server } = require('socket.io');
 const io = new Server(server);
 const port = process.env.PORT || 5000;
 const router = require('./routes');
-const pool = require('./libs/dbConection');
+//const pool = require('./libs/dbConection');
 
 app.use(cors({ credentials: true }));
 app.use(bodyParser.json());
