@@ -195,7 +195,6 @@ contents/
 plugins/
 templates/
 config.json
-libs
 config
 
 # End of https://www.toptal.com/developers/gitignore/api/node,wintersmith,linux,macos

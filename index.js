@@ -14,8 +14,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 router(app);
 
-console.log(io._parser.PacketType.CONNECT);
-
 app.get('/', (req, res) => {
   res.send('hola mundo');
 });
