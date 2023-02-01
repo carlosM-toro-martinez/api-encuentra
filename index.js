@@ -7,7 +7,7 @@ const { Server } = require('socket.io');
 const io = new Server(server);
 const port = process.env.PORT || 5000;
 const router = require('./routes');
-//const pool = require('./libs/dbConection');
+const pool = require('./libs/Conection.js');
 
 app.use(cors({ credentials: true }));
 app.use(bodyParser.json());
@@ -27,14 +27,14 @@ io.on('connection', (socket) => {
     console.log(res.state);
     const value = { ...res.data, state: res.state };
     console.log(value.uid, value.state);
-    // const query = 'UPDATE public.users SET state=$1 WHERE uid = $2';
-    // pool.query(query, [value.state, value.uid], (err) => {
-    //   if (err) {
-    //     console.log(err);
-    //   } else {
-    //     console.log('user update');
-    //   }
-    // });
+    const query = 'UPDATE public.users SET state=$1 WHERE uid = $2';
+    pool.query(query, [value.state, value.uid], (err) => {
+      if (err) {
+        console.log(err);
+      } else {
+        console.log('user update');
+      }
+    });
     io.emit('sendState', value);
   });
 });

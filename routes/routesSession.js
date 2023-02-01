@@ -1,12 +1,12 @@
 const express = require('express');
-const sessions = require('../services/servicesSession');
+//const sessions = require('../services/servicesSession');
 const route = express.Router();
-const pool = require('../libs/dbConection');
-const bcriptjs = require('bcryptjs');
+const pool = require('../libs/Conection.js');
+///const bcriptjs = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const { promisify } = require('util');
 
-const session = new sessions();
+//const session = new sessions();
 
 const auth = async (req, res, next) => {
   if (req.body.token) {
