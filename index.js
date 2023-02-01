@@ -5,19 +5,37 @@ const app = express();
 const server = require('http').createServer(app);
 const { Server } = require('socket.io');
 const io = new Server(server);
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5000;
 const router = require('./routes');
+const pool = require('./libs/dbConection');
 
-app.use(cors());
+app.use(cors({ credentials: true }));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 router(app);
 
+console.log(io._parser.PacketType.CONNECT);
+
+app.get('/', (req, res) => {
+  res.send('hola mundo');
+});
+
 io.on('connection', (socket) => {
   console.log('a user connected:', socket.id);
-  socket.on('prueba', (prueba) => {
-    console.log(prueba);
-    io.emit('prueba2', { p2: prueba });
+  socket.on('valueState', (res) => {
+    console.log(res.data);
+    console.log(res.state);
+    const value = { ...res.data, state: res.state };
+    console.log(value.uid, value.state);
+    // const query = 'UPDATE public.users SET state=$1 WHERE uid = $2';
+    // pool.query(query, [value.state, value.uid], (err) => {
+    //   if (err) {
+    //     console.log(err);
+    //   } else {
+    //     console.log('user update');
+    //   }
+    // });
+    io.emit('sendState', value);
   });
 });
 

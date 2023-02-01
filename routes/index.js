@@ -6,7 +6,7 @@ const routeMiradores = require('./routesMiradores');
 const routePubs = require('./routesPubs');
 const routeIglesias = require('./routesIglesias');
 const routeApartados = require('./routesApartados');
-//const routeSession = require('./routesSession');
+const routeSession = require('./routesSession');
 
 function router(app) {
   const routes = express.Router();
@@ -18,7 +18,7 @@ function router(app) {
   routes.use('/pubs', routePubs);
   routes.use('/iglesias', routeIglesias);
   routes.use('/apartados', routeApartados);
-  //routes.use('/sessions', routeSession);
+  routes.use('/sessions', routeSession);
 }
 
 module.exports = router;
