@@ -8,7 +8,9 @@ const io = new Server(server);
 const port = process.env.PORT || 5000;
 const router = require('./routes');
 const pool = require('./libs/Conection.js');
+const path = require('path');
 
+app.use('/public', express.static(path.join(__dirname, 'public')));
 app.use(cors({ credentials: true }));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
