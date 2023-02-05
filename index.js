@@ -31,6 +31,7 @@ io.on('connection', (socket) => {
         console.log(err);
       } else {
         console.log('user update');
+        io.emit('resSucces', { sending: true });
       }
     });
     io.emit('sendState', value);
