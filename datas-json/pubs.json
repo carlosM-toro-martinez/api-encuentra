@@ -44,6 +44,51 @@
             "https://res.cloudinary.com/potosi/image/upload/v1671522781/pubs/cima%20de%20plata/8_capuchino_gckymy.jpg"
           ]
         }
+      },
+      {
+        "id": 2,
+        "attributes": {
+          "name": "Restaurante Tuko's ",
+          "description": "Una experiencia diferente con infraestructura colonial, buena atmosfera, un ambiente de revista y un magnífico servicio, ubicado en el casco viejo de nuestra ciudad ya convertido en un lugar tradicional Tukos la Casa Real Restaurante te ofrece:",
+          "coordinates": [
+            -19.588706165328464,
+            -65.75049529319193
+          ],
+          "uid": "pub",
+          "calle": "Hoyos entre Porco y La Paz",
+          "manana": "10:00 a 22:00",
+          "dias": "Lun-Dom",
+          "telefono": "+591 78632592 - 62-30689",
+          "face": "https://www.facebook.com/tukosresto",
+          "web": "https://www.tripadvisor.com.pe/Restaurant_Review-g295431-d7283494-Reviews-Restaurante_Tukos_La_Casa_Real-Potosi_Potosi_Department.html",
+          "attributes": {
+            "1": "El nuevo producto “Tukomana” 🤤",
+            "2": "Almuerzo familiar (entrada, sopa, segundo y postre).",
+            "3": "Una excelente y variada carta de platos extra.",
+            "5": "Variedad de cafes.",
+            "6": "Ambiente para recepciones con capacidad de 30 personas, previa reservación.",
+            "7": "Sala de reuniones con capacidad para 100+ personas.",
+            "8": "Servicio de delivery en; Pedidos ya, Dinki y Yummy."
+
+          },
+          "extension": null,
+          "fachada": "https://res.cloudinary.com/potosi/image/upload/v1677802233/pubs/tukos/0_logo_ar3hvl.jpg",
+          "image": {
+            "data": {
+              "attributes": {
+                "url": "https://res.cloudinary.com/potosi/image/upload/v1677802233/pubs/tukos/0_logo_ar3hvl.jpg"
+              }
+            }
+          },
+          "images": [
+            "https://res.cloudinary.com/potosi/image/upload/v1677802234/pubs/tukos/2_alitas_ysqrhl.jpg",
+            "https://res.cloudinary.com/potosi/image/upload/v1677802234/pubs/tukos/1_burger_vforqe.jpg",
+            "https://res.cloudinary.com/potosi/image/upload/v1677802236/pubs/tukos/4_lugar_nfrc2c.jpg",
+            "https://res.cloudinary.com/potosi/image/upload/v1677802235/pubs/tukos/3_ambiente_qoq2ru.jpg",
+            "https://res.cloudinary.com/potosi/image/upload/v1677802236/pubs/tukos/5_salon_khxgez.jpg",
+            "https://res.cloudinary.com/potosi/image/upload/v1677802235/pubs/tukos/6_sala_d0egnq.jpg"
+          ]
+        }
       }
     ],
     "meta": {
