@@ -86,7 +86,7 @@
       {
         "id": 5,
         "attributes": {
-          "name": "Iglesia Nuestra Señora de la Merced",
+          "name": "Iglesia La Merced",
           "description": "La iglesia de La Merced está construida de acuerdo con la Real Provisión que autorizaba a los mercedarios a edificar sus conventos a no más de una cuadra de la Plaza Mayor. La actual Iglesia de la Merced está construida en piedra labrada en su frente y adobe en lo restante.",
           "coordinates": [
             -19.588553193511135,
@@ -126,7 +126,7 @@
       {
         "id": 7,
         "attributes": {
-          "name": "Iglesia San Lorenzo de Carangas",
+          "name": "San Lorenzo",
           "description": "La iglesia de San Lorenzo de Potosí comenzó a construirse en 1548, como una de las primeras parroquias para españoles e indios, pero una fuerte nevada desplomo el templo diez años más tarde por lo que tuvo que ser reparada. Su remodelación mayor corresponde al siglo XVIII, entre 1728 y 1744, construyéndose la cúpula central, y la fachada íntegra con portada y torres barroca-mestiza de una vasta riqueza ornamental.",
           "coordinates": [
             -19.58695684789414,

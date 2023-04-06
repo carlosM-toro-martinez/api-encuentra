@@ -6,4 +6,12 @@ const URI = `postgres://carlostoro:sI7BJq2RV9ivU07AEoPzZG0xTuAUN9Pz@dpg-cf2panar
 
 const pool = new Pool({ connectionString: URI });
 
+pool.connect((err) => {
+  if (err) {
+    console.log(err);
+  } else {
+    console.log('conexion success');
+  }
+});
+
 module.exports = pool;
