@@ -1,0 +1,338 @@
+[
+    {
+        "id": 6,
+        "attributes": {
+            "name": "Museo Catedral Santiago Apóstol",
+            "description": "Es una hermosa catedral consagrada a Santiago Apóstol de estilo ecléctico construida con piedra granítica de las canteras de Potosí, su altar mayor es neogótica y posee dos torres gemelas que dominan las alturas de nuestra ciudad. En su interior se encuentra la Cripta de los ilustres, donde están sepultados los presidentes de Bolivia y los hombres más prominentes de nuestra región.",
+            "coordinates": [
+                -19.588823974409276,
+                -65.7533351921793
+            ],
+            "uid": "museo-5",
+            "precio": 20,
+            "dias": "Lun-Sab",
+            "telefono": "+591 (68436185 – 75730660)",
+            "manana": "09:00 – 12:00",
+            "tarde": "14:30 – 18:00",
+            "web": null,
+            "precioExtranjeros": null,
+            "mail": null,
+            "calle": "Matos entre Quijarro y Junín",
+            "image": {
+                "data": {
+                    "attributes": {
+                        "url": "https://res.cloudinary.com/potosi/image/upload/v1661116676/catedral_2862b40f2b.jpg"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 3,
+        "attributes": {
+            "name": "Museo Santa Teresa",
+            "description": "Museo conventual perteneciente a la Orden de las Carmelitas Descalzas que, en tiempo de colonia, eran hermanas de claustro, actualmente es un convento activo, donde habitan hermanas de la orden ya mencionada, en el interior del museo se puede apreciar arte sacro, como también la historia de la vida cotidiana de las hermanas Carmelitas.",
+            "coordinates": [
+                -19.5886733395874,
+                -65.75689888241716
+            ],
+            "uid": "museo-2",
+            "precio": 11,
+            "dias": "Lun-Sab",
+            "telefono": "+591 (26223847 – 63712598)",
+            "manana": "09:00 – 12:30",
+            "tarde": "14:30 – 18:00",
+            "web": null,
+            "precioExtranjeros": 30,
+            "mail": null,
+            "calle": "Santa Teresa #15",
+            "image": {
+                "data": {
+                    "attributes": {
+                        "url": "https://res.cloudinary.com/potosi/image/upload/v1657657582/santa_teresa_9fda4963b8.webp"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 9,
+        "attributes": {
+            "name": "Museo Departamental El Cabildo",
+            "description": "El novel Museo Histórico Departamental de Potosí muestra la historia y la importancia que tuvo la época del cabildo.\nAdemás, pone en valor diferentes colecciones, y dentro de estas la más importante es un Tapado que contiene 45 monedas de plata acuñadas en 1815 en la provincia de Chayanta a cargo de los mineros de la Cooperativa Colquechaca, este hallazgo dio pie a la creación de este Museo en la Gobernación de la ciudad de Potosí.\n",
+            "coordinates": [
+                -19.589428544257654,
+                -65.75391083787439
+            ],
+            "uid": "museo-8",
+            "precio": null,
+            "dias": "Lun-Vie",
+            "telefono": "+591 76160605",
+            "manana": "09:00 – 12:00",
+            "tarde": null,
+            "web": null,
+            "precioExtranjeros": null,
+            "mail": null,
+            "calle": "Plaza 10 de Noviembre Edificio Gobernación",
+            "image": {
+                "data": {
+                    "attributes": {
+                        "url": "https://res.cloudinary.com/potosi/image/upload/v1664433259/cabildo_ff01b91d61.jpg"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 10,
+        "attributes": {
+            "name": "Museo Iglesia Santo Domingo",
+            "description": "Una visita al museo es el encuentro del esplendor, el arte y fe de Potosí. El convento de la orden de predicadores de Santo Domingo Guzmán se fundo en 1553 en el aun floreciente asiento minero Potosí, bajo la advocación de Nuestra Señora del Rosario. El visitante podrá recorrer los claustros y el templo, conociendo el régimen de vida masculina del periodo virreinal, vinculada íntimamente a las obras de arte y objetos de culto divino y la vida de Fray Vicente Bernedo.",
+            "coordinates": [
+                -19.589783555317503,
+                -65.75545835032746
+            ],
+            "uid": "museo-9",
+            "precio": 10,
+            "dias": "Lun-Vie",
+            "telefono": "+591 (26231610 - 72700330)",
+            "manana": "09:00 – 12:00",
+            "tarde": "14:00 – 17:00",
+            "web": null,
+            "precioExtranjeros": null,
+            "mail": null,
+            "calle": "Cobija esq. Oruro",
+            "image": {
+                "data": {
+                    "attributes": {
+                        "url": "https://res.cloudinary.com/potosi/image/upload/v1664433483/domingo_a86ab34a94.jpg"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 1,
+        "attributes": {
+            "name": "Museo Casa Nacional de Moneda",
+            "description": "Es el museo más importante de Bolivia, construido en el edificio industrial de la segunda Casa de Moneda de Potosí acuñó monedas de plata y oro que recorrieron el mundo entero entre 1767 y 1945. Siendo este Patrimonio de la Humanidad, se consagra como el museo más importante de Bolivia contando con un registro en el catálogo de Patrimonios de Potosí en la UNESCO.",
+            "coordinates": [
+                -19.587863014034948,
+                -65.75433866138206
+            ],
+            "uid": "museo",
+            "precio": 10,
+            "dias": "Lun-Sab",
+            "telefono": "+591 26222777",
+            "manana": "08:30 – 15:30",
+            "tarde": "",
+            "web": "http://www.casanacionaldemoneda.bo/",
+            "precioExtranjeros": 40,
+            "mail": null,
+            "calle": "Ayacucho entre Quijarro y Bustillos",
+            "image": {
+                "data": {
+                    "attributes": {
+                        "url": "https://res.cloudinary.com/potosi/image/upload/v1664433146/moneda_3d89887fbc.jpg"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 5,
+        "attributes": {
+            "name": "Museo Universitario Dr. Ricardo Bohorquez R.",
+            "description": "Fue abierto al publico el 1 de abril de 1974, El museo lleva ahora el nombre de su impulsor el Dr. Ricardo Bohorquez Ramírez que trabajo sin escatimar esfuerzos para organizar tan importante repositorio. Se exponen restos de cerámica de la cultura Yura; varios cráneos, instrumentos musicales de la colonia y la república; retratos de personajes importantes.\nSu biblioteca cuenta con obras antiguas de mucho valor, constituyéndose en excelentes fuentes de investigación.\n",
+            "coordinates": [
+                -19.58746182795781,
+                -65.75308055405823
+            ],
+            "uid": "museo-4",
+            "precio": 5,
+            "dias": "Lun-Vie",
+            "telefono": "+591 73856435",
+            "manana": null,
+            "tarde": null,
+            "web": null,
+            "precioExtranjeros": 5,
+            "mail": null,
+            "calle": "Bolívar entre Junín y Sucre",
+            "image": {
+                "data": {
+                    "attributes": {
+                        "url": "https://res.cloudinary.com/potosi/image/upload/v1661115027/Museo_Universitario_Ricardo_Bohorquez_c9e5cf16c0.webp"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 8,
+        "attributes": {
+            "name": "Museo Militar SOF. López",
+            "description": "Caracterizada por presentar en maquetas la historia de las guerras, batallas y combates mas memorables de la historia universal y particularmente boliviana. Desde las batallas mitológicas, legendarias, bíblicas, Primera y Segunda Guerras Mundiales, Corea, Vietnam, “Tormenta del Desierto” y otras, así mismo las batallas nacionales desde los levantamientos indígenas, la Guerra de la Independencia, Guerra del Pacifico, Guerra del Acre, Guerra del Chaco, Guerra de Guerrillas, entre otras.",
+            "coordinates": [
+                -19.5981944,
+                -65.7478333
+            ],
+            "uid": "museo-7",
+            "precio": null,
+            "dias": "Lun-Sab",
+            "telefono": "+591 72405533",
+            "manana": "",
+            "tarde": "15:00 – 18:00",
+            "web": null,
+            "precioExtranjeros": null,
+            "mail": null,
+            "calle": "H. Vargas # 818 entre Hernández y Surco",
+            "image": {
+                "data": {
+                    "attributes": {
+                        "url": "https://res.cloudinary.com/potosi/image/upload/v1664433596/lopez_80b38156a6.jpg"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 4,
+        "attributes": {
+            "name": "Museo Eclesiástico Franciscano",
+            "description": "Famoso por la escultura del Señor de la Vera Cruz patrono de la ciudad de Potosí, su mística al tener un mirador, una gran pinacoteca y cementerios conventuales denominados criptas en sus corredores más profundos hace que se constituya en un lugar imperdible de visitar en nuestras calles coloniales.",
+            "coordinates": [
+                -19.59116603230462,
+                -65.75287310104692
+            ],
+            "uid": "museo-3",
+            "precio": 15,
+            "dias": "Lun-Vie",
+            "telefono": "+591 26222539",
+            "manana": null,
+            "tarde": null,
+            "web": null,
+            "precioExtranjeros": 20,
+            "mail": null,
+            "calle": "Tarija esq. Nogales #47",
+            "image": {
+                "data": {
+                    "attributes": {
+                        "url": "https://res.cloudinary.com/potosi/image/upload/v1664433326/franciscano_61effe0738.jpg"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 7,
+        "attributes": {
+            "name": "Museo La Carroza",
+            "description": "Una casa funcional donde podemos encontrar una variedad de colecciones de diversos objetos antiguos como ser planchas, maquinas de escribir, coser, fotografías y de calcular, además de juegos de cristalería y platería. La familia ha restaurado y elaborado objetos a escala como armas personales y de artillería replicando modelos de la Primera y Segunda guerras mundiales. Otra área del museo esta destinada a la restauración de motocicletas y vehículos militares y de uso particular.",
+            "coordinates": [
+                -19.575,
+                -65.761111
+            ],
+            "uid": "museo-6",
+            "precio": 10,
+            "dias": "Lun-Sab",
+            "telefono": "+591 71813001",
+            "manana": "15:00 – 18:00",
+            "tarde": null,
+            "web": null,
+            "precioExtranjeros": 15,
+            "mail": null,
+            "calle": "Av. Corcino Rodríguez #101 zona delicias",
+            "image": {
+                "data": {
+                    "attributes": {
+                        "url": "https://res.cloudinary.com/potosi/image/upload/v1664433525/carroza_c07265d59c.jpg"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 2,
+        "attributes": {
+            "name": "Casa Museo Humberto Iporre Salinas",
+            "description": "Inmueble colonial que perteneció a dos personajes importantes de la colonia: José Alonso de Ibáñez, líder criollo del bando vicuña, y Francisco Gómez de la Rocha, empresario español que falsificó las monedas acuñadas en la Casa Real de Moneda. Se trata de un museo musical que lleva el nombre de Humberto Iporre salinas, autor de la más emblemática obra musical de Potosí el Huayño “Potosino Soy”, que esta inscrita en el programa “Memoria del mundo” de la UNESCO.",
+            "coordinates": [
+                -19.590496259901357,
+                -65.75029996468965
+            ],
+            "uid": "museo-1",
+            "precio": 20,
+            "dias": "Lun-Sab",
+            "telefono": "+591 76166776",
+            "manana": "15:00 a 18:00",
+            "tarde": null,
+            "web": null,
+            "precioExtranjeros": null,
+            "mail": null,
+            "calle": "Nogales entre La Paz y Porco",
+            "image": {
+                "data": {
+                    "attributes": {
+                        "url": "https://res.cloudinary.com/potosi/image/upload/v1664433078/iporre_40d5db9d9a.jpg"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 12,
+        "attributes": {
+            "name": "Museo Mirador Nuestra Señora de la Merced",
+            "description": "Una de las construcciones que mas tiempo demando y cuya edificación se realizo entre los años 1555 y 1687. La misma fue fundada por los padres mercedarios quienes rinden culto precisamente a la Virgen de las Mercedes, la cual esta Ornamentada con un arco de plata repujada. Esta iglesia corresponde al estilo renacentista. Sufrió varias modificaciones. La Planta es de cruz latina, teniendo un cuerpo central y el crucero, con arco triunfal. La portada se la hizo en 1687.",
+            "coordinates": [
+                -19.588553193511135,
+                -65.75169855959751
+            ],
+            "uid": "museo-11",
+            "precio": null,
+            "dias": "Lun-Vie",
+            "telefono": "+591 26230250",
+            "manana": "09:00 – 12:00",
+            "tarde": "14:30 – 18:00",
+            "web": null,
+            "precioExtranjeros": null,
+            "mail": null,
+            "calle": "Hoyos esq. Millares",
+            "image": {
+                "data": {
+                    "attributes": {
+                        "url": "https://res.cloudinary.com/potosi/image/upload/v1661981430/merced_666ee02bc5.jpg"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "attributes": {
+            "name": "Museo Iglesia San Martin de Tours",
+            "description": "Iglesia de los indios Lupaca, fue construida de adobe a las afueras de la ciudad por ese entonces, Data de 1592 siendo el ultimo templo en fundarse en tiempos del Virrey Toledo.\nLa torre es octagonal y corresponde al siglo XVII. La portada consta de un arco de medio puente escoltado por sencillas pilastras con remates piramidales y esféricos.",
+            "coordinates": [
+                -19.588629446976924,
+                -65.74771754070292
+            ],
+            "uid": "museo-10",
+            "precio": 5,
+            "dias": "Lun-Sab",
+            "telefono": "+591 (26223682- 72433255)",
+            "manana": "10:00 – 12:00",
+            "tarde": "15:00 – 18:00",
+            "web": null,
+            "precioExtranjeros": 10,
+            "mail": null,
+            "calle": "Hoyos entre Almagro y Pizarro",
+            "image": {
+                "data": {
+                    "attributes": {
+                        "url": "https://res.cloudinary.com/potosi/image/upload/v1664433395/martin_a1fb9ce92a.jpg"
+                    }
+                }
+            }
+        }
+    }
+]

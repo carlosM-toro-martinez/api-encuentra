@@ -2,16 +2,16 @@ const { Pool } = require('pg');
 //const { config } = require('../config/config');
 
 //const URI = `postgres://${config.dbUser}:${config.dbPass}@${config.dbHost}:${config.dbPort}/${config.dbName}`;
-const URI = `postgres://carlostoro:sI7BJq2RV9ivU07AEoPzZG0xTuAUN9Pz@dpg-cf2panarrk0bppcc9cg0-a.oregon-postgres.render.com/my_store_z87a?ssl=true`;
+// const URI = `postgres://carlostoro:sI7BJq2RV9ivU07AEoPzZG0xTuAUN9Pz@dpg-cf2panarrk0bppcc9cg0-a.oregon-postgres.render.com/my_store_z87a?ssl=true`;
 
-const pool = new Pool({ connectionString: URI });
+// const pool = new Pool({ connectionString: URI });
 
-pool.connect((err) => {
-  if (err) {
-    console.log(err);
-  } else {
-    console.log('conexion success');
-  }
-});
+// pool.connect((err) => {
+//   if (err) {
+//     console.log(err);
+//   } else {
+//     console.log('conexion success');
+//   }
+// });
 
-module.exports = pool;
+// module.exports = pool;
