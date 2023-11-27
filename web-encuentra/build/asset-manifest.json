@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/static/js/main.d29481ef.js",
+    "static/media/background.jpg": "/static/media/background.e11253813040dcff2bf5.jpg",
+    "static/media/moneda.jpg": "/static/media/moneda.890cef806912462e5b83.jpg",
+    "static/media/Lato-Black.ttf": "/static/media/Lato-Black.4a4aceb102c7911879fd.ttf",
+    "static/media/fondo.jpg": "/static/media/fondo.4074f600e1c1f7ff175b.jpg",
+    "static/media/about.jpg": "/static/media/about.6c8d93c6177c9af69d09.jpg",
+    "static/media/potosyBlack.png": "/static/media/potosyBlack.ddcbcf25ae94532b6254.png",
+    "static/media/mapPoint.png": "/static/media/mapPoint.9bf1a565646cff8ae668.png",
+    "index.html": "/index.html",
+    "main.d29481ef.js.map": "/static/js/main.d29481ef.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.d29481ef.js"
+  ]
+}
