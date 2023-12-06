@@ -2,18 +2,19 @@ import { makeStyles } from '@material-ui/core';
 import mq from '../../../config/mq';
 
 export const useStyles = makeStyles(theme => ({
-
-    //#833601 cafe
-    //#556B2F green
-    //#C0C0C0 gris
-    //#FFDAB9 texto claro
     container: {
         backgroundColor: '#C0C0C0',
         width: '17rem',
-        height: '18rem',
+        height: '20rem',
         [mq('md')]: {
-            height: '19rem',
+            height: '27rem',
             width: '20rem',
+        }
+    },
+    image: {
+        height: 200,
+        [mq('md')]: {
+            height: 250,
         }
     },
     contanerDesktop: {

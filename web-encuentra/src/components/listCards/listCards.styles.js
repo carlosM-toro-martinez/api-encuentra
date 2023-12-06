@@ -11,6 +11,7 @@ export const useStyles = makeStyles(theme => ({
         textAlign: 'center',
         padding: '0rem 1rem 0rem 1rem',
         '& h4': {
+            marginTop: '2rem',
             fontSize: '0.8rem',
             color: '#C0C0C0',
             fontFamily: 'Roboto-bold',
@@ -25,15 +26,20 @@ export const useStyles = makeStyles(theme => ({
             letterSpacing: '.3rem',
             fontFamily: 'NotoSerifDisplay_ExtraCondensed-BlackItalic',
             textTransform: 'uppercase',
+            transform: 'skew(-10deg)',
+            textAlign: 'center',
+            background: 'linear-gradient(to right, #FFD966, #FF4500)',
+            padding: theme.spacing(1),
+            color: 'black',
+            fontWeight: 'bold',
         },
         [mq('md')]: {
-            padding: '1rem 10rem 1rem 10rem',
+            padding: '1rem 20rem 1rem 20rem',
             '& h4': {
-                fontSize: '1.5rem',
+                fontSize: '2rem',
             },
             '& h5': {
-                fontSize: '3rem',
-                padding: '1rem 0 1rem 0',
+                fontSize: '2rem',
                 letterSpacing: '.3rem',
             },
         },

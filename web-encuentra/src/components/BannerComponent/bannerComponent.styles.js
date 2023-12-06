@@ -12,13 +12,14 @@ export const useStyles = makeStyles(theme => ({
         },
     },
     shadow: {
-        backgroundColor: 'rgba(0, 0, 0, 0.8)',
+        backgroundColor: 'rgba(0, 0, 0, 0.1)',
         width: '100%',
         height: '100%',
         '& h4': {
+            padding: '5rem 1rem 1rem 1rem',
+            marginBottom: '3rem',
             fontSize: '1rem',
-            padding: '5rem 0 1rem 0',
-            color: '#FFA07A',
+            color: 'white',
             textAlign: 'center',
             fontWeight: 'bold',
             letterSpacing: '.1rem',
@@ -26,10 +27,12 @@ export const useStyles = makeStyles(theme => ({
             textTransform: 'uppercase',
         },
         [mq('md')]: {
+            backgroundColor: 'rgba(0, 0, 0, 0.5)',
+
             '& h4': {
                 fontSize: '2.5rem',
                 padding: '8rem 0 3rem 0',
-                letterSpacing: '.8rem',
+                letterSpacing: '.5rem',
             },
         },
     },

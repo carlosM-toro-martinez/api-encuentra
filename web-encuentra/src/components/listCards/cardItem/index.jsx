@@ -1,22 +1,20 @@
 import { useStyles } from './cardItem.styles';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { CardActionArea } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 
 function CardItem({ data }) {
-  const { name, image } = data.attributes;
+  const { business_name, logo_url, business_id } = data;
+  const correctedUrl = logo_url.replace(/\\/g, '/');
   const navigate = useNavigate();
   const handleNavigate = () => {
-    navigate('/datails', { state: data.attributes })
+    navigate(`/datails/${business_id}`)
   }
   const classes =
-    useStyles({ image: image ? image.data.attributes.url : 'https://upload.wikimedia.org/wikipedia/commons/f/fd/Escudo_de_la_Polic%C3%ADa_Boliviana.jpg' });
+    useStyles();
   return (
     <>
-      {image ? <div className={classes.book} onClick={handleNavigate} >
-        <div className={classes.cover} style={{ backgroundImage: `url(${image.data.attributes.url})` }} >
+      {logo_url ? <div className={classes.book} onClick={handleNavigate} >
+        <div className={classes.cover} style={{ backgroundImage: `url(${correctedUrl})` }} >
         </div>
       </div> :
         <>
@@ -36,7 +34,7 @@ function CardItem({ data }) {
       }
       <div className={classes.container}>
         <Typography variant="h4">
-          {name}
+          {business_name}
         </Typography>
       </div>
     </>

@@ -6,28 +6,41 @@ export const useStyles = makeStyles(theme => ({
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
-        width: '100%',
+        width: '90%',
     },
     box: {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        background: 'rgba(0, 0, 0, 0.8)',
         justifyContent: 'center',
         padding: '2rem',
         color: '#FFDAB9',
         '& h2': {
-            marginTop: '4rem',
-            fontSize: '1.5rem',
+            marginTop: '6rem',
+            fontSize: '2rem',
             textAlign: 'center',
-            marginBottom: '1.5rem'
+            marginBottom: '1.5rem',
+            fontWeight: 'bold',
+            textTransform: 'uppercase'
+        },
+        '& h3': {
+            marginTop: '3rem',
+            fontSize: '3rem',
+            textAlign: 'center',
+            marginBottom: '1.5rem',
+            fontWeight: 'bold',
+            textTransform: 'capitalize'
+        },
+        '& h4': {
+            textAlign: 'center',
+            textTransform: 'capitalice',
         },
         '& h6': {
-            fontSize: '1.2rem',
+            marginTop: '1rem',
+            textTransform: 'capitalize',
         },
         '& p': {
             marginTop: 5,
-            padding: '1rem 1rem 1rem 1rem',
             textAlign: 'center'
         },
         [mq('md')]: {
@@ -41,8 +54,14 @@ export const useStyles = makeStyles(theme => ({
             },
             '& h6': {
                 fontSize: '1.5rem',
+                textTransform: 'capitalize',
+
             },
         },
+    },
+    row: {
+        display: 'flex',
+        justifyContent: 'space-around',
     },
     imageContainer: {
         paddingTop: '2rem',

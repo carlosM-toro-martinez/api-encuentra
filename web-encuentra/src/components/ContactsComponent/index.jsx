@@ -2,6 +2,7 @@ import React from 'react'
 import { Box, ImageList, ImageListItem, Typography } from '@mui/material';
 import { useStyles } from './ContactsComponent.styles';
 import CardsContactComponent from './CardsContactComponent';
+import infoturData from '../../JSON/infotours.json'
 
 function ContactsComponent() {
     const classes = useStyles();
@@ -11,20 +12,10 @@ function ContactsComponent() {
                 Contactos
             </Typography>
             <div className={classes.contanerDesktop}>
-                <ImageList cols={2} gap={50}  >
+                <ImageList cols={1} gap={50}  >
                     <>
                         <ImageListItem>
-                            <CardsContactComponent />
-                        </ImageListItem>
-                    </>
-                    <>
-                        <ImageListItem>
-                            <CardsContactComponent />
-                        </ImageListItem>
-                    </>
-                    <>
-                        <ImageListItem>
-                            <CardsContactComponent />
+                            <CardsContactComponent infoturData={infoturData.infotur} />
                         </ImageListItem>
                     </>
                 </ImageList>
@@ -33,17 +24,7 @@ function ContactsComponent() {
                 <ImageList cols={1} gap={25}  >
                     <>
                         <ImageListItem>
-                            <CardsContactComponent />
-                        </ImageListItem>
-                    </>
-                    <>
-                        <ImageListItem>
-                            <CardsContactComponent />
-                        </ImageListItem>
-                    </>
-                    <>
-                        <ImageListItem>
-                            <CardsContactComponent />
+                            <CardsContactComponent infoturData={infoturData.infotur} />
                         </ImageListItem>
                     </>
                 </ImageList>

@@ -2,11 +2,38 @@ import { makeStyles } from '@material-ui/core';
 import mq from '../../config/mq';
 
 export const useStyles = makeStyles(theme => ({
-
-    //#833601 cafe
-    //#556B2F green
-    //#C0C0C0 gris
-    //#FFDAB9 texto claro
+    container: {
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        width: '100%',
+        '& h3': {
+            marginTop: '-6rem',
+            fontSize: '1.5rem',
+            padding: '5rem 0 1rem 0',
+            color: '#FFDAB9',
+            textAlign: 'center',
+            fontWeight: 'bold',
+            letterSpacing: '.1rem',
+            width: '50%'
+        },
+        [mq('md')]: {
+            '& h3': {
+                padding: '5rem 1rem 1rem 1rem',
+                marginTop: '8rem',
+                fontSize: '2rem',
+                letterSpacing: '.2rem',
+                fontFamily: 'NotoSerifDisplay_ExtraCondensed-BlackItalic',
+                textTransform: 'uppercase',
+                transform: 'skew(-10deg)',
+                textAlign: 'center',
+                background: 'linear-gradient(to right, #FFD966, #FF4500)',
+                padding: theme.spacing(1),
+                color: 'black',
+                fontWeight: 'bold',
+            },
+        },
+    },
     wrapper: {
         display: 'flex',
         flex: 1,
@@ -45,10 +72,9 @@ export const useStyles = makeStyles(theme => ({
         [mq('md')]: {
             width: '17rem',
             height: '17rem',
-            margin: '1.5rem',
+            margin: '1rem',
             '&:hover': {
                 border: '8px solid #556B2F',
-                marginTop: '1.1rem'
             },
         },
     },

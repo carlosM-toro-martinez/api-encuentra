@@ -12,7 +12,7 @@ const CreateRoutineMachineLayer = ({ coordinates }) => {
     const instance = L.Routing.control({
         waypoints: [
             L.latLng(positionStart[0], positionStart[1]),
-            L.latLng(coordinates[0], coordinates[1]),
+            L.latLng(coordinates.x, coordinates.y),
         ],
         createMarker: (i, start, n) => {
             const markerOptions = {

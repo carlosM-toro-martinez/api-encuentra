@@ -5,21 +5,25 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { useStyles } from './NewsCard.styles';
+import { useNavigate } from 'react-router-dom';
 
-function NewsCardComponent() {
+function NewsCardComponent({ data }) {
+  const correctedUrl = data.promotional_image_url.replace(/\\/g, '/');
+  const navigate = useNavigate();
+  const handleNavigate = () => {
+    navigate('/news/details', { state: data });
+  };
   const classes = useStyles();
   return (
-    <Card sx={{ display: 'flex', width: '23rem', cursor: 'pointer', }}>
+    <Card sx={{ display: 'flex', width: '20rem', cursor: 'pointer', height: '10rem' }} onClick={handleNavigate}>
       <CardMedia
         component="img"
-        sx={{ width: 140 }}
-        image="http://turismo.potosi.bo/fotoupload/3df583468e52f69e6633c7f4f06f6bf3.jpg"
+        sx={{ width: 130 }}
+        image={correctedUrl}
         alt="Live from space album cover"
       />
-      <Box sx={{ display: 'flex', flexDirection: 'column', backgroundColor: '#C0C0C0' }}>
-        <CardContent sx={{
-          flex: '1 0 auto'
-        }}>
+      <Box sx={{ display: 'flex', flexDirection: 'column', backgroundColor: '#C0C0C0', width: '100%' }}>
+        <CardContent >
           <Box className={classes.containerText} sx={{
             overflow: 'hidden',
             textOverflow: 'ellipsis',
@@ -28,7 +32,7 @@ function NewsCardComponent() {
             WebkitLineClamp: 2,
           }}>
             <Typography variant="h5" sx={{ color: 'red' }}>
-              Live From Space Live From Space Live From Space Live From Space
+              {data.title}
             </Typography>
           </Box>
           <Box className={classes.containerText} sx={{
@@ -39,10 +43,7 @@ function NewsCardComponent() {
             WebkitLineClamp: 3,
           }}>
 
-            <Typography sx={{ color: 'black' }}>
-              Mac Miller Mac Miller Mac Miller Mac Miller Mac Miller Mac Miller Mac Miller Mac Miller Mac Miller
-              Mac Miller Mac Miller Mac Miller Mac Miller Mac Miller Mac Miller Mac Miller Mac Miller Mac Miller
-            </Typography>
+            <Typography sx={{ color: 'black' }}>{data.description}</Typography>
           </Box>
         </CardContent>
       </Box>

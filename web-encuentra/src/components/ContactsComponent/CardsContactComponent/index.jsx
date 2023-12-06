@@ -5,22 +5,26 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Box, Button, CardActionArea, CardActions } from '@mui/material';
 import { useStyles } from './CardsContact.styles';
+import infotourImage from '../../../assets/images/infotour.jpg'
+import { useNavigate } from 'react-router-dom';
 
-function CardsContactComponent() {
+function CardsContactComponent({ infoturData }) {
+  const navigate = useNavigate();
   const classes = useStyles();
   return (
-    <Card sx={{ backgroundColor: '#C0C0C0' }} className={classes.container}>
+    <Card sx={{ backgroundColor: '#C0C0C0' }} className={classes.container} onClick={() => navigate('/contacts/details', { state: infoturData })}>
       <CardActionArea>
         <CardMedia
           component="img"
-          height="140"
-          image="http://turismo.potosi.bo/fotoupload/3df583468e52f69e6633c7f4f06f6bf3.jpg"
+          //height="250"
+          className={classes.image}
+          image={infotourImage}
           alt="Live from space album cover"
         />
         <CardContent >
           <Box>
             <Typography gutterBottom variant="h5" component="div">
-              Lizard
+              INFOTOUR
             </Typography>
           </Box>
           <Box sx={{
@@ -31,16 +35,13 @@ function CardsContactComponent() {
             WebkitLineClamp: 2,
           }}>
             <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over 6,000
-              species, ranging across all continents except Antarctica
-              Lizards are a widespread group of squamate reptiles, with over 6,000
-              species, ranging across all continents except Antarctica
+              {infoturData.descripcion}
             </Typography>
           </Box>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button size="small" color="primary" onClick={() => navigate('/contacts/details', { state: infoturData })} >
           Ver Mas
         </Button>
       </CardActions>

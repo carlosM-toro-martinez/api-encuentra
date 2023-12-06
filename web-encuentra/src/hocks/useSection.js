@@ -2,12 +2,15 @@ import { useState } from "react";
 
 
 function useSection() {
-    const [section, setSection] = useState('museos');
+    const [section, setSection] = useState(1);
+    const [descSection, setDescSection] = useState('');
     const [route, setRoute] = useState('Museos');
 
     return {
         section,
         route,
+        descSection,
+        setDescSection,
         setRoute,
         setSection,
     }

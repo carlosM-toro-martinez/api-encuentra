@@ -16,15 +16,23 @@ export const useStyles = makeStyles(theme => ({
         fontSize: '1rem',
     },
     wrapper: {
-        backgroundColor: 'rgba(51, 51, 51)',
-        marginTop: '10rem',
+        //backgroundColor: '#C0C0C0'
     },
     textContainer: {
+        width: '100%',
         color: 'white',
         '& h6': {
             color: 'white'
         }
 
+    },
+    footer: {
+        display: 'flex',
+        backgroundColor: '#FF4500',
+        width: '100%',
+        height: '3rem',
+        justifyContent: 'center',
+        alignItems: 'center'
     }
 
 }))

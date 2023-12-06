@@ -21,7 +21,6 @@ function CarouselImagesDetailsComponent() {
   };
 
   const goToPrevSlide = () => {
-    console.log(currentIndex);
     setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
   };
 

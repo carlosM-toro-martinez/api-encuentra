@@ -15,7 +15,7 @@ function Map() {
     const [currentLocation, setCurrentLocation] = useState(null);
     const { positionStart, setPositionStart, location } = useContext(MapContext);
     const positionEnd = [51.51, -0.1];
-    const { calle, coordinates } = useLocation().state;
+    const { address, coordinates } = useLocation().state;
     useEffect(() => {
         const getLocation = () => {
             if (navigator.geolocation) {
@@ -80,7 +80,7 @@ function Map() {
     return (
         <div className={classes.container}>
             <MapContainer
-                center={currentLocation ? currentLocation : coordinates}
+                center={currentLocation ? currentLocation : [coordinates.x, coordinates.y]}
                 zoom={15} scrollWheelZoom={false}
                 className={classes.map}>
                 <TileLayer
@@ -96,13 +96,13 @@ function Map() {
                         <RoutingMachine coordinates={coordinates} />
                     </>
                 ) :
-                    <Marker position={coordinates} icon={customMarkerIcon} >
+                    <Marker position={[coordinates.x, coordinates.y]} icon={customMarkerIcon} >
                         <Popup>Ubicacion Del Establecimiento</Popup>
                     </Marker>
                 }
                 <MyMapComponent />
             </MapContainer>
-            <FooterMapComponent calle={calle} coordinates={coordinates} />
+            <FooterMapComponent calle={address} coordinates={coordinates} />
         </div>
     )
 }

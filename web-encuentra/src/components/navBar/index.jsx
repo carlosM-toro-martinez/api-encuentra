@@ -1,6 +1,6 @@
 import { useStyles } from './navBar.styles';
 import sectionsService from '../../async/services/sectionsService';
-import React from 'react';
+import React, { useContext } from 'react';
 import { styled, useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
@@ -19,14 +19,15 @@ import HomeIcon from '@mui/icons-material/Home';
 import InfoIcon from '@mui/icons-material/Info';
 import ContactsIcon from '@mui/icons-material/Contacts';
 import AppBarComponent from './AppBarComponent';
-import potosyBlack from '../../assets/images/potosyBlack.png'
+import potosyBlack from '../../assets/images/iconPotosy.jpg'
 import { useNavigate } from 'react-router-dom';
+import { MainContext } from '../../context/MainContext';
 
 
 const drawerWidth = 200;
 
 const DrawerHeader = styled('div')(({ theme }) => ({
-  backgroundColor: 'rgba(51, 51, 51)',
+  backgroundColor: 'rgba(51, 51, 51, 0)',
   display: 'flex',
   ...theme.mixins.toolbar,
   justifyContent: 'flex-end',
@@ -36,7 +37,7 @@ const NavBar = (props) => {
   const { children } = props;
   const classes = useStyles();
   const { data, isLoading, isError, error } = useQuery('sections', () => sectionsService());
-
+  const { auth, user } = useContext(MainContext);
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
   const navigate = useNavigate();
@@ -60,7 +61,7 @@ const NavBar = (props) => {
         sx={{
           width: drawerWidth,
           '& .MuiDrawer-paper': {
-            backgroundColor: 'rgba(51, 51, 51, 0.9)',
+            backgroundColor: 'rgba(51, 51, 51, 0.2)',
             width: drawerWidth,
             boxSizing: 'border-box',
           },
@@ -72,9 +73,13 @@ const NavBar = (props) => {
         <DrawerHeader >
           <img
             src={potosyBlack}
-            width='90px'
-            style={{ marginTop: '0.8rem' }} />
-          <IconButton onClick={handleDrawerClose} style={{ color: 'white', marginLeft: '1rem' }}>
+            width='80px'
+            height='80px'
+            style={{
+              borderRadius: '50%',
+              overflow: 'hidden',
+            }} />
+          <IconButton onClick={handleDrawerClose} style={{ color: 'white', marginLeft: '4.5rem' }}>
             {theme.direction === 'ltr' ? <ChevronLeftIcon /> : <ChevronRightIcon />}
           </IconButton>
         </DrawerHeader>
@@ -106,35 +111,35 @@ const NavBar = (props) => {
           </ListItem>
         </List>
         <Divider sx={{ backgroundColor: 'white' }} />
-        {/* <List>
-                    <RadioGroup
-                        defaultValue="es"
-                    >
-                        <ListItem>
-                            <ListItemButton sx={{ color: 'white' }} >
-                                <ListItemIcon>
-                                    <GTranslateIcon sx={{ color: 'white' }} />
-                                </ListItemIcon>
-                                <ListItemText primary={'Español'} />
-                                <FormControlLabel value="es" control={<Radio />} />
-                            </ListItemButton>
-                        </ListItem>
-                        <ListItem>
-                            <ListItemButton sx={{ color: 'white' }} >
-                                <ListItemIcon>
-                                    <GTranslateIcon sx={{ color: 'white' }} />
-                                </ListItemIcon>
-                                <ListItemText primary={'Ingles'} />
-                                <FormControlLabel value="en" control={<Radio />} />
-                            </ListItemButton>
-                        </ListItem>
-                    </RadioGroup>
-                </List> */}
+        {auth && !user ?
+          <List>
+            <ListItem >
+              <ListItemButton sx={{ color: 'white' }} onClick={() => handleNavigate('admin')} >
+                <ListItemText primary={'Control de Establecimientos'} />
+              </ListItemButton>
+            </ListItem>
+            <ListItem>
+              <ListItemButton sx={{ color: 'white' }} onClick={() => handleNavigate('admin/sections')} >
+                <ListItemText primary={'Control de Apartados'} />
+              </ListItemButton>
+            </ListItem>
+            <ListItem>
+              <ListItemButton sx={{ color: 'white' }} onClick={() => handleNavigate('admin/news')} >
+                <ListItemText primary={'Control de Noticias'} />
+              </ListItemButton>
+            </ListItem>
+          </List>
+          : null}
+        {auth && user ?
+          <List>
+            <ListItem >
+              <ListItemButton sx={{ color: 'white' }} onClick={() => navigate('/establishmentAdmin/home', { state: user.business_id })} >
+                <ListItemText primary={'Mi Establecimiento'} />
+              </ListItemButton>
+            </ListItem>
+          </List>
+          : null}
       </Drawer>
-      {/* <Main open={open}>
-
-        {children}
-      </Main> */}
     </Box>
   )
 }
