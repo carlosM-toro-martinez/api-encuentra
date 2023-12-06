@@ -7,46 +7,38 @@ const { Server } = require('socket.io');
 const io = new Server(server);
 const port = process.env.PORT || 5000;
 const router = require('./routes');
+const createBusiness = require('./schemas/businessSchema');
+const createNews = require('./schemas/newsSchema');
+const createAdmin = require('./schemas/adminSchema');
+
 //const pool = require('./libs/Conection.js');
 const path = require('path');
+const passport = require('passport');
+
+require('./middlewares/passportConfig')
 
 app.use('/public', express.static(path.join(__dirname, 'public')));
 app.use(cors({ credentials: true }));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(passport.initialize());
 router(app);
 
-// app.get('/', (req, res) => {
-//   res.send('hola mundo');
-// });
+createBusiness();
+createNews();
+createAdmin();
 app.use(express.static(path.join(__dirname, "./web-encuentra/build")));
 
-app.get("/*", (req, res) => {
-  res.sendFile(path.join(__dirname, "./web-encuentra/build", "/index.html"));
-});
-
-// io.on('connection', (socket) => {
-//   console.log('a user connected:', socket.id);
-//   socket.on('valueState', (res) => {
-//     console.log(res.data);
-//     console.log(res.state);
-//     const value = { ...res.data, state: res.state };
-//     console.log(value.uid, value.state);
-//     const query = 'UPDATE public.users SET state=$1 WHERE uid = $2';
-//     pool.query(query, [value.state, value.uid], (err) => {
-//       if (err) {
-//         console.log(err);
-//       } else {
-//         console.log('user update');
-//         io.emit('resSucces', { sending: true });
-//       }
-//     });
-//     io.emit('sendState', value);
-//   });
+// app.get("/*", (req, res) => {
+//   res.sendFile(path.join(__dirname, "./web-encuentra/build", "/index.html"));
 // });
 
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+app.get(/^(?!\/uploads).*/, (req, res) => {
+  res.sendFile(path.join(__dirname, "./web-encuentra/build", "index.html"));
+});
+
 server.listen(port, () => {
-  // eslint-disable-next-line no-console
   console.log(port);
   console.log(`mi port ${port}`);
 });

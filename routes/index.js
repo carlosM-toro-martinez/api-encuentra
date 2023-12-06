@@ -1,24 +1,27 @@
 const express = require('express');
-const routeMuseo = require('./routesMuseos');
-const routeRecreacional = require('./routesRecreacionales');
-const routeEventos = require('./routesEventos');
-const routeMiradores = require('./routesMiradores');
-const routePubs = require('./routesPubs');
-const routeIglesias = require('./routesIglesias');
+const routeBusiness = require('./routesBusiness');
 const routeApartados = require('./routesApartados');
 const routeSession = require('./routesSession');
+const routesNews = require('./routesNews');
+const routesOpeningHours = require('./routesOpeningHours');
+const routesProducts = require('./routesProducts');
+const routesPromotion = require('./routesPromotion');
+const routesSocialNetworks = require('./routesSocialNetworks');
+const routesImages = require('./routesImages');
 
 function router(app) {
   const routes = express.Router();
   app.use('/api/v1', routes);
-  routes.use('/museos', routeMuseo);
-  routes.use('/recreacionales', routeRecreacional);
-  routes.use('/eventos', routeEventos);
-  routes.use('/miradores', routeMiradores);
-  routes.use('/pubs', routePubs);
-  routes.use('/iglesias', routeIglesias);
-  routes.use('/apartados', routeApartados);
+  routes.use('/business', routeBusiness);
+  routes.use('/sections', routeApartados);
   routes.use('/sessions', routeSession);
+  routes.use('/news', routesNews);
+  routes.use('/openingHours', routesOpeningHours);
+  routes.use('/products', routesProducts);
+  routes.use('/promotions', routesPromotion);
+  routes.use('/socialNetworks', routesSocialNetworks);
+  routes.use('/images', routesImages);
+
 }
 
 module.exports = router;

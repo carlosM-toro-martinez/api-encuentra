@@ -1,30 +1,36 @@
-// const pool = require('../libs/Conection.js');
+const pool = require('../libs/Conection.js');
 
-// class Session {
-//   constructor() {
-//     this.sesion = {};
-//     this.pool = pool;
-//     this.pool.on('error', (err) => {
-//       console.log(err);
-//     });
-//   }
-//   async find(session) {
-//     const query = 'select * from users where name=$1 AND password=$2';
-//     const data = await this.pool.query(
-//       query,
-//       [session.name, session.password],
-//       async (error, results) => {
-//         if (!error) return results;
-//       }
-//     );
-//     console.log(data);
-//     return data;
-//   }
-//   async search(session) {
-//     // console.log(sesion);
-//     // return sesion;
-//     //console.log(sesion);
-//   }
-// }
+class Session {
+    constructor() {
+        this.sesion = {};
+        this.pool = pool;
+        this.pool.on('error', (err) => {
+            console.log(err);
+        });
+    }
 
-// module.exports = Session;
+    async createUser(username, password) {
+        const client = await this.pool.connect();
+        try {
+            const result = await client.query(
+                'INSERT INTO EstablishmentAdmin(username, password) VALUES($1, $2) RETURNING *',
+                [username, password]
+            );
+            return result.rows[0];
+        } finally {
+            client.release();
+        }
+    }
+
+    async findUserByUsername(username) {
+        const client = await this.pool.connect();
+        try {
+            const result = await client.query('SELECT * FROM EstablishmentAdmin WHERE username = $1', [username]);
+            return result.rows[0];
+        } finally {
+            client.release();
+        }
+    }
+}
+
+module.exports = Session;
