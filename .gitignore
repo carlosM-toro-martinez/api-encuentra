@@ -195,7 +195,5 @@ postgres_data
 contents/
 plugins/
 templates/
-config.json
-config
 
 # End of https://www.toptal.com/developers/gitignore/api/node,wintersmith,linux,macos
