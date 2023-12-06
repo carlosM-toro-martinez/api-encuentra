@@ -237,8 +237,8 @@ const AddBusinessComponent = () => {
               onChange={handleChange}
               sx={{ color: 'white', '& fieldset': { borderColor: 'white' } }}
             >
-              {!isLoading ? (
-                data.map((section) => (
+              {!isLoading && !error ? (
+                data?.map((section) => (
                   <MenuItem key={section.section_id} value={section.section_id}>
                     {section.title}
                   </MenuItem>
