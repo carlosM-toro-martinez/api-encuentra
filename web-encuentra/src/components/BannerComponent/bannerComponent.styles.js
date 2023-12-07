@@ -17,7 +17,6 @@ export const useStyles = makeStyles(theme => ({
         height: '100%',
         '& h4': {
             padding: '5rem 1rem 1rem 1rem',
-            marginBottom: '3rem',
             fontSize: '1rem',
             color: 'white',
             textAlign: 'center',

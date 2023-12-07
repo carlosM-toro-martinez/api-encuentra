@@ -31,7 +31,7 @@ function NewsCardComponent({ data }) {
             WebkitBoxOrient: 'vertical',
             WebkitLineClamp: 2,
           }}>
-            <Typography variant="h5" sx={{ color: 'red' }}>
+            <Typography variant="h5" sx={{ color: 'red', fontWeight: 'bold', textTransform: 'uppercase' }}>
               {data.title}
             </Typography>
           </Box>

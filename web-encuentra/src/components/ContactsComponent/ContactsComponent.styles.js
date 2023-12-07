@@ -2,12 +2,10 @@ import { makeStyles } from '@material-ui/core';
 import mq from '../../config/mq';
 
 export const useStyles = makeStyles(theme => ({
-
-    //#833601 cafe
-    //#556B2F green
-    //#C0C0C0 gris
-    //#FFDAB9 texto claro
     Container: {
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
         margin: '7rem 0 8rem 2rem',
         maxWidth: '90rem',
         color: '#FFDAB9',
@@ -21,9 +19,20 @@ export const useStyles = makeStyles(theme => ({
         },
         [mq('md')]: {
             '& h4': {
-                marginBottom: '2rem',
+                fontSize: '4rem',
+                padding: '1rem 0 1rem 0',
                 color: '#FFDAB9',
-                fontSize: '3rem',
+                textAlign: 'center',
+                fontWeight: 'bold',
+                letterSpacing: '.3rem',
+                fontFamily: 'NotoSerifDisplay_ExtraCondensed-BlackItalic',
+                textTransform: 'uppercase',
+                transform: 'skew(-10deg)',
+                textAlign: 'center',
+                background: 'linear-gradient(to right, #FFD966, #FF4500)',
+                padding: theme.spacing(1),
+                color: 'black',
+                fontWeight: 'bold',
             },
         }
     },

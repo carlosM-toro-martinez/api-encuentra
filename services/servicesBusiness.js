@@ -158,7 +158,6 @@ class businesServices {
 
       const businesses = result.rows;
       client.release();
-      console.log(businesses);
       return businesses;
     } catch (error) {
       console.error('Error fetching businesses by section ID:', error);
@@ -239,6 +238,24 @@ class businesServices {
       return updatedBusinessResult;
     } catch (error) {
       console.error('Error updating business:', error);
+      throw error;
+    }
+  }
+  async updateBusinessState(businessId, newState) {
+    try {
+      const client = await this.pool.connect();
+      const businessResult = await client.query(`
+        UPDATE Business
+        SET state = $1
+        WHERE business_id = $2
+        RETURNING *;
+      `, [newState, businessId]);
+
+      const updatedBusinessResult = businessResult.rows[0];
+      client.release();
+      return updatedBusinessResult;
+    } catch (error) {
+      console.error('Error updating business state:', error);
       throw error;
     }
   }

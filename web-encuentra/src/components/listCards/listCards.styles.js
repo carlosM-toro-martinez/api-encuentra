@@ -11,11 +11,13 @@ export const useStyles = makeStyles(theme => ({
         textAlign: 'center',
         padding: '0rem 1rem 0rem 1rem',
         '& h4': {
-            marginTop: '2rem',
-            fontSize: '0.8rem',
-            color: '#C0C0C0',
-            fontFamily: 'Roboto-bold',
-            fontStyle: 'normal',
+            fontSize: '1.5rem',
+            margin: '0 0 2rem 0',
+            color: '#FFDAB9',
+            fontFamily: 'NotoSerifDisplay_ExtraCondensed-BlackItalic',
+            textAlign: 'center',
+            padding: '0 1.5rem 0 1.5rem',
+            textTransform: 'uppercase'
         },
         '& h5': {
             fontSize: '1.5rem',

@@ -1,13 +1,10 @@
 import { useStyles } from './modal.styles'
 import Box from '@mui/material/Box';
-//import Button from '@material-ui/core/Button';
 import Typography from '@mui/material/Typography';
-import background from '../../assets/images/background.jpg'
 import { useLocation, useNavigate, Link, useParams } from 'react-router-dom';
 import Button from '@mui/material/Button';
 import MapIcon from '@mui/icons-material/Map';
 import CarouselImagesDetailsComponent from './CarouselImagesDetailsComponent';
-import businessUpdateServices from '../../async/services/put/businessUpdateServices';
 import { useQuery } from 'react-query';
 import businessFindOne from '../../async/services/businessFindOneService';
 import { Twitter, WhatsApp, Facebook, Instagram } from '@mui/icons-material';
@@ -22,15 +19,16 @@ import {
   TableHead,
   TableRow,
 } from '@mui/material';
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import { MainContext } from '../../context/MainContext';
+import businessStateUpdateService from '../../async/services/put/businessStateUpdateServices';
 
 const OpeningHours = ({ openinghours }) => {
   return (
-    <Box sx={{ flexDirection: 'column' }}>
-      <Typography>
+    <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
+      {openinghours[0].weekend ? <Typography>
         {openinghours[0].weekend}
-      </Typography>
+      </Typography> : null}
       <Typography>
         {openinghours[0].morning_hours ? `Mañana: ${openinghours[0].morning_hours[0]} -  ${openinghours[0].morning_hours[1]}` : ''}
       </Typography>
@@ -43,45 +41,59 @@ const OpeningHours = ({ openinghours }) => {
 
 const BusinessContact = ({ data }) => {
   return (
-    <Box sx={{ display: 'flex', margin: '0 20rem 0 20rem' }}>
-      <Box sx={{ flexDirection: 'column' }}>
-        <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <Typography variant="h6" component="h6" style={{ color: '#3498db' }}>
-            <PhoneIcon /> Telefono
-          </Typography>
-          <Typography>
-            {data.phone_number}
-          </Typography>
-        </Box>
-        <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+    <Table>
+      <TableHead>
+        <TableRow sx={{
+          color: 'white'
+        }}>
+          {data.phone_number ? <TableCell sx={{ color: 'white' }}>
+            <Typography style={{ color: '#3498db' }}>
+              <PhoneIcon /> Telefono
+            </Typography>
+          </TableCell> : null}
 
-          <Typography variant="h6" component="h6" style={{ color: '#e74c3c' }}>
-            <EmailIcon /> Correo
-          </Typography>
-          <Typography>
-            {data.mail}
-          </Typography>
-        </Box>
-      </Box>
-      <Box sx={{ flexDirection: 'column' }}>
-        <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <Typography variant="h6" component="h6" style={{ color: '#2ecc71' }}>
-            <PublicIcon /> Sitio Web
-          </Typography>
-          <Typography>
-            {data.website_url}
-          </Typography>
-        </Box>
-        <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <Typography variant="h6" component="h6" style={{ color: '#f39c12' }}>
-            <LocationOnIcon /> Direccion
-          </Typography>
-          <Typography>
-            {data.address}
-          </Typography>
-        </Box>
-      </Box>
-    </Box>
+          {data.mail ? <TableCell sx={{ color: 'white' }}>
+            <Typography style={{ color: '#e74c3c' }}>
+              <EmailIcon /> Correo
+            </Typography>
+          </TableCell> : null}
+          {data.website_url ? <TableCell sx={{ color: 'white' }}>
+            <Typography style={{ color: '#2ecc71' }}>
+              <PublicIcon /> Sitio Web
+            </Typography>
+          </TableCell> : null}
+          {data.address ? <TableCell sx={{ color: 'white' }}>
+            <Typography style={{ color: '#f39c12' }}>
+              <LocationOnIcon /> Direccion
+            </Typography>
+          </TableCell> : null}
+        </TableRow>
+      </TableHead>
+      <TableBody>
+        <TableRow sx={{ color: 'white' }}>
+          {data.phone_number ? <TableCell sx={{ color: 'white', textTransform: 'capitalize' }}>
+            <Typography>
+              {data.phone_number}
+            </Typography>
+          </TableCell> : null}
+          {data.mail ? <TableCell sx={{ color: 'white', textTransform: 'capitalize' }}>
+            <Typography>
+              {data.mail}
+            </Typography>
+          </TableCell> : null}
+          {data.website_url ? <TableCell sx={{ color: 'white', textTransform: 'capitalize' }}>
+            <Typography>
+              {data.website_url}
+            </Typography>
+          </TableCell> : null}
+          {data.address ? <TableCell sx={{ color: 'white', textTransform: 'capitalize' }}>
+            <Typography >
+              {data.address}
+            </Typography>
+          </TableCell> : null}
+        </TableRow>
+      </TableBody>
+    </Table>
   );
 };
 
@@ -110,12 +122,20 @@ const SocialNetworks = ({ socialnetworks }) => {
 };
 
 const Products = ({ products }) => {
+  const [showTable, setShowTable] = useState(false);
+
+  const handleToggleTable = () => {
+    setShowTable(!showTable);
+  };
   return (
     <Box sx={{ flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      {products[0]?.product_id ? <Typography variant="h4" component="h4">
+      <Button onClick={handleToggleTable} sx={{ marginBottom: '1rem' }}>
+        {showTable ? 'Ocultar Productos' : 'Mostrar Productos'}
+      </Button>
+      {showTable && products[0]?.product_id ? <Typography variant="h4" component="h4">
         Productos
       </Typography> : null}
-      {products[0]?.product_id ? <Table sx={{ marginBottom: '3rem', justifyContent: 'center', alignItems: 'center' }}>
+      {showTable && products[0]?.product_id ? <Table sx={{ marginBottom: '3rem', justifyContent: 'center', alignItems: 'center' }}>
         <TableHead>
           <TableRow sx={{
             color: 'white'
@@ -127,12 +147,6 @@ const Products = ({ products }) => {
         <TableBody>
           {products[0]?.product_id ? products.map(item => (
             <TableRow key={item.product_id} sx={{ color: 'white' }}>
-              {/* <TableCell sx={{
-                    color: 'white', textTransform: 'capitalize', overflow: 'hidden',
-                    textOverflow: 'ellipsis',
-                    whiteSpace: 'nowrap',
-                    maxWidth: '300px'
-                  }}>{item?.attributes?.image?.data?.attributes?.url}</TableCell> */}
               <TableCell sx={{ color: 'white', textTransform: 'capitalize' }}>{item?.product_details}</TableCell>
               <TableCell sx={{ color: 'white', textTransform: 'capitalize' }}>{item?.price}</TableCell>
             </TableRow>
@@ -145,12 +159,20 @@ const Products = ({ products }) => {
 };
 
 const Promotions = ({ promotions }) => {
+  const [showTable, setShowTable] = useState(false);
+
+  const handleToggleTable = () => {
+    setShowTable(!showTable);
+  };
   return (
     <Box sx={{ flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      {promotions[0]?.promotion_id ? <Typography variant="h4" component="h4">
+      <Button onClick={handleToggleTable} sx={{ marginBottom: '1rem' }}>
+        {showTable ? 'Ocultar Promociones' : 'Mostrar Promociones'}
+      </Button>
+      {showTable && promotions[0]?.promotion_id ? <Typography variant="h4" component="h4">
         Promociones
       </Typography> : null}
-      {promotions[0]?.promotion_id ? <Table sx={{ marginBottom: '3rem', justifyContent: 'center', alignItems: 'center' }}>
+      {showTable && promotions[0]?.promotion_id ? <Table sx={{ marginBottom: '3rem', justifyContent: 'center', alignItems: 'center' }}>
         <TableHead>
           <TableRow sx={{
             color: 'white'
@@ -187,11 +209,10 @@ function Details() {
   const { data, isLoading, isError, error, refetch } = useQuery(`businessOne`, () => businessFindOne(id));
   const { auth, user } = useContext(MainContext);
 
-  //const correctedUrl = logo_url.replace(/\\/g, '/');
   const handleStateChange = async (data) => {
     try {
-      const newData = { ...data, name: data.business_name, description: data.business_description, state: !data.state, coordinates: `(${data.coordinates.x}, ${data.coordinates.y})` };
-      await businessUpdateServices(data.business_id, newData);
+      const newData = { state: !data.state };
+      await businessStateUpdateService(data.business_id, newData);
       navigate('/admin');
     } catch (error) {
       console.error('Error update business:', error);
@@ -208,21 +229,22 @@ function Details() {
           </Typography>
           <CarouselImagesDetailsComponent images={data.images} />
           <SocialNetworks socialnetworks={data.socialnetworks[0]} />
+          <OpeningHours openinghours={data.openinghours} />
           <Typography variant="h3" component="h3">
-            datos relevantes
+            mas informacion
           </Typography>
           <Typography component="h6">
             {data.business_description}
           </Typography>
           <BusinessContact data={data} />
-          <OpeningHours openinghours={data.openinghours} />
           <Products products={data.products} />
           <Promotions promotions={data.promotions} />
-          <Button variant="outlined" startIcon={<MapIcon />} sx={{ marginBottom: '3rem' }}>
+          <Button variant="contained" startIcon={<MapIcon />}
+            sx={{ marginBottom: '3rem', backgroundColor: '#FF4500', width: '50%', height: '3rem' }}>
             <Link
               to={`/map`}
               state={{ address: data.address, coordinates: data.coordinates }}
-              style={{ color: '#3498db', textDecoration: 'none' }}
+              style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold', fontSize: '1.2rem' }}
             >
               Como Llegar
             </Link>
@@ -236,5 +258,5 @@ function Details() {
     </Box>
   )
 }
-
+//#FF4500
 export default Details;

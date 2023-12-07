@@ -10,7 +10,7 @@ function NewsComponent() {
     const classes = useStyles();
     return (
         <Box className={classes.Container}>
-            <Typography variant="h4" >
+            <Typography variant="h2" component="h2" >
                 Noticias y Novedades
             </Typography>
             <Box className={classes.containerDesktop} >

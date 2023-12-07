@@ -22,8 +22,8 @@ function CardsContactComponent({ infoturData }) {
           alt="Live from space album cover"
         />
         <CardContent >
-          <Box>
-            <Typography gutterBottom variant="h5" component="div">
+          <Box className={classes.title}>
+            <Typography variant="h5">
               INFOTOUR
             </Typography>
           </Box>

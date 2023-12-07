@@ -15,44 +15,44 @@ function ListCard({ listCardRef }) {
   const { section, route, descSection } = useContext(SectionContext);
   const { data, isLoading, isError, error } = useQuery(`section${section}`, () => businessOneService(section));
   return (
-    <Grid style={{ backgroundImage: `url(${background})` }}>
-      <Grid className={classes.boxShadow}>
+    <div ref={listCardRef}>
+      {route ? <Grid style={{ backgroundImage: `url(${background})` }} ref={listCardRef}>
+        <Grid className={classes.boxShadow}>
+          <Grid className={classes.descriptionSection}>
+            <Typography variant="h5" >{route}</Typography>
+            <Typography variant="h4">
+              {descSection}
+            </Typography>
+          </Grid>
+          <div className={classes.containerDesktop} >
+            <ImageList sx={{ margin: 3 }} cols={3} gap={50}>
+              {isLoading && error ? <h1>Cargando...</h1> : data?.map(item => (
+                <div key={item.business_id}>
+                  <ImageListItem sx={{ width: '18rem' }}>
+                    <CardItem data={item} />
+                  </ImageListItem>
+                </div>
 
-        <Grid className={classes.descriptionSection}>
-          <Typography variant="h5" ref={listCardRef}>{route}</Typography>
-          <Typography variant="h4">
-            {descSection}
-          </Typography>
+              ))}
+
+            </ImageList>
+          </div>
+          <div className={classes.containerMovil} >
+            <ImageList sx={{ justifyContent: 'center', textAlign: 'center' }} cols={2} gap={25}>
+              {isLoading && error ? <h1>Cargando...</h1> : data?.map(item => (
+                <div key={item.business_id}>
+                  <ImageListItem sx={{ width: '18rem' }}>
+                    <CardItem data={item} />
+                  </ImageListItem>
+                </div>
+
+              ))}
+
+            </ImageList>
+          </div>
         </Grid>
-        <div className={classes.containerDesktop} >
-          <ImageList sx={{ margin: 3 }} cols={3} gap={50}>
-            {isLoading && error ? <h1>Cargando...</h1> : data?.map(item => (
-              <div key={item.business_id}>
-                <ImageListItem sx={{ width: '18rem' }}>
-                  <CardItem data={item} />
-                </ImageListItem>
-              </div>
-
-            ))}
-
-          </ImageList>
-        </div>
-        <div className={classes.containerMovil} >
-          <ImageList sx={{ justifyContent: 'center', textAlign: 'center' }} cols={2} gap={25}>
-            {isLoading && error ? <h1>Cargando...</h1> : data?.map(item => (
-              <div key={item.business_id}>
-                <ImageListItem sx={{ width: '18rem' }}>
-                  <CardItem data={item} />
-                </ImageListItem>
-              </div>
-
-            ))}
-
-          </ImageList>
-        </div>
-      </Grid>
-    </Grid>
-
+      </Grid> : null}
+    </div>
   )
 }
 

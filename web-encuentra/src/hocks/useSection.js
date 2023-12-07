@@ -4,7 +4,7 @@ import { useState } from "react";
 function useSection() {
     const [section, setSection] = useState(1);
     const [descSection, setDescSection] = useState('');
-    const [route, setRoute] = useState('Museos');
+    const [route, setRoute] = useState();
 
     return {
         section,

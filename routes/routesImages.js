@@ -5,9 +5,30 @@ const upload = require('../middlewares/multerConfig')
 
 const images = new Images();
 
+route.get('/business/:businessId', async (req, res) => {
+    const businessId = req.params.businessId;
+    try {
+        const businessImages = await images.getImagesByBusinessId(businessId);
+        res.json(businessImages);
+    } catch (error) {
+        console.error('Error retrieving images by business_id:', error);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+});
+
+route.get('/randomImages', async (req, res) => {
+    try {
+        const randomImages = await images.getRandomImages();
+        res.json(randomImages);
+    } catch (error) {
+        console.error('Error retrieving random images:', error);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+});
+
+
 route.post('/', upload.single('image'), async (req, res) => {
-    console.log(req.body);
-    const imageUrl = 'http://localhost:5000/' + req?.file?.path;
+    const imageUrl = process.env.HOST + req?.file?.path;
     const imageData = { ...req.body, image_url: imageUrl };
 
     try {
@@ -21,7 +42,8 @@ route.post('/', upload.single('image'), async (req, res) => {
 
 route.put('/:imageId', upload.single('image'), async (req, res) => {
     const imageId = req?.params?.imageId;
-    const updatedImageData = req.file.path;
+    const imageUrl = process.env.HOST + req?.file?.path;
+    const updatedImageData = { ...req.body, image_url: imageUrl };
     try {
         const updatedImage = await images.updateImage(imageId, updatedImageData);
         if (updatedImage) {

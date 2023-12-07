@@ -9,6 +9,43 @@ class imagesServices {
         });
     }
 
+    async getImagesByBusinessId(businessId) {
+        try {
+            const client = await this.pool.connect();
+            const result = await client.query(`
+            SELECT *
+            FROM Images
+            WHERE business_id = $1;
+          `, [businessId]);
+
+            const images = result.rows;
+            client.release();
+            return images;
+        } catch (error) {
+            console.error('Error retrieving images by business_id:', error);
+            throw error;
+        }
+    }
+
+    async getRandomImages() {
+        try {
+            const client = await this.pool.connect();
+            const result = await client.query(`
+            SELECT *
+            FROM Images
+            ORDER BY random()
+            LIMIT 5;
+          `);
+
+            const randomImages = result.rows;
+            client.release();
+            return randomImages;
+        } catch (error) {
+            console.error('Error retrieving random images:', error);
+            throw error;
+        }
+    }
+
     async createImage(imageData) {
         try {
             const client = await this.pool.connect();

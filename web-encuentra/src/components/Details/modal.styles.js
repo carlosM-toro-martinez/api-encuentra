@@ -6,14 +6,14 @@ export const useStyles = makeStyles(theme => ({
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
-        width: '90%',
+        width: '85%',
     },
     box: {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        padding: '2rem',
+        padding: '4rem',
         color: '#FFDAB9',
         '& h2': {
             marginTop: '6rem',
@@ -45,7 +45,20 @@ export const useStyles = makeStyles(theme => ({
         },
         [mq('md')]: {
             '& h2': {
-                fontSize: '3rem'
+                fontSize: '2rem',
+                padding: '1rem 0 1rem 0',
+                color: '#FFDAB9',
+                textAlign: 'center',
+                fontWeight: 'bold',
+                letterSpacing: '.4rem',
+                fontFamily: 'NotoSerifDisplay_ExtraCondensed-BlackItalic',
+                textTransform: 'uppercase',
+                transform: 'skew(-10deg)',
+                textAlign: 'center',
+                background: 'linear-gradient(to right, #FFD966, #FF4500)',
+                padding: theme.spacing(1),
+                color: 'black',
+                fontWeight: 'bold',
             },
             '& p': {
                 marginTop: 5,

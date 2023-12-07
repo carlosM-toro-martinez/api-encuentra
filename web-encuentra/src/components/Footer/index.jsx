@@ -1,42 +1,37 @@
 import * as React from "react";
-import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
-import Grid from "@mui/material/Grid";
 import { Facebook, Instagram, Twitter } from "@mui/icons-material";
 import { Box } from "@mui/material";
 import { useStyles } from "./footer.styles";
 import footerBackground from '../../assets/images/1potosi.jpg';
+import PotosiMap from "../PotosiMap";
 
 export default function Footer() {
   const classes = useStyles();
   return (
-    <Box
-      className={classes.wrapper}
-    >
-      <Box align="center" sx={{ backgroundImage: `url(${footerBackground})`, width: '100%' }} >
-
-        <Box className={classes.textContainer}>
-          <Typography sx={{ color: 'white', fontSize: '2rem' }} component="h6" >
-            Siguenos
+    <Box>
+      <Box
+        sx={{
+          backgroundImage: `url(${footerBackground})`,
+        }}
+        className={classes.wrapper}
+      >
+        <Box className={classes.mapContainer}>
+          <Typography variant="h2" component="h2">
+            Ubicaciones Centros Infotours
           </Typography>
-          <Link
-            sx={{ color: 'white' }}
-            href="https://www.facebook.com/"
-            color="inherit">
-            <Facebook />
+          <PotosiMap />
+        </Box>
+        <Box className={classes.textContainer}>
+          <Link href="https://www.facebook.com/" color="inherit">
+            <Facebook sx={{ fontSize: '42px', color: '#1877f2' }} />
           </Link>
-          <Link
-            href="https://www.instagram.com/"
-            color="inherit"
-            sx={{ color: 'white' }}
-          >
-            <Instagram />
+          <Link href="https://www.instagram.com/" color="inherit">
+            <Instagram sx={{ fontSize: '42px', color: '#fd7e14' }} />
           </Link>
-          <Link
-            href="https://www.twitter.com/"
-            sx={{ color: 'white' }}>
-            <Twitter />
+          <Link href="https://www.twitter.com/">
+            <Twitter sx={{ fontSize: '42px', color: '#1da1f2' }} />
           </Link>
         </Box>
       </Box>

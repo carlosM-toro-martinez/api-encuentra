@@ -1,6 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.aab73fa4.js",
+    "main.css": "/static/css/main.2e662a65.css",
+    "main.js": "/static/js/main.b2106d7a.js",
     "static/media/1potosi.jpg": "/static/media/1potosi.93521fb85f562326a0d5.jpg",
     "static/media/4potosi.jpg": "/static/media/4potosi.76ea49f97dc245ae6e4b.jpg",
     "static/media/background.jpg": "/static/media/background.e11253813040dcff2bf5.jpg",
@@ -11,9 +12,11 @@
     "static/media/infotour.jpg": "/static/media/infotour.e76c5d057d193070be4a.jpg",
     "static/media/mapPoint.png": "/static/media/mapPoint.9bf1a565646cff8ae668.png",
     "index.html": "/index.html",
-    "main.aab73fa4.js.map": "/static/js/main.aab73fa4.js.map"
+    "main.2e662a65.css.map": "/static/css/main.2e662a65.css.map",
+    "main.b2106d7a.js.map": "/static/js/main.b2106d7a.js.map"
   },
   "entrypoints": [
-    "static/js/main.aab73fa4.js"
+    "static/css/main.2e662a65.css",
+    "static/js/main.b2106d7a.js"
   ]
 }

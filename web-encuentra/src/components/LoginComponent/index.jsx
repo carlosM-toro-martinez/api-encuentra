@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react';
 import { alpha, styled } from '@mui/material/styles';
-import { Container, Typography, TextField, Button } from '@mui/material';
+import { Container, Typography, TextField, Button, Box } from '@mui/material';
 import { useStyles } from './Login.styles';
 import loginSession from '../../async/services/post/loginSession';
 import { MainContext } from '../../context/MainContext';
@@ -81,7 +81,7 @@ function LoginComponent() {
     };
 
     return (
-        <Container maxWidth="xs" className={classes.container}>
+        <Box className={classes.container}>
             <Typography variant="h4" align="center" gutterBottom>
                 Iniciar Sesión
             </Typography>
@@ -107,7 +107,7 @@ function LoginComponent() {
                     Iniciar Sesión
                 </Button>
             </form>
-        </Container>
+        </Box>
     );
 };
 

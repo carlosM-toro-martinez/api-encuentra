@@ -68,6 +68,24 @@ route.put('/:businessId', upload.single('image'), async (req, res) => {
   }
 });
 
+route.put('/:businessId/state', async (req, res) => {
+  const businessId = req.params.businessId;
+  const newState = req.body.state;
+
+  try {
+    const updatedBusinessResult = await business.updateBusinessState(businessId, newState);
+
+    if (updatedBusinessResult) {
+      res.json(updatedBusinessResult);
+    } else {
+      res.status(404).json({ error: 'Business not found' });
+    }
+  } catch (error) {
+    console.error('Error updating business state:', error);
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
+});
+
 route.delete('/:businessId', async (req, res) => {
   const businessId = req.params.businessId;
   try {

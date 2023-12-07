@@ -17,17 +17,11 @@ export const useStyles = makeStyles(theme => ({
             height: 250,
         }
     },
-    contanerDesktop: {
-        display: 'none',
-        [mq('md')]: {
-            display: 'flex',
-        }
-    },
-    contanerMovile: {
-        display: 'flex',
-        [mq('md')]: {
-            display: 'none',
-
-        }
+    title: {
+        '& h5': {
+            fontSize: '1.5rem',
+            fontWeight: 'bold',
+            fontFamily: 'NotoSerifDisplay_ExtraCondensed-BlackItalic',
+        },
     }
 }))
