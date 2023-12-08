@@ -31,8 +31,10 @@ class imagesServices {
         try {
             const client = await this.pool.connect();
             const result = await client.query(`
-            SELECT *
-            FROM Images
+            SELECT i.*
+            FROM Images i
+            JOIN Business b ON i.business_id = b.business_id
+            WHERE b.state = true
             ORDER BY random()
             LIMIT 5;
           `);
@@ -79,6 +81,24 @@ class imagesServices {
             return updatedImage;
         } catch (error) {
             console.error('Error updating image:', error);
+            throw error;
+        }
+    }
+
+    async deleteImage(imageId) {
+        try {
+            const client = await this.pool.connect();
+            const result = await client.query(`
+                DELETE FROM Images
+                WHERE image_id = $1
+                RETURNING *;
+            `, [imageId]);
+
+            const deletedImage = result.rows[0];
+            client.release();
+            return deletedImage;
+        } catch (error) {
+            console.error('Error deleting image:', error);
             throw error;
         }
     }

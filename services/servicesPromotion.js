@@ -50,10 +50,10 @@ class promotionServices {
       const client = await this.pool.connect();
       const result = await client.query(`
             UPDATE Promotions
-            SET business_id = $1, promotion_details = $2
-            WHERE promotion_id = $3
+            SET business_id = $1, promotion_details = $2, price = $3
+            WHERE promotion_id = $4
             RETURNING *;
-        `, [updatedPromotionData.business_id, updatedPromotionData.promotion_details, promotionId]);
+        `, [updatedPromotionData.business_id, updatedPromotionData.promotion_details, updatedPromotionData.price, promotionId]);
 
       const updatedPromotion = result.rows[0];
       client.release();
@@ -63,6 +63,25 @@ class promotionServices {
       throw error;
     }
   }
+
+  async deletePromotion(promotionId) {
+    try {
+      const client = await this.pool.connect();
+      const result = await client.query(`
+            DELETE FROM Promotions
+            WHERE promotion_id = $1
+            RETURNING *;
+        `, [promotionId]);
+
+      const deletedPromotion = result.rows[0];
+      client.release();
+      return deletedPromotion;
+    } catch (error) {
+      console.error('Error deleting promotion:', error);
+      throw error;
+    }
+  }
+
 }
 
 module.exports = promotionServices;

@@ -1,7 +1,7 @@
 const express = require('express');
 const News = require('../services/servicesNews');
 const route = express.Router();
-const upload = require('../middlewares/multerConfig')
+const { upload } = require('../middlewares/multerConfig')
 const newsService = new News();
 
 route.get('/', async (req, res) => {
@@ -42,9 +42,10 @@ route.post('/', upload.single('image'), async (req, res) => {
   }
 });
 
-route.put('/:newsId', async (req, res) => {
+route.put('/:newsId', upload.single('image'), async (req, res) => {
   const newsId = req.params.newsId;
-  const updatedNews = req.body;
+  const imageUrl = process.env.HOST + req?.file?.path
+  const updatedNews = { ...req.body, promotional_image_url: imageUrl };
   try {
     const updatedNewsResult = await newsService.updateNews(newsId, updatedNews);
     if (!updatedNewsResult) {

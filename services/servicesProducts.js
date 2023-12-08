@@ -62,6 +62,23 @@ class productsServices {
       throw error;
     }
   }
+  async deleteProduct(productId) {
+    try {
+      const client = await this.pool.connect();
+      const result = await client.query(`
+            DELETE FROM Products
+            WHERE product_id = $1
+            RETURNING *;
+        `, [productId]);
+
+      const deletedProduct = result.rows[0];
+      client.release();
+      return deletedProduct;
+    } catch (error) {
+      console.error('Error deleting product:', error);
+      throw error;
+    }
+  }
 }
 
 module.exports = productsServices;

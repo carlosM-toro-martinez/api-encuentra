@@ -10,6 +10,23 @@ const storage = multer.diskStorage({
   },
 });
 
+
+const deleteImageOnError = (req, res, next) => {
+  upload.single('image')(req, res, async (err) => {
+    if (err) {
+      const filePath = req?.file?.path;
+      if (filePath) {
+        try {
+          await fs.unlink(filePath);
+        } catch (deleteError) {
+          console.error('Error deleting image:', deleteError);
+        }
+      }
+      return next(err);
+    }
+    next();
+  });
+};
 const upload = multer({ storage });
 
-module.exports = upload;
+module.exports = { upload, deleteImageOnError };

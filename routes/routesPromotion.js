@@ -42,4 +42,21 @@ route.put('/:promotionId', async (req, res) => {
     }
 });
 
+route.delete('/:promotionId', async (req, res) => {
+    const promotionId = req.params.promotionId;
+
+    try {
+        const deletedPromotion = await promotions.deletePromotion(promotionId);
+
+        if (deletedPromotion) {
+            res.json({ message: 'Promotion deleted successfully', deletedPromotion });
+        } else {
+            res.status(404).json({ error: 'Promotion not found' });
+        }
+    } catch (error) {
+        console.error('Error deleting promotion:', error);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+});
+
 module.exports = route;

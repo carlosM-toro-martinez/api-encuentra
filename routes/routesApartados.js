@@ -1,6 +1,6 @@
 const express = require('express');
 const apartados = require('../services/servicesApartados');
-const upload = require('../middlewares/multerConfig');
+const { upload } = require('../middlewares/multerConfig');
 const route = express.Router();
 
 const apartado = new apartados();
@@ -42,9 +42,10 @@ route.get('/:sectionId', async (req, res) => {
   }
 });
 
-route.put('/:sectionId', async (req, res) => {
+route.put('/:sectionId', upload.single('image'), async (req, res) => {
   const sectionId = req.params.sectionId;
-  const updatedData = req.body;
+  const imageUrl = process.env.HOST + req?.file?.path
+  const updatedData = { ...req.body, image_url: imageUrl };
   try {
     const updatedSection = await apartado.updateSection(sectionId, updatedData);
     if (!updatedSection) {

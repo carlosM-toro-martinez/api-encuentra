@@ -42,4 +42,20 @@ route.put('/:productId', async (req, res) => {
     }
 });
 
+route.delete('/:productId', async (req, res) => {
+    const productId = req.params.productId;
+    try {
+        const deletedProduct = await products.deleteProduct(productId);
+
+        if (deletedProduct) {
+            res.json({ message: 'Product deleted successfully', deletedProduct });
+        } else {
+            res.status(404).json({ error: 'Product not found' });
+        }
+    } catch (error) {
+        console.error('Error deleting product:', error);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+});
+
 module.exports = route;

@@ -2,7 +2,7 @@ const express = require('express');
 const route = express.Router();
 const Business = require('../services/servicesBusiness');
 const passport = require('passport');
-const upload = require('../middlewares/multerConfig')
+const { upload } = require('../middlewares/multerConfig')
 
 const business = new Business();
 
