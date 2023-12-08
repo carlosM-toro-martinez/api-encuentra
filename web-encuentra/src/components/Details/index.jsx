@@ -13,6 +13,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import PublicIcon from '@mui/icons-material/Public';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import {
+  Grid,
   Table,
   TableBody,
   TableCell,
@@ -24,16 +25,17 @@ import { MainContext } from '../../context/MainContext';
 import businessStateUpdateService from '../../async/services/put/businessStateUpdateServices';
 
 const OpeningHours = ({ openinghours }) => {
+  const classes = useStyles();
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-      {openinghours[0].weekend ? <Typography>
+    <Box className={classes.openingHours}>
+      <Typography variant="h3" component="h3">
+        {openinghours[0].morning_hours ? `Mañana:\n ${openinghours[0].morning_hours[0]} -  ${openinghours[0].morning_hours[1]}` : ''}
+      </Typography>
+      {openinghours[0].weekend ? <Typography variant="h3" component="h3">
         {openinghours[0].weekend}
       </Typography> : null}
-      <Typography>
-        {openinghours[0].morning_hours ? `Mañana: ${openinghours[0].morning_hours[0]} -  ${openinghours[0].morning_hours[1]}` : ''}
-      </Typography>
-      <Typography>
-        {openinghours[0].afternoon_hours ? `Tarde: ${openinghours[0].afternoon_hours[0]} - ${openinghours[0].afternoon_hours[1]}` : ''}
+      <Typography variant="h3" component="h3">
+        {openinghours[0].afternoon_hours ? `Tarde:\n ${openinghours[0].afternoon_hours[0]} - ${openinghours[0].afternoon_hours[1]}` : ''}
       </Typography>
     </Box>
   );
@@ -41,82 +43,100 @@ const OpeningHours = ({ openinghours }) => {
 
 const BusinessContact = ({ data }) => {
   return (
-    <Table>
-      <TableHead>
-        <TableRow sx={{
-          color: 'white'
-        }}>
-          {data.phone_number ? <TableCell sx={{ color: 'white' }}>
-            <Typography style={{ color: '#3498db' }}>
-              <PhoneIcon /> Telefono
-            </Typography>
-          </TableCell> : null}
+    <Box
+      sx={{ padding: '1rem 2rem 1rem 2rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+      {data.website_url ?
+        <Button
+          key={'web'}
+          variant="contained"
+          style={{ backgroundColor: '#2ecc71', marginRight: '8px', color: 'black' }}
+          startIcon={<PublicIcon />}
+        >sitio web</Button> : null}
+      <Table>
+        <TableHead>
+          <TableRow sx={{
+            color: 'white',
+          }}>
+            {data.phone_number ? <TableCell >
+              <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 2, color: '#3498db' }}>
+                <PhoneIcon />
+                <Typography>
+                  Telefono
+                </Typography>
+              </Box>
+            </TableCell> : null}
 
-          {data.mail ? <TableCell sx={{ color: 'white' }}>
-            <Typography style={{ color: '#e74c3c' }}>
-              <EmailIcon /> Correo
-            </Typography>
-          </TableCell> : null}
-          {data.website_url ? <TableCell sx={{ color: 'white' }}>
-            <Typography style={{ color: '#2ecc71' }}>
-              <PublicIcon /> Sitio Web
-            </Typography>
-          </TableCell> : null}
-          {data.address ? <TableCell sx={{ color: 'white' }}>
-            <Typography style={{ color: '#f39c12' }}>
-              <LocationOnIcon /> Direccion
-            </Typography>
-          </TableCell> : null}
-        </TableRow>
-      </TableHead>
-      <TableBody>
-        <TableRow sx={{ color: 'white' }}>
-          {data.phone_number ? <TableCell sx={{ color: 'white', textTransform: 'capitalize' }}>
-            <Typography>
-              {data.phone_number}
-            </Typography>
-          </TableCell> : null}
-          {data.mail ? <TableCell sx={{ color: 'white', textTransform: 'capitalize' }}>
-            <Typography>
-              {data.mail}
-            </Typography>
-          </TableCell> : null}
-          {data.website_url ? <TableCell sx={{ color: 'white', textTransform: 'capitalize' }}>
-            <Typography>
-              {data.website_url}
-            </Typography>
-          </TableCell> : null}
-          {data.address ? <TableCell sx={{ color: 'white', textTransform: 'capitalize' }}>
-            <Typography >
-              {data.address}
-            </Typography>
-          </TableCell> : null}
-        </TableRow>
-      </TableBody>
-    </Table>
+            {data.mail ? <TableCell>
+              <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 2, color: '#e74c3c' }}>
+                <EmailIcon />
+                <Typography>
+                  Correo
+                </Typography>
+              </Box>
+            </TableCell> : null}
+          </TableRow>
+        </TableHead>
+        <TableBody>
+          <TableRow sx={{ color: 'white' }}>
+            {data.phone_number ? <TableCell sx={{ color: 'white', textTransform: 'capitalize' }}>
+              <Typography>
+                {data.phone_number}
+              </Typography>
+            </TableCell> : null}
+            {data.mail ? <TableCell sx={{ color: 'white', textTransform: 'capitalize' }}>
+              <Typography>
+                {data.mail}
+              </Typography>
+            </TableCell> : null}
+          </TableRow>
+        </TableBody>
+      </Table>
+
+      {data.address ?
+        <Typography style={{ color: '#f39c12' }}>
+          <LocationOnIcon /> Direccion
+        </Typography> : null}
+      {data.address ?
+        <Typography >
+          {data.address}
+        </Typography> : null}
+    </Box>
   );
 };
 
-const socialNetworks = [
-  { name: 'Twitter', icon: <Twitter />, color: '#1DA1F2' },
-  { name: 'WhatsApp', icon: <WhatsApp />, color: '#25D366' },
-  { name: 'Facebook', icon: <Facebook />, color: '#1877F2' },
-  { name: 'Instagram', icon: <Instagram />, color: '#E1306C' },
-];
-
 const SocialNetworks = ({ socialnetworks }) => {
+  const classes = useStyles();
+
+  const socialNetworks = [
+    { name: 'Twitter', icon: <Twitter />, color: '#1DA1F2' },
+    { name: 'WhatsApp', icon: <WhatsApp />, color: '#25D366' },
+    { name: 'Facebook', icon: <Facebook />, color: '#1877F2' },
+    { name: 'Instagram', icon: <Instagram />, color: '#E1306C' },
+  ];
   return (
-    <Box sx={{ flexDirection: 'column', marginTop: '2rem' }}>
-      {socialNetworks.map((network) => (
-        <Button
-          key={network.name}
-          variant="contained"
-          style={{ backgroundColor: network.color, marginRight: '8px' }}
-          startIcon={network.icon}
-        >
-          {network.name}
-        </Button>
-      ))}
+    <Box className={classes.socialNet}>
+      <Grid container spacing={1} justifyContent="center" alignItems="center">
+        {socialNetworks.map((network) => (
+          <Grid
+            key={network.name}
+            container
+            justifyContent="center"
+            alignItems="center"
+            item
+            xs={6}
+            md={3}
+          >
+            <Button
+              key={network.name}
+              variant="contained"
+              style={{ backgroundColor: network.color, marginRight: '8px' }}
+              startIcon={network.icon}
+            >
+              {network.name}
+            </Button>
+          </Grid>
+        ))}
+      </Grid>
     </Box>
   );
 };
@@ -128,7 +148,7 @@ const Products = ({ products }) => {
     setShowTable(!showTable);
   };
   return (
-    <Box sx={{ flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+    <Box sx={{ flex: 0.4, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <Button onClick={handleToggleTable} sx={{ marginBottom: '1rem' }}>
         {showTable ? 'Ocultar Productos' : 'Mostrar Productos'}
       </Button>
@@ -165,8 +185,8 @@ const Promotions = ({ promotions }) => {
     setShowTable(!showTable);
   };
   return (
-    <Box sx={{ flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <Button onClick={handleToggleTable} sx={{ marginBottom: '1rem' }}>
+    <Box sx={{ flex: 0.4, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+      <Button onClick={handleToggleTable} sx={{ marginBottom: '1rem', alignItems: 'center' }}>
         {showTable ? 'Ocultar Promociones' : 'Mostrar Promociones'}
       </Button>
       {showTable && promotions[0]?.promotion_id ? <Typography variant="h4" component="h4">
@@ -229,18 +249,20 @@ function Details() {
           </Typography>
           <CarouselImagesDetailsComponent images={data.images} />
           <SocialNetworks socialnetworks={data.socialnetworks[0]} />
-          <OpeningHours openinghours={data.openinghours} />
           <Typography variant="h3" component="h3">
             mas informacion
           </Typography>
+          <OpeningHours openinghours={data.openinghours} />
           <Typography component="h6">
             {data.business_description}
           </Typography>
           <BusinessContact data={data} />
-          <Products products={data.products} />
-          <Promotions promotions={data.promotions} />
+          <div className={classes.containerProducts} >
+            <Products products={data.products} />
+            <Promotions promotions={data.promotions} />
+          </div>
           <Button variant="contained" startIcon={<MapIcon />}
-            sx={{ marginBottom: '3rem', backgroundColor: '#FF4500', width: '50%', height: '3rem' }}>
+            sx={{ marginBottom: '3rem', backgroundColor: '#FF4500', width: '80%', height: '3rem' }}>
             <Link
               to={`/map`}
               state={{ address: data.address, coordinates: data.coordinates }}
@@ -258,5 +280,4 @@ function Details() {
     </Box>
   )
 }
-//#FF4500
 export default Details;

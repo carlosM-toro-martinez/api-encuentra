@@ -1,44 +1,58 @@
-import { useState } from 'react';
-import IconButton from '@mui/material/IconButton';
+import React, { useState } from 'react';
+import { IconButton } from '@mui/material';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { useStyles } from './CarouselImgDetails.styles';
+import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
+import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
 
 function CarouselImagesDetailsComponent({ images }) {
   const [currentIndex, setCurrentIndex] = useState(0);
-  //const correctedUrl = logo_url.replace(/\\/g, '/');
-  // const imagesUrl = images.map((image) => {
-  //   image.image_url.replace(/\\/g, '/');
-  // })
+  const [isLoading, setIsLoading] = useState(false);
+
+  const handleImageLoad = () => {
+    setIsLoading(false);
+  };
 
   const goToNextSlide = () => {
+    setIsLoading(true);
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
 
   const goToPrevSlide = () => {
+    setIsLoading(true);
     setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
   };
 
   const classes = useStyles();
+
   return (
     <div className={classes.container}>
       <IconButton onClick={goToPrevSlide}>
-        <ArrowBackIosIcon
+        <ArrowCircleLeftIcon
           fontSize="inherit"
-          style={{ fontSize: '4rem' }}
-          className={`${classes.icons} ${classes.prevIcons}`} />
+          style={{ fontSize: '5rem' }}
+          className={`${classes.icons} ${classes.prevIcons}`}
+        />
       </IconButton>
-      <div className={classes.imgContainer}>
-        <img src={images[currentIndex].image_url} alt={`Slide ${currentIndex + 1}`} className={classes.img} />
+      {isLoading && <div className={classes.loadingText}>Cargando...</div>}
+      <div className={classes.imageContainer}>
+        <img
+          src={images[currentIndex].image_url}
+          alt={`Slide ${currentIndex + 1}`}
+          className={classes.img}
+          onLoad={handleImageLoad}
+        />
       </div>
       <IconButton onClick={goToNextSlide}>
-        <ArrowForwardIosIcon
+        <ArrowCircleRightIcon
           fontSize="inherit"
-          style={{ fontSize: '4rem' }}
-          className={`${classes.icons} ${classes.nextIcons}`} />
+          style={{ fontSize: '5rem' }}
+          className={`${classes.icons} ${classes.nextIcons}`}
+        />
       </IconButton>
-    </div >
-  )
+    </div>
+  );
 }
 
-export default CarouselImagesDetailsComponent
+export default CarouselImagesDetailsComponent;

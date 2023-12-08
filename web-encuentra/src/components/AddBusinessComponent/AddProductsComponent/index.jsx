@@ -18,6 +18,8 @@ import { useQuery } from 'react-query';
 import productsUpdateService from '../../../async/services/put/productsUpdateService';
 import productsAddServices from '../../../async/services/post/productsAddServices';
 import productsService from '../../../async/services/productsService';
+import MuiAlert from '@mui/material/Alert';
+import { Snackbar, LinearProgress } from '@mui/material';
 
 
 const ValidationTextField = styled(TextField)({
@@ -59,7 +61,13 @@ const ValidationTextField = styled(TextField)({
   },
 });
 
+function Alert(props) {
+  return <MuiAlert elevation={6} variant="filled" {...props} />;
+}
+
 const AddProducts = () => {
+  const [snackbarOpen, setSnackbarOpen] = useState(false);
+  const [loading, setLoading] = useState(false);
   const classes = useStyles();
   const { id } = useParams();
   const location = useLocation();
@@ -70,6 +78,13 @@ const AddProducts = () => {
     product_details: '',
     price: '',
   });
+
+  const handleSnackbarClose = (event, reason) => {
+    if (reason === 'clickaway') {
+      return;
+    }
+    setSnackbarOpen(false);
+  };
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -82,10 +97,12 @@ const AddProducts = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
+      setLoading(true);
       const newData = { ...productsData, business_id: location.state };
       const promiseResult = await id ? productsUpdateService(productsData.product_id, newData) : productsAddServices(newData);
       promiseResult.then((data) => {
-        refetch()
+        setLoading(false);
+        refetch();
         setProductsData({
           product_details: '',
           price: '',
@@ -100,7 +117,7 @@ const AddProducts = () => {
   };
 
   const handleNavigation = () => {
-    navigation('/establishmentAdmin/openinghours', { state: location.state })
+    id ? navigation('/establishmentAdmin/home') : navigation('/establishmentAdmin/openinghours', { state: location.state })
   };
 
   if (!location.state) {
@@ -109,6 +126,12 @@ const AddProducts = () => {
 
   return (
     <Container maxWidth="sm" className={classes.formContainer}>
+      {loading && (
+        <div className={classes.loadingOverlay}>
+          <Typography style={{ color: 'white' }} variant="h6">Cargando...</Typography>
+          <LinearProgress />
+        </div>
+      )}
       <Typography variant="h4" align="center" gutterBottom>
         {id ? 'Editar Producto' : 'Agregar Nueva Producto'}
       </Typography>
@@ -157,6 +180,7 @@ const AddProducts = () => {
             name="product_details"
             value={productsData.product_details}
             onChange={handleChange}
+            required
           />
           <ValidationTextField
             fullWidth
@@ -173,6 +197,16 @@ const AddProducts = () => {
           Siguiente
         </Button>
       </form>
+      <Snackbar
+        open={snackbarOpen}
+        autoHideDuration={6000}
+        onClose={handleSnackbarClose}
+        anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
+      >
+        <Alert onClose={handleSnackbarClose} severity="error">
+          Error al ingresar Los productos.
+        </Alert>
+      </Snackbar>
     </Container>
   );
 };

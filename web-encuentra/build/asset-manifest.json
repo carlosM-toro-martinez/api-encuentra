@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.2e662a65.css",
-    "main.js": "/static/js/main.b2106d7a.js",
+    "main.js": "/static/js/main.87f42fd3.js",
     "static/media/1potosi.jpg": "/static/media/1potosi.93521fb85f562326a0d5.jpg",
+    "static/media/5potosi.jpg": "/static/media/5potosi.a477f5dbf56f43d1b635.jpg",
     "static/media/4potosi.jpg": "/static/media/4potosi.76ea49f97dc245ae6e4b.jpg",
     "static/media/background.jpg": "/static/media/background.e11253813040dcff2bf5.jpg",
     "static/media/Lato-Black.ttf": "/static/media/Lato-Black.4a4aceb102c7911879fd.ttf",
@@ -13,10 +14,10 @@
     "static/media/mapPoint.png": "/static/media/mapPoint.9bf1a565646cff8ae668.png",
     "index.html": "/index.html",
     "main.2e662a65.css.map": "/static/css/main.2e662a65.css.map",
-    "main.b2106d7a.js.map": "/static/js/main.b2106d7a.js.map"
+    "main.87f42fd3.js.map": "/static/js/main.87f42fd3.js.map"
   },
   "entrypoints": [
     "static/css/main.2e662a65.css",
-    "static/js/main.b2106d7a.js"
+    "static/js/main.87f42fd3.js"
   ]
 }

@@ -11,6 +11,8 @@ import { useStyles } from './AddSocialNetworks.styles';
 import { Navigate, useLocation, useNavigate, useParams } from 'react-router-dom';
 import socialNetUpdateService from '../../../async/services/put/socialNetUpdateService';
 import socialNetAddServices from '../../../async/services/post/socialNetAddServices';
+import MuiAlert from '@mui/material/Alert';
+import { Snackbar, LinearProgress } from '@mui/material';
 
 const ValidationTextField = styled(TextField)({
   '& input:valid + fieldset': {
@@ -51,7 +53,13 @@ const ValidationTextField = styled(TextField)({
   },
 });
 
+function Alert(props) {
+  return <MuiAlert elevation={6} variant="filled" {...props} />;
+}
+
 const AddSocialNetworks = () => {
+  const [snackbarOpen, setSnackbarOpen] = useState(false);
+  const [loading, setLoading] = useState(false);
   const classes = useStyles();
   const { id } = useParams();
   const location = useLocation();
@@ -64,6 +72,13 @@ const AddSocialNetworks = () => {
     whatsapp_number: '',
   });
 
+  const handleSnackbarClose = (event, reason) => {
+    if (reason === 'clickaway') {
+      return;
+    }
+    setSnackbarOpen(false);
+  };
+
   const handleChange = (event) => {
     const { name, value } = event.target;
     setSocialNetworksData((prevData) => ({
@@ -75,6 +90,7 @@ const AddSocialNetworks = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
+      setLoading(true);
       const newData = { ...socialNetworksData, business_id: location.state };
       const promiseResult = await id ? socialNetUpdateService(id, newData) : socialNetAddServices(newData);
       promiseResult.then((data) => {
@@ -85,6 +101,7 @@ const AddSocialNetworks = () => {
 
     } catch (error) {
       console.error(error);
+      setSnackbarOpen(true);
     }
   };
 
@@ -94,6 +111,12 @@ const AddSocialNetworks = () => {
 
   return (
     <Container maxWidth="sm" className={classes.formContainer}>
+      {loading && (
+        <div className={classes.loadingOverlay}>
+          <Typography style={{ color: 'white' }} variant="h6">Cargando...</Typography>
+          <LinearProgress />
+        </div>
+      )}
       <Typography variant="h4" align="center" gutterBottom>
         {id ? 'Editar Redes Sociales' : 'Agregar Nuevas Redes Sociales'}
       </Typography>
@@ -139,6 +162,16 @@ const AddSocialNetworks = () => {
           {id ? 'Actualizar Datos' : 'Agregar Nuevas'}
         </Button>
       </form>
+      <Snackbar
+        open={snackbarOpen}
+        autoHideDuration={6000}
+        onClose={handleSnackbarClose}
+        anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
+      >
+        <Alert onClose={handleSnackbarClose} severity="error">
+          Error al ingresar las redes sociales.
+        </Alert>
+      </Snackbar>
     </Container>
   );
 };

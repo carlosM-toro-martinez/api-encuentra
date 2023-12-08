@@ -114,7 +114,7 @@ const AddNewsComponent = () => {
 					accept="image/*"
 					onChange={handleChange}
 					name="image"
-					//required
+					required
 					style={{ marginBottom: '16px', color: 'white' }}
 				/>
 			</Box>

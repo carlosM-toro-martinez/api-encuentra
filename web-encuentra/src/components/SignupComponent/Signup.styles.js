@@ -11,6 +11,18 @@ export const useStyles = makeStyles(theme => ({
             textTransform: 'uppercase'
         }
     },
+    loadingOverlay: {
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
+        height: '100%',
+        backgroundColor: 'rgba(255, 255, 255, 0.8)',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        zIndex: theme.zIndex.drawer + 1,
+    },
     form: {
         display: 'flex',
         flexDirection: 'column',

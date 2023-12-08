@@ -24,7 +24,7 @@ const PotosiMap = () => {
         <MapContainer
             center={[-19.5833, -65.7500]}
             zoom={14}
-            style={{ height: '400px', width: '500px' }}
+            style={{ height: '300px', width: '350px' }}
         >
             <TileLayer
                 attribution='CMTM'

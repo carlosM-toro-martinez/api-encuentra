@@ -10,6 +10,10 @@ import {
   FormControl,
   InputLabel,
   Box,
+  FormHelperText,
+  Grid,
+  LinearProgress,
+  Snackbar,
 } from '@mui/material';
 import { useStyles } from './AddBusiness.styles';
 import { useLocation, useNavigate, useParams } from 'react-router-dom';
@@ -17,6 +21,7 @@ import businessUpdateServices from '../../async/services/put/businessUpdateServi
 import businessAddService from '../../async/services/post/businessAddServices';
 import { useQuery } from 'react-query';
 import sectionsService from '../../async/services/sectionsService';
+import MuiAlert from '@mui/material/Alert';
 import businessOneService from '../../async/services/businessOneService';
 
 
@@ -59,9 +64,13 @@ const ValidationTextField = styled(TextField)({
   },
 });
 
+function Alert(props) {
+  return <MuiAlert elevation={6} variant="filled" {...props} />;
+}
 
 const AddBusinessComponent = () => {
-
+  const [snackbarOpen, setSnackbarOpen] = useState(false);
+  const [loading, setLoading] = useState(false);
   const { data, isLoading, isError, error, refetch } = useQuery(`sectionsAdmin`, () => sectionsService());
   const classes = useStyles();
   const { id } = useParams();
@@ -78,8 +87,17 @@ const AddBusinessComponent = () => {
     address: '',
     coordinates: '',
     section_id: '',
+    latitude: '',
+    longitude: '',
     image: null
   });
+
+  const handleSnackbarClose = (event, reason) => {
+    if (reason === 'clickaway') {
+      return;
+    }
+    setSnackbarOpen(false);
+  };
 
   const handleChange = (event) => {
     const { name, value, files } = event.target;
@@ -92,12 +110,14 @@ const AddBusinessComponent = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
+      setLoading(true);
+      const NewData = { ...businessData, coordinates: `(${businessData.latitude},${businessData.longitude})` }
       const formData = new FormData();
-      for (const key in businessData) {
-        if (key === 'image' && businessData[key] !== null) {
-          formData.append(key, businessData[key]);
+      for (const key in NewData) {
+        if (key === 'image' && NewData[key] !== null) {
+          formData.append(key, NewData[key]);
         } else {
-          formData.append(key, businessData[key]);
+          formData.append(key, NewData[key]);
         }
       }
       const promiseResult = await id ?
@@ -108,15 +128,20 @@ const AddBusinessComponent = () => {
       }).catch((error) => {
         console.error('Error al resolver la promesa:', error);
       });
-
-
     } catch (error) {
       console.error(error);
+      setSnackbarOpen(true);
     }
   };
 
   return (
     <Container maxWidth="sm" className={classes.formContainer}>
+      {loading && (
+        <div className={classes.loadingOverlay}>
+          <Typography style={{ color: 'white' }} variant="h6">Cargando...</Typography>
+          <LinearProgress />
+        </div>
+      )}
       <Typography variant="h4" align="center" gutterBottom>
         {id ? 'editar Establesimiento' : 'Agregar Nuevo Establesimiento'}
       </Typography>
@@ -144,6 +169,7 @@ const AddBusinessComponent = () => {
             value={businessData.name}
             onChange={handleChange}
             sx={{ marginBottom: 2 }}
+            helperText="Ingrese el nombre de su negocio."
           />
           <ValidationTextField
             required
@@ -153,6 +179,7 @@ const AddBusinessComponent = () => {
             value={businessData.description}
             onChange={handleChange}
             sx={{ marginBottom: 2 }}
+            helperText="Ingrese una breve descripción de su negocio."
           />
           <FormControl fullWidth sx={{ marginBottom: 2, color: 'white' }}>
             <InputLabel id="section-label" style={{ color: 'white' }}>
@@ -177,6 +204,7 @@ const AddBusinessComponent = () => {
                 Lunes - Domingo
               </MenuItem>
             </Select>
+            <FormHelperText sx={{ color: 'white' }}>Seleccione los días en que su negocio está abierto.</FormHelperText>
           </FormControl>
           <ValidationTextField
             fullWidth
@@ -186,6 +214,7 @@ const AddBusinessComponent = () => {
             value={businessData.phone_number}
             onChange={handleChange}
             sx={{ marginBottom: 2 }}
+            helperText="Ingrese el número de teléfono de contacto."
           />
           <ValidationTextField
             fullWidth
@@ -194,6 +223,7 @@ const AddBusinessComponent = () => {
             value={businessData.website_url}
             onChange={handleChange}
             sx={{ marginBottom: 2 }}
+            helperText="Ingrese la URL del sitio web de su negocio, si la tiene."
           />
 
           <ValidationTextField
@@ -203,6 +233,7 @@ const AddBusinessComponent = () => {
             value={businessData.mail}
             onChange={handleChange}
             sx={{ marginBottom: 2 }}
+            helperText="Ingrese la dirección de correo electrónico de su negocio."
           />
           <ValidationTextField
             fullWidth
@@ -212,16 +243,34 @@ const AddBusinessComponent = () => {
             value={businessData.address}
             onChange={handleChange}
             sx={{ marginBottom: 2 }}
+            helperText="Ingrese la dirección física de su negocio."
           />
-          <ValidationTextField
-            fullWidth
-            label="Coordenadas (latitud, longitud)"
-            name="coordinates"
-            required
-            value={businessData.coordinates}
-            onChange={handleChange}
-            sx={{ marginBottom: 2 }}
-          />
+          <Grid container spacing={2}>
+            <Grid item xs={6}>
+              <ValidationTextField
+                fullWidth
+                label="Latitud"
+                name="latitude"
+                required
+                value={businessData.latitude}
+                onChange={handleChange}
+                sx={{ marginBottom: 2 }}
+                helperText="Ingrese la latitud de ubicación de su negocio ejemplo(-19.588706165328464)."
+              />
+            </Grid>
+            <Grid item xs={6}>
+              <ValidationTextField
+                fullWidth
+                label="Longitud"
+                name="longitude"
+                required
+                value={businessData.longitude}
+                onChange={handleChange}
+                sx={{ marginBottom: 2 }}
+                helperText="Ingrese la longitud de ubicación de su negocio. ejemplo(-65.75049529319193)"
+              />
+            </Grid>
+          </Grid>
 
           <FormControl fullWidth sx={{ marginBottom: 2, color: 'white' }}>
             <InputLabel id="section-label" style={{ color: 'white' }}>
@@ -249,6 +298,7 @@ const AddBusinessComponent = () => {
                 </MenuItem>
               )}
             </Select>
+            <FormHelperText sx={{ color: 'white' }}>Seleccione la sección a la que pertenece su negocio.</FormHelperText>
           </FormControl>
           <ValidationTextField
             fullWidth
@@ -256,7 +306,10 @@ const AddBusinessComponent = () => {
             name="section_id"
             value={businessData.section_id}
             onChange={handleChange}
-            sx={{ marginBottom: 2 }}
+            sx={{ marginBottom: 2, display: 'none' }}
+            InputProps={{
+              readOnly: true,
+            }}
           />
         </div>
         <Button
@@ -267,6 +320,16 @@ const AddBusinessComponent = () => {
           {id ? 'ACTUALIZAR DATOS' : 'AGREGAR NUEVO'}
         </Button>
       </form>
+      <Snackbar
+        open={snackbarOpen}
+        autoHideDuration={6000}
+        onClose={handleSnackbarClose}
+        anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
+      >
+        <Alert onClose={handleSnackbarClose} severity="error">
+          Error al ingresar el establecimiento.
+        </Alert>
+      </Snackbar>
     </Container>
   );
 };

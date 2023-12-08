@@ -30,6 +30,9 @@ import EstablishmentDashbord from './components/EstablishmentDashbordComponent';
 import PrivateAdminRoute from './PrivateAdminRoute/Index';
 import ContactsDetailsComponent from './components/ContactsComponent/ContactsDetailsComponent';
 import NewsDetailsComponent from './components/NewsComponent/NewsDetailsComponent';
+import MapInfo from './components/ContactsComponent/MapInfoComponent';
+import ChutillosComponent from './components/ChutillosComponent';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 
 const AdminRoutes = () => {
@@ -111,6 +114,7 @@ function App() {
       <QueryClientProvider client={queryClient}>
         <MainContextProvider>
           <BrowserRouter>
+            <ScrollToTop />
             <Routes>
               <Route path='/' element={<>
                 <SectionContextProvider>
@@ -130,12 +134,18 @@ function App() {
                 <AboutComponent />
                 <Footer />
               </>} />
+              <Route path='/chutillos' element={<>
+                <NavBar />
+                <ChutillosComponent />
+                <Footer />
+              </>} />
               <Route path='/contacts'>
                 <Route path='' element={<>
                   <NavBar />
                   <BackgroundComponent>
                     <ContactsComponent />
                   </BackgroundComponent>
+                  <MapInfo />
                   <Footer />
                 </>} />
                 <Route path='details' element={<>
@@ -168,69 +178,6 @@ function App() {
                   <Map />
                 </MapContextProvider>
               </>} />
-              {/* <Route path='/admin'>
-                <Route path='' element={
-                  <>
-                    <NavBar />
-                    <AdminDashbord />
-                    <Footer />
-                  </>
-                } />
-                <Route path='detailBusiness' element={
-                  <>
-                    <NavBar />
-                    <Details />
-                    <Footer />
-                  </>
-                } />
-                <Route path='sections' element={
-                  <>
-                    <NavBar />
-                    <SectionList />
-                    <Footer />
-                  </>
-                } />
-                <Route path='addSections' element={<>
-                  <NavBar />
-                  <BackgroundComponent>
-                    <AddSection />
-                  </BackgroundComponent>
-                  <Footer />
-
-                </>} />
-                <Route path='addSections/:id' element={<>
-                  <NavBar />
-                  <BackgroundComponent>
-                    <AddSection />
-                  </BackgroundComponent>
-                  <Footer />
-
-                </>} />
-                <Route path='news' element={<>
-                  <NavBar />
-                  <BackgroundComponent>
-                    <NewsAdminComponent />
-                  </BackgroundComponent>
-                  <Footer />
-                </>} />
-                <Route path='addNews' element={<>
-                  <NavBar />
-                  <BackgroundComponent>
-                    <AddNewsComponent />
-                  </BackgroundComponent>
-                  <Footer />
-
-                </>} />
-                <Route path='addNews/:id' element={<>
-                  <NavBar />
-                  <BackgroundComponent>
-                    <AddNewsComponent />
-                  </BackgroundComponent>
-                  <Footer />
-
-                </>} />
-              </Route> */}
-
               <Route path="/admin/*" element={
                 <PrivateAdminRoute
                   redirectPath="/"

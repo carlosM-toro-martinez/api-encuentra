@@ -2,13 +2,21 @@ import { makeStyles } from '@material-ui/core';
 import mq from '../../config/mq';
 
 export const useStyles = makeStyles(theme => ({
-    wrapper: {
+    container: {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        height: '35rem',
+        height: '42rem',
         width: '100%',
         position: 'relative',
-        borderTop: '1rem solid #505050',
+
+    },
+    wrapper: {
+        height: '42rem',
+        width: '100%',
+        position: 'relative',
+        backgroundColor: 'rgba(0, 0, 0, 0.5)'
+
+        //borderTop: '1rem solid #505050',
     },
     mapContainer: {
         display: 'flex',
@@ -19,7 +27,7 @@ export const useStyles = makeStyles(theme => ({
         width: '100%',
         '& h2': {
             fontSize: '2rem',
-            marginBottom: '2rem',
+            margin: '2rem 0 2rem 0',
             padding: '1rem 0 1rem 0',
             color: '#FFDAB9',
             textAlign: 'center',

@@ -6,11 +6,14 @@ import {
   Container,
   Typography,
   Box,
+  Snackbar,
+  LinearProgress
 } from '@mui/material';
 import { useStyles } from './AddHours.styles';
 import { Navigate, useLocation, useNavigate, useParams } from 'react-router-dom';
 import openingHoursUpdateService from '../../../async/services/put/openingHoursUpdateService';
 import openingHoursAddServices from '../../../async/services/post/openingHoursAddServices';
+import MuiAlert from '@mui/material/Alert';
 
 const ValidationTextField = styled(TextField)({
   '& input:valid + fieldset': {
@@ -51,7 +54,13 @@ const ValidationTextField = styled(TextField)({
   },
 });
 
+function Alert(props) {
+  return <MuiAlert elevation={6} variant="filled" {...props} />;
+}
+
 const AddHours = () => {
+  const [snackbarOpen, setSnackbarOpen] = useState(false);
+  const [loading, setLoading] = useState(false);
   const classes = useStyles();
   const { id } = useParams();
   const location = useLocation();
@@ -64,6 +73,13 @@ const AddHours = () => {
     afternoon_hours_close: '',
   });
 
+  const handleSnackbarClose = (event, reason) => {
+    if (reason === 'clickaway') {
+      return;
+    }
+    setSnackbarOpen(false);
+  };
+
   const handleChange = (event) => {
     const { name, value } = event.target;
     setOpeningHoursData((prevData) => ({
@@ -75,6 +91,7 @@ const AddHours = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
+      setLoading(true);
       const newData = {
         weekend: openingHoursData.weekend,
         morning_hours: [openingHoursData.morning_hours_open, openingHoursData.morning_hours_close],
@@ -95,6 +112,12 @@ const AddHours = () => {
 
   return (
     <Container maxWidth="sm" className={classes.formContainer}>
+      {loading && (
+        <div className={classes.loadingOverlay}>
+          <Typography style={{ color: 'white' }} variant="h6">Cargando...</Typography>
+          <LinearProgress />
+        </div>
+      )}
       <Typography variant="h4" align="center" gutterBottom>
         {id ? 'Editar Horario de Apertura' : 'Agregar Nuevo Horario de Apertura'}
       </Typography>
@@ -151,6 +174,16 @@ const AddHours = () => {
           {id ? 'Actualizar Datos' : 'Agregar Nuevo'}
         </Button>
       </form>
+      <Snackbar
+        open={snackbarOpen}
+        autoHideDuration={6000}
+        onClose={handleSnackbarClose}
+        anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
+      >
+        <Alert onClose={handleSnackbarClose} severity="error">
+          Error al ingresar los horarios.
+        </Alert>
+      </Snackbar>
     </Container>
   );
 };

@@ -5,23 +5,30 @@ import { Facebook, Instagram, Twitter } from "@mui/icons-material";
 import { Box } from "@mui/material";
 import { useStyles } from "./footer.styles";
 import footerBackground from '../../assets/images/1potosi.jpg';
-import PotosiMap from "../PotosiMap";
+import CarouselImagesDetailsComponent from "../Details/CarouselImagesDetailsComponent";
+import imagesRandomService from '../../async/services/imagesRandomService';
+import { useQuery } from "react-query";
 
 export default function Footer() {
   const classes = useStyles();
+  const { data, isLoading, isError, error, refetch }
+    =
+    useQuery(`imagesRandom`, () => imagesRandomService());
+
   return (
-    <Box>
+    <Box sx={{
+      backgroundImage: `url(${footerBackground})`,
+    }}
+      className={classes.container}
+    >
       <Box
-        sx={{
-          backgroundImage: `url(${footerBackground})`,
-        }}
         className={classes.wrapper}
       >
         <Box className={classes.mapContainer}>
           <Typography variant="h2" component="h2">
-            Ubicaciones Centros Infotours
+            Imagenes
           </Typography>
-          <PotosiMap />
+          {!isLoading && !error ? <CarouselImagesDetailsComponent images={data} /> : null}
         </Box>
         <Box className={classes.textContainer}>
           <Link href="https://www.facebook.com/" color="inherit">
