@@ -11,7 +11,6 @@ const createBusiness = require('./schemas/businessSchema');
 const createNews = require('./schemas/newsSchema');
 const createAdmin = require('./schemas/adminSchema');
 
-//const pool = require('./libs/Conection.js');
 const path = require('path');
 const passport = require('passport');
 
@@ -27,16 +26,8 @@ router(app);
 createBusiness();
 createNews();
 createAdmin();
-app.use(express.static(path.join(__dirname, "./web-encuentra/build")));
-
-// app.get("/*", (req, res) => {
-//   res.sendFile(path.join(__dirname, "./web-encuentra/build", "/index.html"));
-// });
 
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
-app.get(/^(?!\/uploads).*/, (req, res) => {
-  res.sendFile(path.join(__dirname, "./web-encuentra/build", "index.html"));
-});
 
 server.listen(port, () => {
   console.log(port);

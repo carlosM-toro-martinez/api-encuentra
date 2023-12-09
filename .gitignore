@@ -194,5 +194,6 @@ postgres_data
 contents/
 plugins/
 templates/
+web-encuentra/
 
 # End of https://www.toptal.com/developers/gitignore/api/node,wintersmith,linux,macos
